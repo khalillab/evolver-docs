@@ -1,0 +1,5 @@
+# eVOLVER Maintenance
+
+We have monitored the lifetime of eVOLVER components since the invention of the device (\~3 years). As in most systems, mechanical parts have the highest possibility of wear and thus need replacement most frequently. Likewise, in eVOLVER, the peristaltic pumps used have a lifetime of 6 months of typical use during continuous culture. Specifically, the silicone tubing within the head of the pump is frequently compressed when actuating peristaltic pumps and will tear over time. The head can easily and inexpensively be replaced ($4/ pump). The computer fan used for stirring has robustly operated continuously for > 3 years, whereas the magnetic stir bars are rated for a limited number of autoclave cycles and need eventual replacement. All other components (e.g. heaters, thermistors, LEDs, diodes, PCB, power sources) have been stably operating for > 3 years.
+
+[https://www.evolver.bio/t/replacing-photodiodes-led-on-smart-sleeve/155](https://www.evolver.bio/t/replacing-photodiodes-led-on-smart-sleeve/155)
