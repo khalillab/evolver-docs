@@ -75,6 +75,10 @@ The chemostat and growth rate modules function similarly to the turbidostat one.
 
 Clicking File Editor in the experiment type dropdown will allow you to directly modify the python files.
 
+{% hint style="danger" %}
+Do not change the `EXP_NAME` variable if you wish to use the GUI based graphing features! We keep this variable here for backwards compatibility with the previous graphing app. They will be normalized in a future version.
+{% endhint %}
+
 ![](<../../.gitbook/assets/Screen Shot 2022-06-30 at 4.09.55 PM.png>)
 
 You can select the file you would like to edit on the left, edit it on the right, and save by clicking the Save icon on the bottom left. For most cases you will not need to use this! If you change the files, you will not be able to use the t-stat/c-stat/growth rate modules, and you will need to modify the `EVOLVER_IP`, `OPERATION_MODE`, and other variables throughout the code.
