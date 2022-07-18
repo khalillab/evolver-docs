@@ -69,14 +69,14 @@ On windows:
 
 `dpu-env\Scripts\activate.bat`
 
-9\. Run `setup.py` to install all necessary dependencies.
+9\. Use `pip` to install all necessary dependencies.
 
-`python3 setup.py install`
+`python3 -m pip install .`
 
 {% hint style="info" %}
 If you have issues with the setup script, reach out to us on the [forum!](https://www.evolver.bio/)
 {% endhint %}
 
-10\. You can now deactivate the virtual environment with the command below. You will only need to activate it again manually if you plan to run the DPU from the command line - the GUI will do this automatically.
+10\. You can now deactivate the virtual environment with the command below. You will only need to activate it again manually if you plan to run the DPU from the command line - the GUI use the environment automatically.
 
 `deactivate`
