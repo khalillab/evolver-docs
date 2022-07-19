@@ -59,7 +59,7 @@ If you installed the DPU in a different location, be sure to reflect that in thi
 ![](<../../.gitbook/assets/Screen Shot 2022-04-12 at 11.55.13 AM.png>)
 
 {% hint style="warning" %}
-Chrome may flag the download, just select "Keep".![](<../../.gitbook/assets/image (34).png>)
+Chrome may flag the download, just select "Keep". ![](<../../.gitbook/assets/image (34).png>)
 {% endhint %}
 
 2\. Open the .exe file.
@@ -68,41 +68,31 @@ Chrome may flag the download, just select "Keep".![](<../../.gitbook/assets/imag
 In Windows 10, Microsoft Defender prevents the app from starting immediately. Simply click "More info" and then "Run Anyway" to get around this. ![](<../../.gitbook/assets/image (6).png>)
 {% endhint %}
 
-3\. The app then will install and a shortcut will be added to Desktop and start menu. An example install directory: C:\Users\\\<your-user-name>\AppData\Local\Programs\eVOLVER
-
-{% hint style="info" %}
-The Windows GUI throws an [error ](https://github.com/FYNCH-BIO/evolver-electron/issues/230)when opened. The app functions normally otherwise, so just ignore this.
-{% endhint %}
-
 {% hint style="danger" %}
 FIRST TIME INSTALLATION - DO THE FOLLOWING NEXT STEPS!
 {% endhint %}
 
-4\. Using an editor of your choice (TextEdit, Nano, Vim, TextWrangler, etc.) open the file `config.json` located at `C:\Users\<Your-UserName>\AppData\Local\Programs\eVOLVER`
+3\. Using an editor of your choice open the file `config.json` located at `C:\Users\<Your-UserName>\AppData\Roaming\eVOLVER\`
 
 {% hint style="info" %}
-You may need to enable the ability to view hidden files if you are trying to find this file in a Finder window. With a Finder window open, press **Command + Shift + . (period)** to make hidden files appear. You can press the keys again afterwards to make them disappear.
+You may need to [enable ](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-97fbc472-c603-9d90-91d0-1166d1d9f4b5)the ability to view hidden files if you are trying to find this file in a File Explorer window.
 {% endhint %}
 
-{% hint style="info" %}
-If you are attempting to modify this file via a terminal, be sure to escape the space character in `Application Support` with a `\`.  It should look like this: `/Users/<your username>/Library/Application\ Support/eVOLVER/config.json`
-{% endhint %}
+![](<../../.gitbook/assets/image (47).png>)
 
-![](<../../.gitbook/assets/Screen Shot 2022-04-12 at 11.16.22 AM.png>)
-
-5\. Add a line in this file between the braces: `"dpu-env": "/Users/<your username>/Document/dpu/dpu-env"`
+4\. Add a line in this file between the braces: `"dpu-env": "C:\Users\<Your-UserName>\Desktop\dpu\dpu-env"`
 
 {% hint style="danger" %}
 If you add this line to the beginning of the block, be sure to add a comma at the end! If you add it to the end, put a comma on the line before it.
 {% endhint %}
 
 {% hint style="info" %}
-If you installed the DPU in a different location, be sure to reflect that in this line. The electron app uses this to find the correct python binary/venv to run the DPU
+If you installed the DPU in a different location, be sure to reflect that in this line. The electron app uses this to find the correct python binary/venv to run the DPU.
 {% endhint %}
 
-![](<../../.gitbook/assets/Screen Shot 2022-04-12 at 11.31.17 AM.png>)
+![](<../../.gitbook/assets/image (13).png>)
 
-6\. Save the file and you're done!
+5\. Save the file and you're done!
 
 ### Linux Installation
 

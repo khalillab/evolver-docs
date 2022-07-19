@@ -65,9 +65,9 @@ Do not leave the DPU zip file in your Downloads directory. Please move to approp
 
 `source dpu-env/bin/activate`
 
-On windows:
+On Windows PowerShell:
 
-`dpu-env\Scripts\activate.bat`
+`dpu-env\Scripts\Activate.ps1`
 
 9\. Use `pip` to install all necessary dependencies.
 
