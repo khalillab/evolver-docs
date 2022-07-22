@@ -80,7 +80,9 @@ You may need to [enable ](https://support.microsoft.com/en-us/windows/view-hidde
 
 ![](<../../.gitbook/assets/image (47).png>)
 
-4\. Add a line in this file between the braces: `"dpu-env": "C:\Users\<Your-UserName>\Desktop\dpu\dpu-env"`
+4\. Add a line in this file between the braces: `"dpu-env": "C:\\Users\\<Your-UserName>\\Desktop\\dpu\\dpu-env"`
+
+Note the escaped `\` , be sure to put double `\\` throughout the path.
 
 {% hint style="danger" %}
 If you add this line to the beginning of the block, be sure to add a comma at the end! If you add it to the end, put a comma on the line before it.
@@ -90,7 +92,7 @@ If you add this line to the beginning of the block, be sure to add a comma at th
 If you installed the DPU in a different location, be sure to reflect that in this line. The electron app uses this to find the correct python binary/venv to run the DPU.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/Screen Shot 2022-07-22 at 12.50.12 PM.png>)
 
 5\. Save the file and you're done!
 
