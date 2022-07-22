@@ -34,7 +34,7 @@ Afterwards, run the two following commands:
 
 #### DPU Installation
 
-1. Navigate to the DPU Github page
+1. Navigate to the [DPU Github page](https://github.com/FYNCH-BIO/dpu)
 2. Click `Releases` on the right side of the page
 
 ![](<../../.gitbook/assets/Screen Shot 2022-04-20 at 11.06.45 AM.png>)
