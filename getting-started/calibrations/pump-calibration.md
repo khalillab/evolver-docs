@@ -42,7 +42,7 @@ The time the pumps will run will be noted in the bottom right of the screen. If 
 
 ![](<../../.gitbook/assets/Screen Shot 2022-07-28 at 12.40.54 PM.png>)
 
-9\. After the pumps finish pumping, measure how much water was pumped by pouring out the water from each vial into a 25 mL graduated flask (or something similar). Enter this number into the box for each vial. The flow rate will appear on the vial selector on the right side of the screen.
+9\. After the pumps finish pumping, measure how much water was pumped by pouring out the water from each vial into a 25 mL graduated cylinder (or something similar). Enter this number into the box for each vial. The flow rate will appear on the vial selector on the right side of the screen.
 
 {% hint style="info" %}
 Round to the nearest half graduation. The minimum resolution cylinder we recommend for typical eVOLVER pumps should have 0.5 mL graduations.
