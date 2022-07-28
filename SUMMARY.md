@@ -14,7 +14,8 @@
 * [Unboxing and Setting Up](getting-started/unboxing-and-setting-up.md)
 * [Configuring Computer and Networking](getting-started/configuring-computer-and-networking/README.md)
   * [Router Setup](getting-started/configuring-computer-and-networking/router-setup.md)
-* [Calibrations](getting-started/calibrations.md)
+* [Calibrations](getting-started/calibrations/README.md)
+  * [Pump Calibration](getting-started/calibrations/pump-calibration.md)
 * [Consumables](getting-started/consumables.md)
 
 ## Experiments
