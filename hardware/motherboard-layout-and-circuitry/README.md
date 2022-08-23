@@ -20,7 +20,7 @@ TODO: Include a figure to highight transfer of data including voltage divider
 As mentioned earlier, the Motherboard makes use of voltage divider circuits to acquire sensory data on cultures. By connecting a two resistors in series with a Vin, a voltage source we can produce Vout, a set fraction of Vin (Fig 1.). The value of Vout is based on the the resitance values of the two resitors and the value of Vin, which can be modeled as:
 
 $$
-Vout = Vin *R1/(R1+R2)
+Vout = Vin *R2/(R1+R2)
 $$
 
 
