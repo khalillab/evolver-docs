@@ -21,7 +21,7 @@
 ## Experiments
 
 * [Starting an Experiment](experiments/starting-an-experiment/README.md)
-  * [Prepare Media](experiments/starting-an-experiment/prepare-media.md)
+  * [Carboy Media Prep](experiments/starting-an-experiment/carboy-media-prep.md)
   * [Prepare Vials](experiments/starting-an-experiment/prepare-vials.md)
   * [GUI Start Guide](experiments/starting-an-experiment/gui-start-guide.md)
   * [Command Line Start Guide](experiments/starting-an-experiment/command-line-start-guide.md)
