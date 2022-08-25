@@ -2,9 +2,7 @@
 
 ## Tips and Tricks
 
-Washing vials
 
-Bleach (sodium hypochlorite) may create a small amount of chloroform when mixed with ethanol. In addition, many EHS policies prohibit mixing of ethanol and bleach waste streams. Considering this, you may want to move your efflux lines to a separate waste container when sterilizing tubing with ethanol, and move them back to your normal waste container when starting your experiment.
 
 ## FAQs
 

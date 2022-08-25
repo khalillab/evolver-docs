@@ -12,19 +12,25 @@
 
 * [Buying eVOLVER](getting-started/buying-evolver.md)
 * [Unboxing and Setting Up](getting-started/unboxing-and-setting-up.md)
+* [Software Installation](getting-started/software-installation/README.md)
+  * [DPU Installation](getting-started/software-installation/dpu-installation.md)
+  * [Electron App (GUI) Installation](getting-started/software-installation/electron-app-gui-installation.md)
 * [Configuring Computer and Networking](getting-started/configuring-computer-and-networking/README.md)
   * [Router Setup](getting-started/configuring-computer-and-networking/router-setup.md)
 * [Calibrations](getting-started/calibrations/README.md)
   * [Pump Calibration](getting-started/calibrations/pump-calibration.md)
-* [Consumables](getting-started/consumables.md)
+* [Part Sourcing](getting-started/part-sourcing.md)
 
 ## Experiments
 
 * [Starting an Experiment](experiments/starting-an-experiment/README.md)
   * [Carboy Media Prep](experiments/starting-an-experiment/carboy-media-prep.md)
-  * [Prepare Vials](experiments/starting-an-experiment/prepare-vials.md)
+  * [Preparing Vials](experiments/starting-an-experiment/preparing-vials.md)
+  * [Sterilizing Lines](experiments/starting-an-experiment/sterilizing-lines.md)
+  * [Loading Vials and Setting Initial Conditions](experiments/starting-an-experiment/loading-vials-and-setting-initial-conditions.md)
   * [GUI Start Guide](experiments/starting-an-experiment/gui-start-guide.md)
   * [Command Line Start Guide](experiments/starting-an-experiment/command-line-start-guide.md)
+  * [Cleaning Up After Experiment](experiments/starting-an-experiment/cleaning-up-after-experiment.md)
 * [Growth Curve](experiments/growth-curve.md)
 * [Chemostat](experiments/chemostat.md)
 * [Turbidostat](experiments/turbidostat.md)
@@ -32,16 +38,12 @@
 
 ## Guides
 
-* [Building a Smart Sleeve](guides/building-a-smart-sleeve.md)
 * [Making media bottles and splitters](guides/making-media-bottles-and-splitters.md)
-* [Software Installation](guides/software-installation/README.md)
-  * [DPU Installation](guides/software-installation/dpu-installation.md)
-  * [Electron App (GUI) Installation](guides/software-installation/electron-app-gui-installation.md)
-  * [Arduino Software Installation](guides/software-installation/arduino-software-installation.md)
-  * [Raspberry Pi Configuration](guides/software-installation/raspberry-pi-configuration.md)
+* [Building a Smart Sleeve](guides/building-a-smart-sleeve.md)
+* [Arduino Software Installation](guides/arduino-software-installation.md)
+* [Raspberry Pi Configuration](guides/raspberry-pi-configuration.md)
 * [Updating the eVOLVER Server](guides/updating-the-evolver-server.md)
 * [Fluidics Customization](guides/fluidics-customization.md)
-* [Part Sourcing](guides/part-sourcing.md)
 * [Command Line Usage](guides/command-line-usage.md)
 
 ## Troubleshooting

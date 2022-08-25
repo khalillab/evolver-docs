@@ -13,11 +13,19 @@
 
 Many eVOLVER parts must be 3D printed or are custom PCBs made to control eVOLVER hardware. For these, please see the [hardware GitHub](https://github.com/FYNCH-BIO/hardware) for CAD files and electronics parts lists for eVOLVER PCBs.
 
+### Vial Caps
+
+{% hint style="danger" %}
+3D printed nylon caps are currently preferred for their defined influx angles and ease of setting efflux height.&#x20;
+{% endhint %}
+
+[Nylon Caps](https://www.evolver.bio/t/where-can-i-order-additional-nylon-caps/81) should be 3D printed from the [hardware GitHub](https://github.com/FYNCH-BIO/hardware) or ordered from [Fynch Bio](https://www.fynchbio.com/accessories)
+
+[Making vial caps w/ laser cutter and pipette tip](https://www.evolver.bio/t/making-vial-caps-w-laser-cutter-and-pipette-tip/67)
+
 ## Relevant Forum Posts
 
 [eVOLVER Consumables](https://www.evolver.bio/t/evolver-comsumables/189)
-
-[Nylon Caps](https://www.evolver.bio/t/where-can-i-order-additional-nylon-caps/81)
 
 [Vial Racks](https://www.evolver.bio/t/vial-racks-for-dishwashing-autoclaving/76)
 

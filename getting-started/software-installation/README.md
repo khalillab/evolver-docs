@@ -4,7 +4,7 @@
 
 [Electron App (GUI) Installation](electron-app-gui-installation.md) - TODO: Dockerize for development/packaging purposes.
 
-[Arduino Software Installation](arduino-software-installation.md)
+[Arduino Software Installation](../../guides/arduino-software-installation.md)
 
-[Raspberry Pi Reflashing](raspberry-pi-configuration.md)
+[Raspberry Pi Reflashing](../../guides/raspberry-pi-configuration.md)
 

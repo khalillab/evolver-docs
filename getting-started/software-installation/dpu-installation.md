@@ -11,7 +11,7 @@ We recommend running the DPU through the GUI for most use cases. Please see the 
 {% endhint %}
 
 {% hint style="info" %}
-If you are unfamiliar with working on a command line terminal, but cannot use the Electron GUI for your application, check out the[ Command Line Usage](../command-line-usage.md) guide!
+If you are unfamiliar with working on a command line terminal, but cannot use the Electron GUI for your application, check out the[ Command Line Usage](../../guides/command-line-usage.md) guide!
 {% endhint %}
 
 {% hint style="warning" %}

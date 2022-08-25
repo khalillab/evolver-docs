@@ -1,5 +1,9 @@
 # Command Line Start Guide
 
+{% hint style="info" %}
+If you are new to command line / bash, you can start [here](../../guides/command-line-usage.md)!
+{% endhint %}
+
 ## Page under construction
 
 1. If doing a new type of experiment, make a copy of the template folder
@@ -12,4 +16,6 @@
    1. python3 evolver.py
    2. Must use python3 or will use default python version (sometimes python2) and you will get errors
    3. Calibrate to blank
+
+## Relevant Info
 

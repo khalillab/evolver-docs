@@ -6,7 +6,7 @@ description: For routing media from standard lab glassware
 
 While large carboys (autoclavable plastic jugs >10L) are useful for long-term experiments or particularly fast-growing bugs, the best typical media storage is standard Pyrex/Corning bottles, which range from 100 mL to 10 L. The 1-2L bottles are the most convenient size for media prep, short experiments, and experiments with many media types, so we'll be sharing the process for those bottles here.
 
-Per media bottle, you will need (see [parts list](part-sourcing.md), fluidics page):
+Per media bottle, you will need (see [parts list](../getting-started/part-sourcing.md), fluidics page):
 
 Parts:\
 1 ft of 1/8" ID silicone tubing\
