@@ -71,6 +71,12 @@ On Windows PowerShell:
 
 9\. Use `pip` to install all necessary dependencies.
 
+First upgrade pip:
+
+`python3 -m pip install --upgrade pip`
+
+Then install everything:
+
 `python3 -m pip install .`
 
 {% hint style="info" %}
