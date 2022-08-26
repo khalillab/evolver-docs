@@ -31,7 +31,7 @@ You can download the latest version of the code on our [GitHub release page](htt
 Replace the \<eVOLVER\_IP> text below with the actual eVOLVER IP.
 {% endhint %}
 
-`scp evolver/*.py pi@<eVOLVER_IP>:evolver/evolver`
+`scp evolver/evolver/*.py pi@<eVOLVER_IP>:/home/pi/evolver/evolver`
 
 ![](../.gitbook/assets/scpcommand.png)
 
