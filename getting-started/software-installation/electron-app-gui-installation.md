@@ -10,6 +10,8 @@ For all operating systems, navigate to the [releases](https://github.com/FYNCH-B
 2. [Windows](electron-app-gui-installation.md#windows-installation)
 3. [Linux](electron-app-gui-installation.md#linux-installation)
 
+For instructions on updating the GUI on the RPi, see [Updating the eVOLVER Server](../../guides/updating-the-evolver-server.md).
+
 ### Mac Installation
 
 1\. Download the `evolver-electron-X.X.X.dmg` file, where X denotes the version number in the latest release. The latest release should be the first one you see at the top of the page.

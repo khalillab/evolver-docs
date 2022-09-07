@@ -10,6 +10,43 @@ If you have any questions or concerns not addressed here, reach out on [this for
 You can download the latest version of the code on our [GitHub release page](https://github.com/FYNCH-BIO/evolver/releases). If you do, skip step 3 below.
 {% endhint %}
 
+## Updating the RPi GUI
+
+### 1. SCP File to Pi
+
+On Mac: `scp evolver-electron-2.0.0.AppImage pi@<your_evolver_ip>:.`
+
+On Windows, use [WinSCP](https://winscp.net/eng/index.php) or [Filezilla](https://filezilla-project.org/) to drag the file to `/users/pi/home/`
+
+### 2. Change Permissions to AppImage
+
+First, ssh to the Pi:
+
+`ssh pi@<your_evolver_ip>`
+
+Next, make the file executable using chmod:
+
+`chmod +x evolver-electron-2.0.0.AppImage`
+
+### 3. Change What AppImage the Pi uses at startup
+
+`sudo nano /etc/xdg/openbox/autostart`
+
+Scroll down and change the following line to correspond with the version you are using.
+
+```
+# Start Electron App in Kiosk Mode
+./evolver-electron-2.0.0.AppImage
+```
+
+### 4. Reboot the eVOLVER
+
+You can either power cycle (turn off the eVOLVER completely, wait a few seconds, then turn it back on) or you can use the following command:
+
+`sudo reboot now`
+
+## Updating the eVOLVER Server Code
+
 #### [Mac/UNIX](updating-the-evolver-server.md#mac-unix)
 
 #### [Windows](updating-the-evolver-server.md#undefined)
