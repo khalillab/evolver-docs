@@ -30,7 +30,7 @@ If the carboy does collapse, you can take the lid off and place it back into the
 
 2\. If you are able to prepare a concentrate of your media, you can do so as a 10x 2L solution (or whatever makes sense for your media) in a beaker with a stir bar. It is also possible to mix everything directly in the carboy. Add your media components in small batches and try to mix as you go.&#x20;
 
-3\. Fill the carboy up to 20L - volume of media components that will be supplied after the autoclave step. For example, if you need your media to be 2% glucose, you should fill the carboy to 18L and then add 1L of 40% glucose after autoclaving.
+3\. Fill the carboy up to 20L - volume of media components that will be supplied after the autoclave step. For example, if you need your media to be 2% glucose, you should fill the carboy to 18L and then add 1L of filter sterilized 40% glucose after autoclaving.
 
 4\.  Place a male Luer cap on the outlet of the carboy lid. Place a filter on the inlet, and cover it with foil. Loosen the entire lid.
 
@@ -43,11 +43,11 @@ You do not necessarily need a filter on the inlet - this depends on the context 
 6\. Take the carboy out of the autoclave.
 
 {% hint style="danger" %}
-WARNING: The carboy and media will be extremely hot, and there will be \~1L of hot media in the autoclave bin. Ask someone for help!
+WARNING: The carboy and media will be extremely hot, and there will be \~1L of hot media in the autoclave bin. Ask someone for help removing from the autoclave!
 {% endhint %}
 
 {% hint style="warning" %}
-Media will take a significant amount of time to cool - be sure to take this into account before running an experiment with the media.
+Media will take a significant amount of time to cool (overnight) - be sure to take this into account before running an experiment with the media.
 {% endhint %}
 
 7\. If media components need to be added after autoclave (glucose, antibiotics, supplements, etc.) place the carboy on a cart and move next to a bench flame. Sterilize the area thoroughly with ethanol before quickly unscrewing the lid to make the additions. Mix by placing the carboy on a cart and moving the cart in a circular motion, or by placing on the floor, tilting \~30 degrees, and moving the top in a circular motion.
