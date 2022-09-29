@@ -4,9 +4,9 @@ description: List of things to do to setup and run an eVOLVER experiment.
 
 # Starting an Experiment
 
-_For a video guide and full written protocol for setting up an eVOLVER experiment, check out the 2019 JoVE_ [_paper_](https://www.jove.com/t/59652/designing-automated-high-throughput-continuous-cell-growth)_. Note that some information, such as using the GUI, is out of date._
-
-## Page under construction
+{% hint style="info" %}
+_For a video guide and full written protocol for setting up an eVOLVER experiment, check out the 2019 JoVE_ [_paper_](https://www.jove.com/t/59652/designing-automated-high-throughput-continuous-cell-growth)_. Note that some information there, such as using the GUI, is out of date._
+{% endhint %}
 
 ## Checklist
 
@@ -54,7 +54,7 @@ Start experiment via [GUI](gui-start-guide.md) or [Command Line](command-line-st
 
 Inoculate cultures into vials
 
-Monitor experiment for correct behavior
+Monitor experiment for correct behavior (over several hours)
 
 * Are the cells growing?
 * Is the experiment diluting as expected?

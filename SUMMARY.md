@@ -43,8 +43,13 @@
 * [Arduino Software Installation](guides/arduino-software-installation.md)
 * [Raspberry Pi Configuration](guides/raspberry-pi-configuration.md)
 * [Updating the eVOLVER Server](guides/updating-the-evolver-server.md)
-* [Fluidics Customization](guides/fluidics-customization.md)
 * [Command Line Usage](guides/command-line-usage.md)
+* [Fluidics Customization](guides/fluidics-customization.md)
+* [Millifluidics Guides](guides/millifluidics-guides/README.md)
+  * [Constructing Laser Cut Millifluidics](guides/millifluidics-guides/constructing-laser-cut-millifluidics.md)
+  * [Constructing Millifluidics via SLA Printing](guides/millifluidics-guides/constructing-millifluidics-via-sla-printing.md)
+  * [Calibrating IPPs](guides/millifluidics-guides/calibrating-ipps.md)
+  * [Operating Millifluidics](guides/millifluidics-guides/operating-millifluidics.md)
 
 ## Troubleshooting
 
@@ -53,9 +58,6 @@
 * [Experiment Troubleshooting](troubleshooting/experiment-troubleshooting/README.md)
   * [Contamination](troubleshooting/experiment-troubleshooting/contamination.md)
   * [Vial Overflow, Pump Failure, and Spills](troubleshooting/experiment-troubleshooting/vial-overflow-pump-failure-and-spills.md)
-  * [Running Out of Media](troubleshooting/experiment-troubleshooting/running-out-of-media.md)
-  * [Miscellaneous](troubleshooting/experiment-troubleshooting/miscellaneous.md)
-* [Fluidics Troubleshooting](troubleshooting/fluidics-troubleshooting.md)
 * [Vial Troubleshooting](troubleshooting/vial-troubleshooting/README.md)
   * [Troubleshooting Optical Density Readings](troubleshooting/vial-troubleshooting/troubleshooting-optical-density-readings.md)
   * [Replacing Photodiodes and LEDs](troubleshooting/vial-troubleshooting/replacing-photodiodes-and-leds.md)
@@ -64,7 +66,6 @@
 * [Motherboard Troubleshooting](troubleshooting/motherboard-troubleshooting.md)
 * [GUI Troubleshooting](troubleshooting/gui-troubleshooting.md)
 * [Server Troubleshooting](troubleshooting/server-troubleshooting.md)
-* [Arduino Troubleshooting](troubleshooting/arduino-troubleshooting.md)
 
 ## Hardware
 
@@ -74,7 +75,9 @@
   * [Luer Connectors](hardware/overview-of-fluidics/luer-connectors.md)
   * [Fluidics Box](hardware/overview-of-fluidics/fluidics-box.md)
   * [Pump Arrays](hardware/overview-of-fluidics/pump-arrays.md)
-* [Overview of Millifluidics](hardware/overview-of-millifluidics.md)
+* [Overview of Millifluidics](hardware/overview-of-millifluidics/README.md)
+  * [IPPs (Integrated Peristaltic Pumps)](hardware/overview-of-millifluidics/ipps-integrated-peristaltic-pumps.md)
+  * [Pressure Regulator](hardware/overview-of-millifluidics/pressure-regulator.md)
 * [Smart Sleeve](hardware/smart-sleeve/README.md)
   * [🌪 Stirring](hardware/smart-sleeve/stirring.md)
   * [Temperature](hardware/smart-sleeve/temperature.md)
@@ -106,6 +109,7 @@
 
 * [Overview](extensions/overview.md)
 * [Custom Experiments](extensions/custom-experiments/README.md)
+  * [ePACE](extensions/custom-experiments/epace.md)
   * [Morbidostat](extensions/custom-experiments/morbidostat.md)
 * [Adding an Experimental Parameter](extensions/adding-an-experimental-parameter/README.md)
   * [Power Supply](extensions/adding-an-experimental-parameter/power-supply.md)

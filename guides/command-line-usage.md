@@ -125,7 +125,7 @@ Notice that after executing the command, the shell will print a new prompt for t
 
 Identifies the location of an executable. Use this to determine if a command or program is installed on your system, and also to see where it actually resides on the file-system. If the program cannot be found, nothing will be returned.
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 #### <mark style="color:blue;">pwd</mark>
 
@@ -141,7 +141,7 @@ Stands for list. This command will list out all files in a given directory.
 
 You can provide a path to ls to list files not in the current working directory. Some useful flags are -l (long listing format), which can show you file permissions, owner, size, and last modified date, and -a (shows all files, including hidden files).
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (2).png>)
 
 ![Notice the .im\_a\_hidden\_file.txt entry that is only in the output when using -a.](<../.gitbook/assets/image (37).png>)
 
@@ -199,7 +199,7 @@ To append a line into a file:
 
 `echo "This is a string I want to append" >> myfile.txt`
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 #### <mark style="color:blue;">cat</mark>
 
