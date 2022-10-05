@@ -4,6 +4,10 @@
 Always use less than 10 psi inputs into the millifluidics and pressure regulator to avoid breaking them
 {% endhint %}
 
+{% hint style="warning" %}
+Never use ethanol to sterilize millifluidics as it breaks them. Use bleach to sterilize and flush it with sterile water.
+{% endhint %}
+
 ## Set Up [Pressure Regulator](../../hardware/overview-of-millifluidics/pressure-regulator.md)
 
 Plug in 5V power supply and 5V fan

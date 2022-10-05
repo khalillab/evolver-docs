@@ -46,6 +46,7 @@
 * [Command Line Usage](guides/command-line-usage.md)
 * [Fluidics Customization](guides/fluidics-customization.md)
 * [Millifluidics Guides](guides/millifluidics-guides/README.md)
+  * [Designing Millifluidics Using Eagle](guides/millifluidics-guides/designing-millifluidics-using-eagle.md)
   * [Constructing Laser Cut Millifluidics](guides/millifluidics-guides/constructing-laser-cut-millifluidics.md)
   * [Constructing Millifluidics via SLA Printing](guides/millifluidics-guides/constructing-millifluidics-via-sla-printing.md)
   * [Calibrating IPPs](guides/millifluidics-guides/calibrating-ipps.md)

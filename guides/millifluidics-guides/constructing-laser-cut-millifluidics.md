@@ -8,7 +8,7 @@
 
 Cut outlines first
 
-* Hairline outline
+* 0.1pt
 * 3 copies
 
 Keep full stock in place + outline on computer
@@ -32,13 +32,12 @@ Rastering control channel
 
 * Undo deletion of outline, delete previous vector cuts
 * Align raster outline to old outline + delete outline
-* Load control channel 2 in advanced settings
-* 1200 dpi
+* Load control\_channel 2 in advanced settings
+  * 1200 dpi
+  * Deep to get through adhesive
 * 1 copy => print
 
-Remove board + stock from laser cutter
-
-&#x20;
+Remove board + stock from laser cutter&#x20;
 
 ### Flow Layer (1/8" acrylic)
 
@@ -48,9 +47,9 @@ Cut adhesive sheet
 * Cut adhesive out first
 * This way we don't have to move the acrylic stock later to put adhesive on the laser cutter
 * Check adhesive stickiness
-*
-  * Remove corner from adhesive
-  * One side will stay attached to adhesive, one will remove cleanly
+  *
+    * Remove corner from adhesive
+    * One side will stay attached to adhesive, one will remove cleanly
 * Put adhesive sheet on laser cutter, with side that easily removes down
 * Focus to adhesive
 * Vector cut Full speed + 80 - 90% power
@@ -73,23 +72,18 @@ Rastering acrylic
 * Raster cut
 * While rastering, start tapping control board
 
-&#x20;
-
 ### Assembly
 
 Tap control board
 
 * 2 turns one way, little turn the other way
 * Use a countersink to remove burrs around the holes
-*
   * A couple of turns
   * Both sides of board
   * Allows silicone to sit flush + barbs to insert easily
 * Blow out small bits of acrylic from threading using air before plasma treating
 
 Remove backing from all acrylic (helps with alignment later)
-
-&#x20;
 
 Silicone
 
@@ -119,11 +113,9 @@ Clean silicone + adhere to flow layer
 * Use piece of packing tape to remove dust
 * Plasma clean silicone 30 seconds
 * Align flow and control
-*
-  * Take special care to align the valves
+  * Take special care to align IPP flow and control
   * Easier to align flow layer on top
 * Clamp full device in paper towel for 10 minutes
-*
   * Avoid over tightening - this can overstretch the silicone layer
 
 Put loctite on barbs + screw in to board
@@ -132,47 +124,7 @@ Put loctite on barbs + screw in to board
 
 
 
-Subprotocols
-
-### Warnings
-
-Don't run ethanol through acrylic!!! Will eat away at it
-
-Instead use bleach and then water
-
-### &#x20;
-
-### Design
-
-Eagle
-
-* Using Eagle to drag and drop elements + make layers
-* Problem with Eagle
-*
-  * Only outputs dxf
-  * We then have to trace as a png in illustrator
-  * This creates a double line
-  * Less accurate + goes over each area twice
-
-Zach defines width of the pumps, but doesn't worry about depth
-
-&#x20;
-
-Width of channel / valves
-
-* Too small = hard to align + valves will no longer stay closed
-* Larger is more robust
-
-&#x20;
-
-Barb spacing
-
-* Want enough space between each barb for tool
-* Far enough from the edge
-*
-  * Prevent leaking from the port
-
-&#x20;
+## Subprotocols&#x20;
 
 ### Laser Cutter
 
@@ -228,7 +180,6 @@ Plasma treat surfaces (except adhesive)
 * Metal valve tight, then quarter turn loose
 * Pump on + power on to remove air 1 minute
 * Then switch on upper right knob to high
-*
   * Acrylic = 1 minute treatment
   * Silicone = 30 seconds treatment
 * Turn off pump and power
