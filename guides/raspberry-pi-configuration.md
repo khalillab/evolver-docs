@@ -73,3 +73,11 @@ Be sure to change the two arguments above! `if` should point to the image you do
 This command can take a while, and it doesn't show any status or progress updates - be patient. If it fails, try decreasing the `bs` argument to `1m` instead of `4m` - this will slow things down but will decrease the chance of failure. If you still have issues reach out on the [forum](https://www.evolver.bio/).
 
 **6.** When it completes, you can plug the SD card into the RPi. You will need to [update the server code](updating-the-evolver-server.md) and potentially the `conf.yml` with the latest code from GitHub.
+
+## Backing Up Raspberry Pi (Make a Custom Image)
+
+Writing an image to save your full Raspberry Pi configuration.&#x20;
+
+Useful to save time when reimaging your Raspberry Pi if you want to go back to your custom Python code and calibrations as quickly as possible.&#x20;
+
+Follow this guide: [https://www.tomshardware.com/how-to/back-up-raspberry-pi-as-disk-image](https://www.tomshardware.com/how-to/back-up-raspberry-pi-as-disk-image)
