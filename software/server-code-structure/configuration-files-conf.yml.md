@@ -4,13 +4,19 @@
 
 For documentation on YAML files, please see the official documentation [here](https://yaml.org/).
 
-### Summary
+## Summary
 
 Configuration files (conf.yml) contain the parameters for the server to run.
 
-More complex conf.yml files including 'pre' and 'post' commands are complicated to repeatedly alter, so storing them allows easy switching to files for different purposes.
+## Parameter Explanations
 
-### Definitions
+{% embed url="https://docs.google.com/spreadsheets/d/1yUO_DxTS0hi0ieF49wMkXmHYaZIrrflN_vwyP01K5V0/edit?usp=sharing" %}
+
+## Advanced conf.yml: Subcommands
+
+{% hint style="info" %}
+More complex conf.yml files including 'pre' and 'post' commands are complicated to repeatedly alter, so storing them allows easy switching to files for different purposes.
+{% endhint %}
 
 subcommand = a command added to the command queue when another command is run
 
