@@ -39,7 +39,7 @@ Solenoid Bank Diagram (facing holes)
 * Right = Vacuum
 * Middle = 8 different solenoids, groups of 3 are IPP controls
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (6).png>)
 
 Connect solenoid ribbon cable to slot 5 on the fluidics box
 
