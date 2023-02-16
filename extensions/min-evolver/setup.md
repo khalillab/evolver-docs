@@ -5,17 +5,21 @@
 1. Download files from GitHub (no link yet)
 2. Follow the dpu installation [guide](../../getting-started/software-installation/dpu-installation.md).
    1. We will use the virtual environment made here to run the experiment
-   2. Note: as of 2/14/23, no GUI integration. Command line only.
+   2. Note: as of 2/14/23, there is no GUI integration. Command line only.
    3. Use the min-eVOLVER DPU branch
 3. Create a server virtual environment
-   1. In the terminal still, deactivate the dpu virtual environment with the command below.
+   1. In the command line still, open a new tab or window&#x20;
+   2. If necessary, deactivate the dpu virtual environment with the command below.
       1. `deactivate`
-   2. Navigate to the server directory
-      1. The evolver server file is named evolver-min
-   3. Follow the dpu installation guide from step 7
-   4. Replace instances of `dpu` in commands with `server`
+   3. Navigate to the server directory `evolver-min`
+   4. Follow the dpu installation guide from step 7
+   5. Replace instances of `dpu` in commands with `server`
 
 ## Server Startup
+
+{% hint style="info" %}
+If you want to know more about the server code or how commands work click [here](../../software/server-code-structure/).
+{% endhint %}
 
 1. Plug the min-eVOLVER into your computer using micro-USB
 2. Make sure that you are in the server virtual environment
@@ -29,12 +33,19 @@
 3. Navigate to the `/evolver/` folder inside the evolver-min server code
 4. Attempt to run the server
    1. `python3 evolver.py`
-   2. Exit from the command using control+C
+   2. Exit from the command using `control + C`
 5. This will tell you the list of min-eVOLVERs plugged in to the computer
 6. Copy the full port address into the `serial_port` variable in the `conf.yml` file for the server
    1. On Mac OS for example: `serial_port: /dev/cu.usbmodem1301`
+
+{% hint style="warning" %}
+Be careful to not alter the `conf.yml` file structure, only the variables. Changing the file structure in the wrong way will result in the server failing to run.
+{% endhint %}
+
 7. Start the server using `python3 evolver.py`
-   1. Observe the server for expected behavior
+8. Observe the server for expected behavior
+   1. The server cycles once every 20 seconds
+   2. If the server is not connected to the min-eVOLVER, commands will fail
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>An example min-eVOLVER server readout.</p></figcaption></figure>
 
