@@ -1,5 +1,9 @@
 # Starting an Experiment
 
+{% hint style="warning" %}
+You should have completed both [setup](setup.md) and [calibrations](calibrations.md) before proceeding to an experiment.
+{% endhint %}
+
 ## Hardware
 
 ![](<../../.gitbook/assets/image (41).png>)
@@ -9,9 +13,11 @@ Do not plug the pumps in to the vial ports. If the pumps are actuated, this can 
 {% endhint %}
 
 1. [Prepare vials](../../experiments/starting-an-experiment/preparing-vials.md)
-2. [Sterilize the lines](../../experiments/starting-an-experiment/sterilizing-lines.md)
+2. [Sterilize the fluidic lines](../../experiments/starting-an-experiment/sterilizing-lines.md)
    1. Instead of the GUI, use send\_command.py
+   2. The slow pumps (pink) will need to be run for >200 seconds to fully flush the lines
 3. [Load the vials](../../experiments/starting-an-experiment/loading-vials-and-setting-initial-conditions.md)
+4. Do not start&#x20;
 
 ## Software
 

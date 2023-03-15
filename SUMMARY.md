@@ -118,6 +118,7 @@
   * [Custom Calibration Code](extensions/adding-an-experimental-parameter/custom-calibration-code.md)
 * [min-eVOLVER](extensions/min-evolver/README.md)
   * [Setup](extensions/min-evolver/setup.md)
+  * [Calibrations](extensions/min-evolver/calibrations.md)
   * [Starting an Experiment](extensions/min-evolver/starting-an-experiment.md)
   * [send\_command.py](extensions/min-evolver/send\_command.py.md)
   * [Troubleshooting](extensions/min-evolver/troubleshooting.md)

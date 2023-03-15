@@ -117,7 +117,7 @@ Here are a few useful commands for navigation, inspection, and basic file manipu
 
 Displays the username of the current user.
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 
 Notice that after executing the command, the shell will print a new prompt for the user to enter another command.
 
@@ -141,7 +141,7 @@ Stands for list. This command will list out all files in a given directory.
 
 You can provide a path to ls to list files not in the current working directory. Some useful flags are -l (long listing format), which can show you file permissions, owner, size, and last modified date, and -a (shows all files, including hidden files).
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (2).png>)
 
 ![Notice the .im\_a\_hidden\_file.txt entry that is only in the output when using -a.](<../.gitbook/assets/image (37).png>)
 

@@ -47,7 +47,7 @@ Be careful to not alter the `conf.yml` file structure, only the variables. Chang
    1. The server cycles once every 20 seconds
    2. If the server is not connected to the min-eVOLVER, commands will fail
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>An example min-eVOLVER server readout.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>An example min-eVOLVER server readout.</p></figcaption></figure>
 
 ## Multiple min-eVOLVERs
 

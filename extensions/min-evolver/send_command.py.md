@@ -10,7 +10,11 @@ Useful for:
 2. Sending custom commands if you have [added an experimental parameter](../adding-an-experimental-parameter/)
 3. Sending pump commands greater than 20 seconds if you are using the slow (1mL/min) pumps or using [IPPs](../../hardware/overview-of-millifluidics/ipps-integrated-peristaltic-pumps.md)
 
-## Usage&#x20;
+{% hint style="warning" %}
+You must start the [server](setup.md#server-startup) before using send\_command.py, otherwise commdands will not go through.&#x20;
+{% endhint %}
+
+## Usage
 
 ```
 python3 send_command.py <port> <parameter> <value>
@@ -41,5 +45,5 @@ To set a non-pump parameter on specific vials:
 
 ```
 For example:
-python3 send_command.py 5555 temp 30,37
+python3 send_command.py 5555 temp 30000,31000
 ```
