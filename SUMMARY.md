@@ -18,6 +18,8 @@
 * [Configuring Computer and Networking](getting-started/configuring-computer-and-networking/README.md)
   * [Router Setup](getting-started/configuring-computer-and-networking/router-setup.md)
 * [Calibrations](getting-started/calibrations/README.md)
+  * [Temperature Calibration](getting-started/calibrations/temperature-calibration.md)
+  * [Optical Density Calibration](getting-started/calibrations/optical-density-calibration.md)
   * [Pump Calibration](getting-started/calibrations/pump-calibration.md)
 * [Part Sourcing](getting-started/part-sourcing.md)
 
@@ -38,6 +40,7 @@
 
 ## Guides
 
+* [Use the GUI to Control Parameters](guides/use-the-gui-to-control-parameters.md)
 * [Making media bottles and splitters](guides/making-media-bottles-and-splitters.md)
 * [Building a Smart Sleeve](guides/building-a-smart-sleeve.md)
 * [Arduino Software Installation](guides/arduino-software-installation.md)

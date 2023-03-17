@@ -84,7 +84,7 @@ While waiting for equilibration you can start calibrating pumps.
 7. Copy and paste the values under "Copy + Paste" in `pump_cal.json`
    1. Replace the values __ after "coefficients" (shown below)
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## OD Calibration
 
@@ -128,7 +128,7 @@ OD calibration allows for the min-eVOLVER to accurately read ODs of the cells gr
 After changing which dilution is being read, wait for the server to cycle a couple of times before recording values. Values are averaged and the values from the old dilution could still be in the mix.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Highlighted are the OD sensor values for the first and second vials respectively on a min-eVOLVER.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Highlighted are the OD sensor values for the first and second vials respectively on a min-eVOLVER.</p></figcaption></figure>
 
 9. Copy and paste the values under "Copy + Paste" in `od_cal.json`
    1. Replace the values __ after "coefficients" (shown below)

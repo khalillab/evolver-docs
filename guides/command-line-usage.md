@@ -40,7 +40,7 @@ Pretty much everything in UNIX is either a <mark style="color:blue;">**file**</m
 
 The file-system on UNIX is very simple – it’s a tree that starts at <mark style="color:blue;">**root**</mark>, which is written as /. Everything then branches off of the root with a location specified by a <mark style="color:blue;">**path**</mark>** ** from the root to the file. For example, if there were a user on a UNIX system with the username **unixuser1**, the home directory would typically be located at /home/unixuser1. If this user had written a hello world program in c and put it in a directory called **myprograms** in their home directory, that path would look like /home/unixuser1/myprograms/hello.c. It’s useful to think of the file-system as a tree that you navigate up and down through, and create routes from one spot to another. More on this later!
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../.gitbook/assets/image (24) (1).png>)
 
 ## The Shell
 
@@ -181,7 +181,7 @@ Notice in this example that the directory went from having two files to only hav
 
 Stands for remove. Delete a file at a given path. To delete an entire directory, pass the -r flag. You can also pass the -f flag which will not prompt for confirmation regardless of the files permissions. Remember, **there is no undo** when using this command. The syntax is rm \<filename>
 
-![](<../.gitbook/assets/image (14) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1).png>)
 
 #### <mark style="color:blue;">touch</mark>
 

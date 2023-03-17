@@ -4,7 +4,7 @@
 _See the_ [_guides_](../../guides/millifluidics-guides/) _for all practical construction and operation._
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Figure 2C <em>Wong. Nature Biotech, 2018</em> - Millifluidic multiplexing devices enable novel, customized liquid routing. Devices are fabricated by bonding a silicone membrane between two plastic layers with laser-etched flow channels. Integrated pneumatic valves actuate on the membrane to direct fluidic routing from media input to output ports (to or from vials).</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Figure 2C <em>Wong. Nature Biotech, 2018</em> - Millifluidic multiplexing devices enable novel, customized liquid routing. Devices are fabricated by bonding a silicone membrane between two plastic layers with laser-etched flow channels. Integrated pneumatic valves actuate on the membrane to direct fluidic routing from media input to output ports (to or from vials).</p></figcaption></figure>
 
 ## Description
 
