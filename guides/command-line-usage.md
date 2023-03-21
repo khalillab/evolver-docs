@@ -70,7 +70,7 @@ A relative path is the route through the file-system from one location to anothe
 
 When writing out paths on the shell, if you do not write an absolute path, the shell will interpret the path as relative **starting from the current working directory**. For example, let’s say a user wants to do something with the hello.c file in their /home/unixuser1/myprograms directory, and their current working directory is their home directory (/home/unixuser1), as in this figure:
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 The relative path to their c file would be the following:
 
@@ -80,7 +80,7 @@ This would be interpreted the same as the absolute path /home/unixuser1/myprogra
 
 It is also possible to write relative paths to things further up or in a different branch of the file-system. For example, if the current working directory is /home/unixuser1/Desktop, and the user wants to reference the same c file as above, visually it would look like this:
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 and the relative path would be:
 
@@ -149,7 +149,7 @@ You can provide a path to ls to list files not in the current working directory.
 
 Stands for **C**hange **D**irectory. Moves the current working directory to the path specified as an argument to the command. The syntax is `cd <path>`, where \<path> can be any relative or absolute path on the file-system. If the path is invalid, the current working directory will stay the same.
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 #### <mark style="color:blue;">mkdir</mark>
 
@@ -217,7 +217,7 @@ Displays the first 10 lines of a file. Pass the -n argument to specify how many 
 
 Displays the last 10 lines of a file. Pass the -n argument to specify how many lines to display. Pass the -f flag to follow, or to not stop when end of file is reached, but rather to wait for additional data to be appended to the input. Press Ctrl + C to quit afterwards. **Useful for watching log files in real time**.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 #### <mark style="color:blue;">less</mark>
 

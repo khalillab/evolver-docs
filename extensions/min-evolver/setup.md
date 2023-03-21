@@ -21,7 +21,7 @@
 If you want to know more about the server code or how commands work click [here](../../software/server-code-structure/).
 {% endhint %}
 
-1. Plug the min-eVOLVER into your computer using micro-USB
+1. Plug the min-eVOLVER into your computer using micro-USB and plug it in to the 12V DC power supply
 2. Make sure that you are in the server virtual environment
    1. This means navigating to the correct folder in a terminal of your choice and inputting commands:
       1.  Mac OS:
@@ -39,7 +39,7 @@ If you want to know more about the server code or how commands work click [here]
    1. On Mac OS for example: `serial_port: /dev/cu.usbmodem1301`
 
 {% hint style="warning" %}
-Be careful to not alter the `conf.yml` file structure, only the variables. Changing the file structure in the wrong way will result in the server failing to run.
+Be careful to not alter the `conf.yml` file structure, only the variables (after the ":"). Changing the file structure in the wrong way will result in the server failing to run.
 {% endhint %}
 
 7. Start the server using `python3 evolver.py`
@@ -47,7 +47,25 @@ Be careful to not alter the `conf.yml` file structure, only the variables. Chang
    1. The server cycles once every 20 seconds
    2. If the server is not connected to the min-eVOLVER, commands will fail
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>An example min-eVOLVER server readout.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (3).png" alt=""><figcaption><p>An example min-eVOLVER server readout.</p></figcaption></figure>
+
+## Test min-eV Hardware
+
+{% hint style="danger" %}
+Do NOT plug the pumps in to the right two ribbon cable ports (reserved for the vials). The pumps will draw too much current and likely break components inside of the min-eVOLVER board.
+{% endhint %}
+
+<img src="../../.gitbook/assets/image (48).png" alt="" data-size="original">
+
+1. Plug in the hardware as shown above
+2. Start the server
+3. In another terminal window, enter the `dpu` virtual environment
+4. Navigate to the `/dpu/experiment/` folder
+5. Familiarize yourself with [send\_command.py](send\_command.py.md) and make sure you can:
+   1. Send a pump command to all pumps and make sure they actuate
+   2. Send a command to start and stop stirring
+   3. Turn temperature off
+6. Check the server log as commands go in, these should be received and become the new values in the server cycle
 
 ## Multiple min-eVOLVERs
 
