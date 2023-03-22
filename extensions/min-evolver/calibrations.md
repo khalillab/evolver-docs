@@ -12,7 +12,7 @@ Each min-eVOLVER needs its own calibration files. These are kept inside of the s
 
 ## Before Calibration
 
-1. Complete the [setup](setup.md) page
+1. Complete the [setup](software-setup.md) page
 2. Gather materials (see below)
 3. Start cells for OD calibration the night before
 4. Calibrate temperature before OD
@@ -42,7 +42,7 @@ Temperature calibration should be done before OD calibration because the OD sens
 1. Make a copy of `temperature_calibration.xlsx` and label with the date.
    1. This can be found in `/dpu/calibration/`
 2. Fill eVOLVER vials with 15-20mL of water, put in stir bars, and place in aluminum sleeves.
-3. Turn on the min-eVOLVER and start the server as in [setup](setup.md).
+3. Turn on the min-eVOLVER and start the server as in [setup](software-setup.md).
 4. In the dpu virtual environment, send the following temperature command to the min-eVOLVER using [`send_command.py`](send\_command.py.md):
    1. `python3 send_command.py <port_number> temp 31000`
 5. Wait for the temperature to equilibrate (using a digital temperate probe)
@@ -85,7 +85,7 @@ If you need the pumps to stop before the time is up, send the command:
    4. Input the values into the excel spreadsheet
    5. If you see significant variability, make sure all inputs are in water and try again
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (10) (2).png>)
 
 6. Calibrate the slow (pink) pumps
 7. Leave the inputs in water and put the outputs in 1.5mL Eppendorf tubes
@@ -143,7 +143,7 @@ If you need the pumps to stop before the time is up, send the command:
 After changing which dilution is being read, wait for the server to cycle a couple of times before recording values. Values are averaged and the values from the old dilution could still be in the mix.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Highlighted are the OD sensor values for the first and second vials respectively on a min-eVOLVER.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Highlighted are the OD sensor values for the first and second vials respectively on a min-eVOLVER.</p></figcaption></figure>
 
 9. Copy and paste the `Standard (OD600)` and `Median Values` for each vial into `od_data.xlsx`
    1. Do not include empty cells or change the formatting of `od_data.xlsx`&#x20;
@@ -154,7 +154,7 @@ After changing which dilution is being read, wait for the server to cycle a coup
     1. `python3 sigmoid_fit.py`
 12. Evaluate the resulting curve fit in the window that pops up
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Fitting curves to OD calibration data for two min-eVOLVERs. While there is some noise, standards generally follow the sigmoid function.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Fitting curves to OD calibration data for two min-eVOLVERs. While there is some noise, standards generally follow the sigmoid function.</p></figcaption></figure>
 
 9. Copy and paste the values output from `sigmoid_fit.py` in `evolver-min/evolver/calibrations.json` for the correct vial and correct min-eVOLVER
 

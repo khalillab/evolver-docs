@@ -8,14 +8,14 @@ Useful for:
 
 1. Controlling the [min-eVOLVER](./)
 2. Sending custom commands if you have [added an experimental parameter](../adding-an-experimental-parameter/)
-3. Sending pump commands greater than 20 seconds if you are using the slow (1mL/min) pumps or using [IPPs](../../hardware/overview-of-millifluidics/ipps-integrated-peristaltic-pumps.md)
+3. Sending pump commands greater than 20 seconds if you are using the slow (\~1mL/min) pumps or using [IPPs](../../hardware/overview-of-millifluidics/ipps-integrated-peristaltic-pumps.md)
 
 ## Usage
 
 {% hint style="warning" %}
 You must
 
-1. Start the [server](setup.md#server-startup) before using send\_command.py, otherwise commands will not go through.
+1. Start the [server](software-setup.md#server-startup) before using send\_command.py, otherwise commands will not go through.
 2. In another terminal window, enter into the `dpu` virtual environment&#x20;
 {% endhint %}
 
@@ -25,7 +25,7 @@ python3 send_command.py <port> <parameter> <value>
 
 The 'port' variable tells the program which eVOLVER to connect to. This is designated in the conf.yml file of the eVOLVER under 'port'. It is arbitrary, but we can choose something like 5555
 
-To set a parameter on all vials to one value: python3 send\_command.py
+To set a parameter on all vials to one value: python3 `send_command.py`
 
 ```
 For example, to turn stirring ON:

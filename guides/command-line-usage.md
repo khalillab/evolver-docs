@@ -181,7 +181,7 @@ Notice in this example that the directory went from having two files to only hav
 
 Stands for remove. Delete a file at a given path. To delete an entire directory, pass the -r flag. You can also pass the -f flag which will not prompt for confirmation regardless of the files permissions. Remember, **there is no undo** when using this command. The syntax is rm \<filename>
 
-![](<../.gitbook/assets/image (14) (1) (1).png>)
+![](<../.gitbook/assets/image (14) (1).png>)
 
 #### <mark style="color:blue;">touch</mark>
 

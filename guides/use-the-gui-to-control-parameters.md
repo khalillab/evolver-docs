@@ -34,11 +34,11 @@ You can also click and drag to select as many vials as you want.
 
 Tap the `NEXT →` on the box that says parameter to get to the `Stir` tab. Tap the `-` button or drag the slider to a Stir of 8. Press the `Stir: 8` button to alter the stirring of all vials.
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure>
 
 Tap the `NEXT →` on the box that says parameter to get to the`Temperature` tab. Tap the `-` button or drag the slider until the middle button says `37.0 °C` and tap the button. The `EXECUTED COMMANDS` box should state that a stir and then temp command was sent to all vials.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Pumps
 

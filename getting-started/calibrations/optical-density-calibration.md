@@ -104,7 +104,7 @@ The cell stock will likely be much too dense to measure undiluted. For example, 
     1. You can input the OD values using the keyboard, then hit enter to increase the vial selected.
 16. Click `Start OD Calibration ▷`.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
 
 17. Press `▷`. After the eVOLVER has logged the vials in one configuration, click the forward arrow. Move vials into their new positions, as seen on the right side of the GUI.
 18. Click `VIEW COLLECTED DATA` to monitor the smoothness of the curves as you calibrate. If a particular value is a big outlier, consider rewinding to that vial position and doing it again. Don't worry your other work will be saved!

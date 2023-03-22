@@ -1,12 +1,15 @@
 # Troubleshooting
 
-My min-eVOLVER is plugged in but I can't connect to it via the server code
+## My min-eVOLVER is plugged in but I can't connect to it via the server code
 
-* If the server code says that the expected min-eVOLVER port is plugged in, check that the conf.yml file has the correct port address in it (as detailed in the [setup](setup.md#server-startup)).
+* If the server code says that the expected min-eVOLVER port is plugged in, check that the conf.yml file has the correct port address in it (as detailed in the [setup](software-setup.md#server-startup)).
 * As a last resort, [reupload](troubleshooting.md#reupload-the-arduino) the Arduino code
 
-The server is cycling (every \~20 seconds there are new values) but all commands are erroring
+## The server is cycling (every \~20 seconds there are new values) but all commands are erroring
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>An example error thrown when the server is running but isn't getting responses from the min-eVOLVER.</p></figcaption></figure>
+
+* This happens when the micro-USB is unplugged and replugged in, but the power supply is not
 * Quit the server (ctrl+C), unplug the min-eVOLVER from power and micro-USB, plug everything back in, and restart the server
 * As a last resort, [reupload](troubleshooting.md#reupload-the-arduino) the Arduino code
 
