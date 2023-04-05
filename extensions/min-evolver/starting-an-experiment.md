@@ -1,7 +1,7 @@
 # Starting an Experiment
 
 {% hint style="warning" %}
-You should have completed both [setup](setup.md) and [calibrations](calibrations.md) before proceeding to an experiment.
+You should have completed both [setup](software-setup.md) and [calibrations](calibrations.md) before proceeding to an experiment.
 {% endhint %}
 
 ## Hardware
@@ -21,7 +21,7 @@ Do not plug the pumps in to the vial ports. If the pumps are actuated, this can 
 
 ## Software
 
-1. [Start the server](setup.md#server-startup)&#x20;
+1. [Start the server](software-setup.md#server-startup)&#x20;
 2. In another window, enter the dpu virtual environment.
    1. In terminal, navigate to the folder you [installed](../../getting-started/software-installation/dpu-installation.md) this into (likely your dpu folder)
    2. Enter the command:

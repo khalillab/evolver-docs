@@ -16,25 +16,30 @@
 
 ## Server Startup
 
+1. Plug the min-eVOLVER in to your computer using micro-USB and THEN plug it in to the 12V DC power supply.
+
 {% hint style="info" %}
-If you want to know more about the server code or how commands work click [here](../../software/server-code-structure/).
+Plugging in the 12V first may make the server not able to connect properly.
 {% endhint %}
 
-1. Plug the min-eVOLVER into your computer using micro-USB and plug it in to the 12V DC power supply
+{% hint style="warning" %}
+Whenever possible, avoid plugging / unplugging the min-eVOLVER micro-USB, which is fragile. Instead, leave the micro-USB plugged in and plug / unplug the regular USB to your computer.
+{% endhint %}
+
 2. Make sure that you are in the server virtual environment
-   1. This means navigating to the correct folder in a terminal of your choice and inputting commands:
-      1.  Mac OS:
+3. This means navigating to the correct folder in a terminal of your choice and inputting commands:
+   1.  Mac OS:
 
-          `source server-env/bin/activate`
-      2.  On Windows PowerShell:
+       `source server-env/bin/activate`
+   2.  On Windows PowerShell:
 
-          `server-env\Scripts\Activate.ps1`
-3. Navigate to the `/evolver/` folder inside the evolver-min server code
-4. Attempt to run the server
+       `server-env\Scripts\Activate.ps1`
+4. Navigate to the `/evolver/` folder inside the evolver-min server code
+5. Attempt to run the server
    1. `python3 evolver.py`
    2. Exit from the command using `control + C`
-5. This will tell you the list of min-eVOLVERs plugged in to the computer
-6. Copy the full port address into the `serial_port` variable in the `conf.yml` file for the server
+6. This will tell you the list of min-eVOLVERs plugged in to the computer
+7. Copy the full port address into the `serial_port` variable in the `conf.yml` file for the server
    1. On Mac OS for example: `serial_port: /dev/cu.usbmodem1301`
 
 {% hint style="warning" %}
@@ -47,6 +52,10 @@ Be careful to not alter the `conf.yml` file structure, only the variables (after
    2. If the server is not connected to the min-eVOLVER, commands will fail
 
 <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>An example min-eVOLVER server readout.</p></figcaption></figure>
+
+{% hint style="info" %}
+If you want to know more about the server code or how commands work click [here](../../software/server-code-structure/).
+{% endhint %}
 
 ## Test min-eV Hardware
 

@@ -120,7 +120,7 @@
   * [Specific Applications](extensions/adding-an-experimental-parameter/specific-applications.md)
   * [Custom Calibration Code](extensions/adding-an-experimental-parameter/custom-calibration-code.md)
 * [min-eVOLVER](extensions/min-evolver/README.md)
-  * [Setup](extensions/min-evolver/setup.md)
+  * [Setup](extensions/min-evolver/software-setup.md)
   * [send\_command.py](extensions/min-evolver/send\_command.py.md)
   * [Calibrations](extensions/min-evolver/calibrations.md)
   * [Starting an Experiment](extensions/min-evolver/starting-an-experiment.md)

@@ -12,7 +12,7 @@ Each min-eVOLVER needs its own calibration files. These are kept inside of the s
 
 ## Before Calibration
 
-1. Complete the [setup](setup.md) page
+1. Complete the [setup](software-setup.md) page
 2. Gather materials (see below)
 3. Start cells for OD calibration the night before
 4. Calibrate temperature before OD
@@ -42,7 +42,7 @@ Temperature calibration should be done before OD calibration because the OD sens
 1. Make a copy of `temperature_calibration.xlsx` and label with the date.
    1. This can be found in `/dpu/calibration/`
 2. Fill eVOLVER vials with 15-20mL of water, put in stir bars, and place in aluminum sleeves.
-3. Turn on the min-eVOLVER and start the server as in [setup](setup.md).
+3. Turn on the min-eVOLVER and start the server as in [setup](software-setup.md).
 4. In the dpu virtual environment, send the following temperature command to the min-eVOLVER using [`send_command.py`](send\_command.py.md):
    1. `python3 send_command.py <port_number> temp 31000`
 5. Wait for the temperature to equilibrate (using a digital temperate probe)
