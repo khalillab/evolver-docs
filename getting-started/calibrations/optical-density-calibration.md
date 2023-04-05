@@ -68,7 +68,7 @@ The cell stock will likely be much too dense to measure undiluted. For example, 
 7. If the measured OD of the lowest dilution is above 0.5, make further dilutions to bring it below 0.5
 
 {% hint style="info" %}
-**Use** [**this**](https://docs.google.com/spreadsheets/d/1mrmWbOMNhthNafGRZVcuHpOfvZxxA8NoWAqzd2bzuNM/edit?usp=sharing) **spreadsheet to make calculations. **_****_ Make a copy on your own Google Drive or download for use in Excel.
+**Use** [**this**](https://docs.google.com/spreadsheets/d/1mrmWbOMNhthNafGRZVcuHpOfvZxxA8NoWAqzd2bzuNM/edit?usp=sharing) **spreadsheet to make calculations.** Make a copy on your own Google Drive or download for use in Excel.
 {% endhint %}
 
 8. Calculate OD of concentrated cell stock

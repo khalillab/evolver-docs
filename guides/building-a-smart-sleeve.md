@@ -25,7 +25,7 @@ In this post, we are describing the Smart Sleeve built for continuous culture do
 
 #### That all sounds great, **but I have never soldered or 3D printed before, how do I start?**
 
-Here is a great introductory tutorial on soldering from our friends at [**Sparkfun**](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering)**.** Also, you can easily outsource your 3D printed parts to be produced by folks at [**3DHubs**](https://www.3dhubs.com/) **** by uploading the appropriate [**STL file**](https://www.fynchbio.com/s/Tube-Holder.STL) (if you’re a student, don’t forget the student discount!). Generally, building a Smart Sleeve is simple because we only use through hole components and screw terminals, so it is much easier to make than surface mount designs.
+Here is a great introductory tutorial on soldering from our friends at [**Sparkfun**](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering)**.** Also, you can easily outsource your 3D printed parts to be produced by folks at [**3DHubs**](https://www.3dhubs.com/) by uploading the appropriate [**STL file**](https://www.fynchbio.com/s/Tube-Holder.STL) (if you’re a student, don’t forget the student discount!). Generally, building a Smart Sleeve is simple because we only use through hole components and screw terminals, so it is much easier to make than surface mount designs.
 
 **How can I modify or change the design?**
 
@@ -128,4 +128,4 @@ Both the photodiode and LED should have a short and a long lead. This correspond
 
 **That’s it! You’re done.**
 
-Following a similar framework for building the Smart Sleeves enables adding different parameters, adaptation to different vial sizes, and other creative eVOLVER applications! Have fun! Let me know if anything is unclear **** on the [forum](https://www.evolver.bio/t/building-a-smart-sleeve-for-continuous-culture-40-ml/30).
+Following a similar framework for building the Smart Sleeves enables adding different parameters, adaptation to different vial sizes, and other creative eVOLVER applications! Have fun! Let me know if anything is unclear on the [forum](https://www.evolver.bio/t/building-a-smart-sleeve-for-continuous-culture-40-ml/30).

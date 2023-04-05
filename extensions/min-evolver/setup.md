@@ -1,12 +1,11 @@
-# Software Setup
+# Setup
 
 ## Software Installation
 
-1. Download files from GitHub (no link yet)
+1. Download files from GitHub repositories for the [dpu](https://github.com/FYNCH-BIO/dpu/tree/min-evolver) (experiment code) and [server](https://github.com/FYNCH-BIO/evolver/tree/min-evolver) (communicator with min-eVOLVER)&#x20;
 2. Follow the dpu installation [guide](../../getting-started/software-installation/dpu-installation.md).
    1. We will use the virtual environment made here to run the experiment
-   2. Note: as of 2/14/23, there is no GUI integration. Command line only.
-   3. Use the min-eVOLVER DPU branch
+   2. Note: as of now, there is no GUI integration. Command line only.
 3. Create a server virtual environment
    1. In the command line still, open a new tab or window&#x20;
    2. If necessary, deactivate the dpu virtual environment with the command below.
@@ -71,9 +70,13 @@ Do NOT plug the pumps in to the right two ribbon cable ports (reserved for the v
 
 You can connect multiple min-eVOLVERs to one computer, as long as you have enough USB ports!
 
-1. Make a duplicate min-eVOLVER server code file with a new number ie `evolver-min2`
+1. Make a duplicate min-eVOLVER server code file with a new number ie `evolver2`
 2. Plug in the new min-eVOLVER and follow the Server Startup guide
    1. The new min-eVOLVER will have a different `serial_port`
    2. You need to define a different port number (try 5556) in both the `conf.yml` file and the `custom_script.py` (see [here](starting-an-experiment.md#software))
 3. Make sure you're in the right server code folder when starting the new server
    1. Use a different command line window for each min-eVOLVER server
+
+{% hint style="info" %}
+Plugging the min-eVOLVER in to different USB ports on your computer will create a different `serial_port` number. Make sure you don't swap your min-eVOLVERs without meaning to! Especially because calibration files are linked to a specific port.
+{% endhint %}

@@ -38,7 +38,7 @@ UNIX is an operating system originally developed in the 1960s that is the base f
 
 Pretty much everything in UNIX is either a <mark style="color:blue;">**file**</mark> or a <mark style="color:blue;">**process**</mark>. Files are simply collections of data – they can be plain text, programs, binary machine code, or even directories. A process is a program that is being executed by the kernel.
 
-The file-system on UNIX is very simple – it’s a tree that starts at <mark style="color:blue;">**root**</mark>, which is written as /. Everything then branches off of the root with a location specified by a <mark style="color:blue;">**path**</mark>** ** from the root to the file. For example, if there were a user on a UNIX system with the username **unixuser1**, the home directory would typically be located at /home/unixuser1. If this user had written a hello world program in c and put it in a directory called **myprograms** in their home directory, that path would look like /home/unixuser1/myprograms/hello.c. It’s useful to think of the file-system as a tree that you navigate up and down through, and create routes from one spot to another. More on this later!
+The file-system on UNIX is very simple – it’s a tree that starts at <mark style="color:blue;">**root**</mark>, which is written as /. Everything then branches off of the root with a location specified by a <mark style="color:blue;">**path**</mark> from the root to the file. For example, if there were a user on a UNIX system with the username **unixuser1**, the home directory would typically be located at /home/unixuser1. If this user had written a hello world program in c and put it in a directory called **myprograms** in their home directory, that path would look like /home/unixuser1/myprograms/hello.c. It’s useful to think of the file-system as a tree that you navigate up and down through, and create routes from one spot to another. More on this later!
 
 ![](<../.gitbook/assets/image (24) (1).png>)
 
@@ -93,7 +93,7 @@ The double dot (..) means up one level in the file-system. You can go up more th
 ## Useful commands and tips
 
 * Double dot .. means the directory above the current one. A single dot . means this current location.
-* **Tab** can be to autocomplete a path or filename. Start typing the first letters, then hit **Tab.** <mark style="color:red;">**USE THIS!**</mark>** ** It will prevent you from making typos or looking for something that doesn’t exist, and saves time overall.
+* **Tab** can be to autocomplete a path or filename. Start typing the first letters, then hit **Tab.** <mark style="color:red;">**USE THIS!**</mark> It will prevent you from making typos or looking for something that doesn’t exist, and saves time overall.
   * Hitting **Tab** twice in quick succession will print out all files matching up to the point typed, then allows you to keep typing.
 
 ![It would be really annoying to type out that filename! Just use Tab autocomplete!](<../.gitbook/assets/image (36).png>)
@@ -163,7 +163,7 @@ Stands for copy. Copies file at one path to another specified path. If the path 
 
 ![](<../.gitbook/assets/image (22).png>)
 
-If you want to copy an entire directory, pass the <mark style="color:blue;">**-r**</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> flag.
+If you want to copy an entire directory, pass the <mark style="color:blue;">**-r**</mark> flag.
 
 ![](<../.gitbook/assets/image (33).png>)
 
