@@ -26,7 +26,7 @@ Ensure the correct eVOLVER is selected by consulting the upper right hand corner
 
 In the `PARAMETER` box, ensure the correct calibrations are selected for Temp, OD, and the pumps. Click the box for each to bring up a list of available calibrations for that parameter.
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select all vials by tapping `Select All` in the bottom right corner of the screen. The vial circles on the right side of the display should become **orange**.
 

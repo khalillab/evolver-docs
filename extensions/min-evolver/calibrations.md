@@ -58,7 +58,7 @@ While waiting for equilibrations you can start calibrating pumps.
    1. Replace the values _and comma_ after "coefficients" (shown below)
    2. WARNING: do not alter the format of the `calibrations.json` file. Doing this, (accidentally adding an extra square bracket or comma for example) could easily give errors during experiments.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Pump Calibration
 
@@ -98,7 +98,7 @@ If you need the pumps to stop before the time is up, send the command:
 11. Copy and paste the values under "Copy + Paste" in `evolver-min/evolver/calibrations.json` for the correct min-eVOLVER
     1. Replace the values after "coefficients" (shown below)
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## OD Calibration
 
@@ -143,7 +143,7 @@ If you need the pumps to stop before the time is up, send the command:
 After changing which standards are being read, wait for the server to cycle a couple of times before recording values. Values are averaged and the values from the previous two OD standards could still be in the mix.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Highlighted are the OD sensor values for the first and second vials respectively on a min-eVOLVER.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p>Highlighted are the OD sensor values for the first and second vials respectively on a min-eVOLVER.</p></figcaption></figure>
 
 9. Copy and paste the `Standard (OD600)` and `Median Values` for each vial into `od_data.xlsx`
    1. Do not include empty cells or change the formatting of `od_data.xlsx`&#x20;
@@ -154,13 +154,13 @@ After changing which standards are being read, wait for the server to cycle a co
     1. `python3 sigmoid_fit.py`
 12. Evaluate the resulting curve fit in the window that pops up
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Fitting curves to OD calibration data for two min-eVOLVERs. While there is some noise, standards generally follow the sigmoid function.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Fitting curves to OD calibration data for two min-eVOLVERs. While there is some noise, standards generally follow the sigmoid function.</p></figcaption></figure>
 
 9. Copy and paste the values output from `sigmoid_fit.py` in `evolver-min/evolver/calibrations.json` for the correct vial and correct min-eVOLVER
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 10. Replace the values after "coefficients" (shown below)
     1. To avoid confusion, replace everything until the `"raw"`&#x20;
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>

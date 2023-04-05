@@ -40,7 +40,7 @@ Pretty much everything in UNIX is either a <mark style="color:blue;">**file**</m
 
 The file-system on UNIX is very simple – it’s a tree that starts at <mark style="color:blue;">**root**</mark>, which is written as /. Everything then branches off of the root with a location specified by a <mark style="color:blue;">**path**</mark> from the root to the file. For example, if there were a user on a UNIX system with the username **unixuser1**, the home directory would typically be located at /home/unixuser1. If this user had written a hello world program in c and put it in a directory called **myprograms** in their home directory, that path would look like /home/unixuser1/myprograms/hello.c. It’s useful to think of the file-system as a tree that you navigate up and down through, and create routes from one spot to another. More on this later!
 
-![](<../.gitbook/assets/image (24) (1).png>)
+![](<../.gitbook/assets/image (24).png>)
 
 ## The Shell
 
@@ -70,7 +70,7 @@ A relative path is the route through the file-system from one location to anothe
 
 When writing out paths on the shell, if you do not write an absolute path, the shell will interpret the path as relative **starting from the current working directory**. For example, let’s say a user wants to do something with the hello.c file in their /home/unixuser1/myprograms directory, and their current working directory is their home directory (/home/unixuser1), as in this figure:
 
-![](<../.gitbook/assets/image (11) (1).png>)
+![](<../.gitbook/assets/image (11).png>)
 
 The relative path to their c file would be the following:
 
@@ -80,7 +80,7 @@ This would be interpreted the same as the absolute path /home/unixuser1/myprogra
 
 It is also possible to write relative paths to things further up or in a different branch of the file-system. For example, if the current working directory is /home/unixuser1/Desktop, and the user wants to reference the same c file as above, visually it would look like this:
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (5).png>)
 
 and the relative path would be:
 
@@ -125,7 +125,7 @@ Notice that after executing the command, the shell will print a new prompt for t
 
 Identifies the location of an executable. Use this to determine if a command or program is installed on your system, and also to see where it actually resides on the file-system. If the program cannot be found, nothing will be returned.
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1).png>)
 
 #### <mark style="color:blue;">pwd</mark>
 
@@ -141,7 +141,7 @@ Stands for list. This command will list out all files in a given directory.
 
 You can provide a path to ls to list files not in the current working directory. Some useful flags are -l (long listing format), which can show you file permissions, owner, size, and last modified date, and -a (shows all files, including hidden files).
 
-![](<../.gitbook/assets/image (2) (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 ![Notice the .im\_a\_hidden\_file.txt entry that is only in the output when using -a.](<../.gitbook/assets/image (37).png>)
 
@@ -149,7 +149,7 @@ You can provide a path to ls to list files not in the current working directory.
 
 Stands for **C**hange **D**irectory. Moves the current working directory to the path specified as an argument to the command. The syntax is `cd <path>`, where \<path> can be any relative or absolute path on the file-system. If the path is invalid, the current working directory will stay the same.
 
-![](<../.gitbook/assets/image (8) (1).png>)
+![](<../.gitbook/assets/image (8).png>)
 
 #### <mark style="color:blue;">mkdir</mark>
 
@@ -199,7 +199,7 @@ To append a line into a file:
 
 `echo "This is a string I want to append" >> myfile.txt`
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 #### <mark style="color:blue;">cat</mark>
 
@@ -217,7 +217,7 @@ Displays the first 10 lines of a file. Pass the -n argument to specify how many 
 
 Displays the last 10 lines of a file. Pass the -n argument to specify how many lines to display. Pass the -f flag to follow, or to not stop when end of file is reached, but rather to wait for additional data to be appended to the input. Press Ctrl + C to quit afterwards. **Useful for watching log files in real time**.
 
-![](<../.gitbook/assets/image (4) (1).png>)
+![](<../.gitbook/assets/image (4).png>)
 
 #### <mark style="color:blue;">less</mark>
 

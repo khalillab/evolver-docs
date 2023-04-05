@@ -113,7 +113,9 @@
 
 * [Overview](extensions/overview.md)
 * [Custom Experiments](extensions/custom-experiments/README.md)
-  * [ePACE](extensions/custom-experiments/epace.md)
+  * [ePACE](extensions/custom-experiments/epace/README.md)
+    * [ATTiny1634 Writing](extensions/custom-experiments/epace/attiny1634-writing.md)
+    * [LUX Board Troubleshooting](extensions/custom-experiments/epace/lux-board-troubleshooting.md)
   * [Morbidostat](extensions/custom-experiments/morbidostat.md)
 * [Adding an Experimental Parameter](extensions/adding-an-experimental-parameter/README.md)
   * [Power Supply](extensions/adding-an-experimental-parameter/power-supply.md)

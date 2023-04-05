@@ -67,7 +67,7 @@ Chrome may flag the download, just select "Keep". ![](<../../.gitbook/assets/ima
 2\. Open the .exe file.
 
 {% hint style="warning" %}
-In Windows 10, Microsoft Defender prevents the app from starting immediately. Simply click "More info" and then "Run Anyway" to get around this. ![](<../../.gitbook/assets/image (6) (1) (1).png>)
+In Windows 10, Microsoft Defender prevents the app from starting immediately. Simply click "More info" and then "Run Anyway" to get around this. ![](<../../.gitbook/assets/image (6).png>)
 {% endhint %}
 
 {% hint style="danger" %}

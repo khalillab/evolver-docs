@@ -6,7 +6,7 @@ You should have completed both [setup](software-setup.md) and [calibrations](cal
 
 ## Hardware
 
-![](<../../.gitbook/assets/image (41).png>)
+![](<../../.gitbook/assets/image (41) (1).png>)
 
 {% hint style="danger" %}
 Do not plug the pumps in to the vial ports. If the pumps are actuated, this can break the min-eVOLVER board.&#x20;

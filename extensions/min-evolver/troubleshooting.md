@@ -7,7 +7,7 @@
 
 ## The server is cycling (every \~20 seconds there are new values) but all commands are erroring
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>An example error thrown when the server is running but isn't getting responses from the min-eVOLVER.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>An example error thrown when the server is running but isn't getting responses from the min-eVOLVER.</p></figcaption></figure>
 
 * This happens when the micro-USB is unplugged and replugged in, but the power supply is not
 * Quit the server (ctrl+C), unplug the min-eVOLVER from power and micro-USB, plug everything back in, and restart the server
