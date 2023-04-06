@@ -2,17 +2,24 @@
 
 ## Software Installation
 
-1. Download files from GitHub repositories for the [dpu](https://github.com/FYNCH-BIO/dpu/tree/min-evolver) (experiment code) and [server](https://github.com/FYNCH-BIO/evolver/tree/min-evolver) (communicator with min-eVOLVER)&#x20;
+1. Download files from GitHub repositories for the [dpu](https://github.com/FYNCH-BIO/dpu/tree/min) (experiment code) and [server](https://github.com/FYNCH-BIO/evolver/tree/min) (communicator with min-eVOLVER)&#x20;
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Make sure you are on the 'min' branch (upper left) and click the code button to download the .zip file for the code</p></figcaption></figure>
+
 2. Follow the dpu installation [guide](../../getting-started/software-installation/dpu-installation.md).
-   1. We will use the virtual environment made here to run the experiment
-   2. Note: as of now, there is no GUI integration. Command line only.
-3. Create a server virtual environment
+3. We will use the virtual environment made here to run the experiment
+4. Note: as of now, there is no GUI integration. Command line only.
+5. Create a server virtual environment
    1. In the command line still, open a new tab or window&#x20;
    2. If necessary, deactivate the dpu virtual environment with the command below.
       1. `deactivate`
    3. Navigate to the server directory `evolver-min`
-   4. Follow the dpu installation guide from step 7
+   4. Follow the dpu installation guide from step 7 to make a server virtual environment
    5. Replace instances of `dpu` in commands with `server`
+
+{% hint style="info" %}
+If you are setting up more than one min-eVOLVER, simply make an additional folder and label it something like `evolver-min2`. No need to make an additional virtual environment.
+{% endhint %}
 
 ## Server Startup
 
@@ -86,6 +93,13 @@ You can connect multiple min-eVOLVERs to one computer, as long as you have enoug
 3. Make sure you're in the right server code folder when starting the new server
    1. Use a different command line window for each min-eVOLVER server
 
-{% hint style="info" %}
-Plugging the min-eVOLVER in to different USB ports on your computer will create a different `serial_port` number. Make sure you don't swap your min-eVOLVERs without meaning to! Especially because calibration files are linked to a specific port.
+{% hint style="warning" %}
+Make sure you don't swap your min-eVOLVERs USB ports without meaning to!
+
+* Calibration files are for a specific min-eVOLVER
+* `serial_port` numbers on your computer are linked to a specific _USB port_, NOT to a specific min-eVOLVER
+* So for example:
+  * min-eVOLVER 1 with `serial_port: /dev/cu.usbmodem1201`&#x20;
+  * min-eVOLVER 2 with `serial_port: /dev/cu.usbmodem1301`
+  * Plugging min-eVOLVER 2 into `/dev/cu.usbmodem1201` will mean that running the min-eVOLVER 1 server will load calibrations for the wrong min-eVOLVER and vice versa
 {% endhint %}
