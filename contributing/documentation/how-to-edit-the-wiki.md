@@ -10,6 +10,7 @@ description: The wiki is hosted on GitBook https://docs.gitbook.com/
 2. Edit using GitBook - use their [documentation](https://docs.gitbook.com/)
 3. Make a pull request
 
+
 ## Resources
 
 [Other ](https://www.gitbook.com/explore)[GitBook](https://docs.airbyte.com/contributing-to-airbyte/) [communities](https://docs.rocket.chat/)
