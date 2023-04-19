@@ -6,9 +6,10 @@ description: The wiki is hosted on GitBook https://docs.gitbook.com/
 
 ## Making an Edit
 
-1. Link your GitHub account to GitBook
-2. Edit using GitBook - use their [documentation](https://docs.gitbook.com/)
-3. Make a pull request
+1. Click "Edit on GitHub" on the right hand side of the page you want to edit. (Or click on the three dots next to the title to show it)
+2. [Edit the file directly on GitHub and open a Pull Request](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files).
+
+
 
 ## Resources
 
@@ -16,13 +17,9 @@ description: The wiki is hosted on GitBook https://docs.gitbook.com/
 
 Wikipedia's [list ](https://en.wikipedia.org/wiki/Wikipedia:List\_of\_guidelines#Content\_guide)of guidelines
 
-Link a more clear / concise set of editing guidelines
-
 ## Content Structure
 
 [GitBook Link](https://docs.gitbook.com/editing-content/content-structure)
-
-How the Wiki should be organized
 
 ### Page Content
 
@@ -35,10 +32,6 @@ What content doesn't go in a page?
   * Exception: where code is walked through line-by-line as an illustration
 
 Links to subpages in a table of contents
-
-Pages should have a link to forum discussion on that specific page
-
-* ie the [how-to-edit-the-wiki.md](how-to-edit-the-wiki.md "mention") page should have a&#x20;
 
 ### Subpage Content
 

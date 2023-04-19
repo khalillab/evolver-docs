@@ -30,13 +30,13 @@ Yes. Temperature effects the photodiode sensors that we use to measure OD. If yo
 
 ## Prepare the day before:
 
-* 16 assembled glass vials with 20 mL of water:
+* 16 assembled glass vials:
   * Glass vials  (Chemglass, CG-4902-08)
   * Vial screw caps
   * Octagon magnetic stir bars (Fisher, 14-513-57)
-* 150 mL of saturated culture of desired organism
+* 300 mL of saturated culture of desired organism
   * If calibrating to ODs above 1.5, you may need more cells
-* 200 mL of 1X PBS (Phosphage Buffered Saline)
+* 300 mL of 1X PBS (Phosphage Buffered Saline)
 
 ## OD Standard Preparation
 
