@@ -18,7 +18,7 @@ If you are unfamiliar with working on a command line terminal, but cannot use th
 Even if you plan to use the GUI to run your experiments, you still need to go through these steps!
 {% endhint %}
 
-#### Homebrew and openssl/sqlite installation (Mac only)
+## (Mac only) Homebrew and openssl/sqlite installation
 
 To install homebrew:
 
@@ -32,7 +32,16 @@ Afterwards, run the two following commands:
 
 `brew install sqlite`
 
-#### DPU Installation
+## (Windows only) Install Python
+
+Windows does not come with Python installed
+
+You have multiple options, but here are two:
+
+1. Install python from the [Windows store](https://learn.microsoft.com/en-us/windows/python/beginners)
+2. Install python through [Anaconda or miniconda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/download.html#anaconda-or-miniconda)
+
+## DPU Installation
 
 1. Navigate to the [DPU Github page](https://github.com/FYNCH-BIO/dpu)
 2. Click `Releases` on the right side of the page
@@ -57,7 +66,13 @@ Do not leave the DPU zip file in your Downloads directory. Please move to approp
 
 6\. Open a terminal. On Mac, you can use the built in `Terminal` application (press CMD + Space then type terminal to find it). I recommend [iTerm2](https://iterm2.com/) if you want a terminal with some quality of life enhancements. On Windows, you can use PowerShell.
 
-7\. Navigate to the DPU directory you just downloaded and unzipped: `cd <path_to_dpu>`
+7\. Navigate to the DPU directory you just downloaded and unzipped:
+
+* Use this command: `cd <path_to_dpu>`
+
+{% hint style="info" %}
+Windows users: you need python installed. If you install python and are met with 'python3 not found' try `python`, `py`, or `ipython` instead.
+{% endhint %}
 
 8\. Create a new [virtual environment](https://docs.python.org/3/library/venv.html) then activate it with the following command:
 

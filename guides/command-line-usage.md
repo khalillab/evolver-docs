@@ -80,7 +80,7 @@ This would be interpreted the same as the absolute path /home/unixuser1/myprogra
 
 It is also possible to write relative paths to things further up or in a different branch of the file-system. For example, if the current working directory is /home/unixuser1/Desktop, and the user wants to reference the same c file as above, visually it would look like this:
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (2).png>)
 
 and the relative path would be:
 
@@ -141,7 +141,7 @@ Stands for list. This command will list out all files in a given directory.
 
 You can provide a path to ls to list files not in the current working directory. Some useful flags are -l (long listing format), which can show you file permissions, owner, size, and last modified date, and -a (shows all files, including hidden files).
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (2).png>)
 
 ![Notice the .im\_a\_hidden\_file.txt entry that is only in the output when using -a.](<../.gitbook/assets/image (37).png>)
 
@@ -181,7 +181,7 @@ Notice in this example that the directory went from having two files to only hav
 
 Stands for remove. Delete a file at a given path. To delete an entire directory, pass the -r flag. You can also pass the -f flag which will not prompt for confirmation regardless of the files permissions. Remember, **there is no undo** when using this command. The syntax is rm \<filename>
 
-![](<../.gitbook/assets/image (14) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1).png>)
 
 #### <mark style="color:blue;">touch</mark>
 
@@ -217,7 +217,7 @@ Displays the first 10 lines of a file. Pass the -n argument to specify how many 
 
 Displays the last 10 lines of a file. Pass the -n argument to specify how many lines to display. Pass the -f flag to follow, or to not stop when end of file is reached, but rather to wait for additional data to be appended to the input. Press Ctrl + C to quit afterwards. **Useful for watching log files in real time**.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (2).png>)
 
 #### <mark style="color:blue;">less</mark>
 

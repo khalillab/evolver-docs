@@ -2,9 +2,9 @@
 
 ## Software Installation
 
-1. Download files from GitHub repositories for the [dpu](https://github.com/FYNCH-BIO/dpu/tree/min) (experiment code) and [server](https://github.com/FYNCH-BIO/evolver/tree/min) (communicator with min-eVOLVER)&#x20;
+1. Download files from GitHub repositories for the [dpu](https://github.com/FYNCH-BIO/dpu/tree/min) (experiment code) and [server](https://github.com/FYNCH-BIO/evolver/tree/min) (communicator with min-eVOLVER).
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Make sure you are on the 'min' branch (upper left) and click the code button to download the .zip file for the code</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Make sure you are on the 'min' branch (upper left) and click the code button to download the .zip file for the code</p></figcaption></figure>
 
 2. Follow the dpu installation [guide](../../getting-started/software-installation/dpu-installation.md).
 3. We will use the virtual environment made here to run the experiment
@@ -34,7 +34,7 @@ Whenever possible, avoid plugging / unplugging the min-eVOLVER micro-USB, which 
 {% endhint %}
 
 2. Make sure that you are in the server virtual environment
-3. This means navigating to the correct folder in a terminal of your choice and inputting commands:
+3. This means navigating to the correct folder in a command line window and inputting commands:
    1.  Mac OS:
 
        `source server-env/bin/activate`
@@ -91,7 +91,7 @@ You can connect multiple min-eVOLVERs to one computer, as long as you have enoug
    1. The new min-eVOLVER will have a different `serial_port`
    2. You need to define a different port number (try 5556) in both the `conf.yml` file and the `custom_script.py` (see [here](starting-an-experiment.md#software))
 3. Make sure you're in the right server code folder when starting the new server
-   1. Use a different command line window for each min-eVOLVER server
+4. Use a different command line window for each min-eVOLVER server
 
 {% hint style="warning" %}
 Make sure you don't swap your min-eVOLVERs USB ports without meaning to!

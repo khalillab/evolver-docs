@@ -26,7 +26,7 @@ Had to remove all wires going to Arduino ports and unplug usb before it would up
 
 Map of controller pins in on the microcontroller
 
-![](<../../../.gitbook/assets/image (1).png>)![](<../../../.gitbook/assets/Untitled picture.png>)
+![](<../../../.gitbook/assets/image (1) (1).png>)![](<../../../.gitbook/assets/Untitled picture.png>)
 
 &#x20;<img src="../../../.gitbook/assets/Untitled picture.jpg" alt="" data-size="original">
 

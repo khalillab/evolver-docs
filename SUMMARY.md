@@ -36,7 +36,8 @@
 * [Growth Curve](experiments/growth-curve.md)
 * [Chemostat](experiments/chemostat.md)
 * [Turbidostat](experiments/turbidostat.md)
-* [FAQs + Tips and Tricks](experiments/faqs-+-tips-and-tricks.md)
+* [FAQs](experiments/faqs.md)
+* [Tips and Tricks](experiments/tips-and-tricks.md)
 
 ## Guides
 
@@ -63,7 +64,7 @@
   * [Contamination](troubleshooting/experiment-troubleshooting/contamination.md)
   * [Vial Overflow, Pump Failure, and Spills](troubleshooting/experiment-troubleshooting/vial-overflow-pump-failure-and-spills.md)
 * [Vial Troubleshooting](troubleshooting/vial-troubleshooting/README.md)
-  * [Troubleshooting Optical Density Readings](troubleshooting/vial-troubleshooting/troubleshooting-optical-density-readings.md)
+  * [Optical Density (OD) Readings](troubleshooting/vial-troubleshooting/optical-density-od-readings.md)
   * [Replacing Photodiodes and LEDs](troubleshooting/vial-troubleshooting/replacing-photodiodes-and-leds.md)
   * [Heating Element](troubleshooting/vial-troubleshooting/heating-element.md)
   * [Stirring](troubleshooting/vial-troubleshooting/stirring.md)
@@ -98,15 +99,15 @@
 ## Software
 
 * [Overview of Software Architecture](software/overview-of-software-architecture.md)
+* [DPU Code Structure](software/dpu-code-structure/README.md)
+  * [custom\_script.py](software/dpu-code-structure/custom\_script.py.md)
+  * [Experiment Data Files](software/dpu-code-structure/experiment-data-files.md)
+  * [eVOLVER.py](software/dpu-code-structure/evolver.py.md)
+  * [OD Blank](software/dpu-code-structure/od-blank.md)
 * [Arduino Code Structure](software/arduino-code-structure.md)
 * [Server Code Structure](software/server-code-structure/README.md)
   * [Calibration Files](software/server-code-structure/calibration-files.md)
   * [Configuration Files (conf.yml)](software/server-code-structure/configuration-files-conf.yml.md)
-* [DPU Code Structure](software/dpu-code-structure/README.md)
-  * [eVOLVER.py](software/dpu-code-structure/evolver.py.md)
-  * [custom\_script.py](software/dpu-code-structure/custom\_script.py.md)
-  * [Experiment Data Files](software/dpu-code-structure/experiment-data-files.md)
-  * [OD Blank](software/dpu-code-structure/od-blank.md)
 * [Known Issues](software/known-issues.md)
 
 ## Extensions
@@ -126,8 +127,8 @@
   * [send\_command.py](extensions/min-evolver/send\_command.py.md)
   * [Calibrations](extensions/min-evolver/calibrations.md)
   * [Starting an Experiment](extensions/min-evolver/starting-an-experiment.md)
-  * [Troubleshooting](extensions/min-evolver/troubleshooting.md)
   * [ePACE with min-eVOLVER](extensions/min-evolver/epace-with-min-evolver.md)
+  * [Troubleshooting](extensions/min-evolver/troubleshooting.md)
 * [Interfacing with Other Systems](extensions/interfacing-with-other-systems.md)
 
 ## Contributing

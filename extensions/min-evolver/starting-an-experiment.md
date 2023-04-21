@@ -4,7 +4,7 @@
 You should have completed both [setup](software-setup.md) and [calibrations](calibrations.md) before proceeding to an experiment.
 {% endhint %}
 
-## Hardware
+## Setup
 
 ![](<../../.gitbook/assets/image (41) (1).png>)
 
@@ -13,34 +13,44 @@ Do not plug the pumps in to the vial ports. If the pumps are actuated, this can 
 {% endhint %}
 
 1. [Prepare vials](../../experiments/starting-an-experiment/preparing-vials.md)
-2. [Sterilize the fluidic lines](../../experiments/starting-an-experiment/sterilizing-lines.md)
-   1. Instead of the GUI, use send\_command.py
+2. [Start the server](software-setup.md#server-startup)&#x20;
+3. [Sterilize the fluidic lines](../../experiments/starting-an-experiment/sterilizing-lines.md)
+   1. Instead of the GUI, use `send_command.py`
    2. The slow pumps (pink) will need to be run for >200 seconds to fully flush the lines
-3. [Load the vials](../../experiments/starting-an-experiment/loading-vials-and-setting-initial-conditions.md)
-4. Do not start&#x20;
 
-## Software
+{% hint style="info" %}
+You will have one command line window for each server and each experiment running. It can also be helpful to have a separate window for `send_commands.py`
 
-1. [Start the server](software-setup.md#server-startup)&#x20;
-2. In another window, enter the dpu virtual environment.
-   1. In terminal, navigate to the folder you [installed](../../getting-started/software-installation/dpu-installation.md) this into (likely your dpu folder)
-   2. Enter the command:
-      * On Mac OS:
-        * `source dpu-env/bin/activate`
-      * On Windows PowerShell:
-        * `dpu-env\Scripts\Activate.ps1`
-3. In command line, navigate to your experiment folder
-   1. This should be in `dpu/experiment`
-   2. Consider making a new folder here for each experiment&#x20;
-4. Alter settings in `custom_script.py`
-   1. `EVOLVER_PORT` = set correct port of the min-eV.
-   2. Set initial temp and stir settings
-   3. `custom_script.py` has basic settings for running chemostat and turbidostat experiments, but you can also customize. To learn more click [here](../../software/dpu-code-structure/custom\_script.py.md).
-5. Start the experiment using the command:
-   1. `python3 eVOLVER.py -i localhost:<your_eV_port>`
+For example for two min-eVOLVER experiments:
+
+* 2 server windows (server environment)
+* 2 experiment windows (`dpu` environment)
+* 1`send_commands.py` window (`dpu` environment)
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>An example fluidics layout for basic chemostat or turbidostat. If necessary, inducer can be programmed to be controlled via the low flow-rate pumps (not shown).  </p></figcaption></figure>
+
+4. [Load the vials](../../experiments/starting-an-experiment/loading-vials-and-setting-initial-conditions.md)
+   1. Use `send_command.py` to fill the vials to appropriate volumes
+
+{% hint style="warning" %}
+Do not inoculate cells until after starting the experiment if you want accurate readings. There is innate variability in the OD of the vials (among other things) and we will blank to your vials during experiment start.
+{% endhint %}
+
+5. Use `send_command.py` to set to correct temperature
+   1. A calibrated temperature command is in your calibration file `temperature_calibration.xlsx`
+   2. Temperature affects OD readings and we need a good initial OD to act as a "blank"
+6. Allow min-eVOLVER to come to temperature
+
+## Running the Experiment
+
+In a separate window from your server command line, follow the command line start [guide](../../experiments/starting-an-experiment/command-line-start-guide.md).
+
+1. Start the experiment using the command:
+   1. `python3 eVOLVER.py -i localhost:<your_min-eV_port>`
    2. `python3 eVOLVER.py -i localhost:5555`
 
 ## Ending an Experiment
 
-1. [Cleanup](../../experiments/starting-an-experiment/cleaning-up-after-experiment.md) the experiment
+1. [Clean up](../../experiments/starting-an-experiment/cleaning-up-after-experiment.md) the experiment
 2. Data is in the [data files](../../software/dpu-code-structure/experiment-data-files.md)
