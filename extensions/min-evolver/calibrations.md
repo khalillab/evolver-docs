@@ -107,6 +107,10 @@ If you need the pumps to stop before the time is up, send the command:
 * OD calibration allows for the min-eVOLVER to accurately read ODs of the cells growing inside.
 * While not completely essential with running chemostats, good OD calibrations are essential for turbidostats to give accurate results.
 
+{% hint style="info" %}
+For ePACE in the min-eVOLVER, consider running calibration of the lagoon vial with 10mL volume for more accurate readings.&#x20;
+{% endhint %}
+
 ### Procedure
 
 1. Set the min-eVOLVER to the temperature your experiment will be at
@@ -154,7 +158,7 @@ After changing which standards are being read, wait for the server to cycle a co
     1. `python3 sigmoid_fit.py`
 12. Evaluate the resulting curve fit in the window that pops up
 
-<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Fitting curves to OD calibration data for two min-eVOLVERs. While there is some noise, standards generally follow the sigmoid function.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption><p>Fitting curves to OD calibration data for two min-eVOLVERs. While there is some noise, standards generally follow the sigmoid function.</p></figcaption></figure>
 
 9. Copy and paste the values output from `sigmoid_fit.py` in `evolver-min/evolver/calibrations.json` for the correct vial and correct min-eVOLVER
 

@@ -1,6 +1,6 @@
 # ePACE with min-eVOLVER
 
-## Overview
+Overview
 
 This page only details differences from the general min-eVOLVER experimental [protocol](starting-an-experiment.md). You are also expected to have an understanding of PACE and how it is normally run before doing ePACE.
 
@@ -9,7 +9,7 @@ This page only details differences from the general min-eVOLVER experimental [pr
 * For general PACE methods see [Miller, Wang 2020 _Nature Protocols_](https://www.nature.com/articles/s41596-020-00410-3)_._
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Two min-eVOLVERs set up for ePACE. They are connected to a dedicated laptop (preliminary picture)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Two min-eVOLVERs set up for ePACE. They are connected to a dedicated laptop (preliminary picture)</p></figcaption></figure>
 
 ### Experimental Overview
 
@@ -66,11 +66,11 @@ To have high accuracy when using the low volume pumps it is important to avoid i
 
 ## Fluidic Lines
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-
 Hook up pump lines in the configuration shown below
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## custom\_script.py
 

@@ -4,6 +4,13 @@
 You should have completed both [setup](software-setup.md) and [calibrations](calibrations.md) before proceeding to an experiment.
 {% endhint %}
 
+{% hint style="info" %}
+**Highly recommended**:
+
+1. Read the main [Experiment](../../experiments/starting-an-experiment/) pages for helpful information not listed here and an example experimental workflow.
+2. Run an experiment with water before doing so with cells, especially if you change the code
+{% endhint %}
+
 ## Setup
 
 ![](<../../.gitbook/assets/image (41) (1).png>)
@@ -28,7 +35,7 @@ For example for two min-eVOLVER experiments:
 * 1`send_commands.py` window (`dpu` environment)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>An example fluidics layout for basic chemostat or turbidostat. If necessary, inducer can be programmed to be controlled via the low flow-rate pumps (not shown).  </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>An example fluidics layout for basic chemostat or turbidostat. If necessary, inducer can be programmed to be controlled via the low flow-rate pumps (not shown).</p></figcaption></figure>
 
 4. [Load the vials](../../experiments/starting-an-experiment/loading-vials-and-setting-initial-conditions.md)
    1. Use `send_command.py` to fill the vials to appropriate volumes

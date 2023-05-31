@@ -82,6 +82,14 @@ Do NOT plug the pumps in to the right two ribbon cable ports (reserved for the v
    3. Turn temperature off
 6. Check the server log as commands go in, these should be received and become the new values in the server cycle
 
+## Make / Acquire Additional Experiment Hardware
+
+Before starting an experiment:
+
+1. [Make media bottles with connectors](../../guides/making-media-bottles-and-splitters.md)
+2. Buy a waste container - we use [this ](https://www.amazon.com/5-Gallon-Plastic-Hedpack-cap/dp/B08V98K1H2https:/www.amazon.com/5-Gallon-Plastic-Hedpack-cap/dp/B08V98K1H2)"5 Gallon Plastic Hedpack with cap" from Midwest Brewing
+3. Consider buying extended length pipette tips for sampling
+
 ## Multiple min-eVOLVERs
 
 You can connect multiple min-eVOLVERs to one computer, as long as you have enough USB ports!
