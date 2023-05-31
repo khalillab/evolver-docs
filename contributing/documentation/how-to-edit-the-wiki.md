@@ -24,7 +24,7 @@ For more information see the GitBook [documentation](https://docs.gitbook.com/co
 2. Get an invite to the organization (email your Khalil lab contact)
 3. Navigate to the eVOLVER Wiki by switching organization to Khalil Lab
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (8).png>)
 
 4. Click "Edit" in the top right corner to open a Change Request
 5. Use the GitBook [editor](https://docs.gitbook.com/content-creation/editor) to make your changes
@@ -47,7 +47,7 @@ Making only a few edits to the Wiki
 2. Get an invite to the organization (email your Khalil lab contact)
 3. Navigate to the eVOLVER Wiki by switching organization to Khalil Lab
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (8).png>)
 
 4. &#x20;See the GitBook [documentation](https://docs.gitbook.com/collaboration/comments-discussion)
 

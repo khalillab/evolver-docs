@@ -149,7 +149,7 @@ You can provide a path to ls to list files not in the current working directory.
 
 Stands for **C**hange **D**irectory. Moves the current working directory to the path specified as an argument to the command. The syntax is `cd <path>`, where \<path> can be any relative or absolute path on the file-system. If the path is invalid, the current working directory will stay the same.
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 #### <mark style="color:blue;">mkdir</mark>
 

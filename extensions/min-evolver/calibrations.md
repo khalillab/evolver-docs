@@ -158,7 +158,7 @@ After changing which standards are being read, wait for the server to cycle a co
     1. `python3 sigmoid_fit.py`
 12. Evaluate the resulting curve fit in the window that pops up
 
-<figure><img src="../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption><p>Fitting curves to OD calibration data for two min-eVOLVERs. While there is some noise, standards generally follow the sigmoid function.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Fitting curves to OD calibration data for two min-eVOLVERs. While there is some noise, standards generally follow the sigmoid function.</p></figcaption></figure>
 
 9. Copy and paste the values output from `sigmoid_fit.py` in `evolver-min/evolver/calibrations.json` for the correct vial and correct min-eVOLVER
 
