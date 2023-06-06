@@ -36,7 +36,7 @@ Set your computer to never fall asleep to prevent experiments from being halted.
 5. Start the experiment using the command:
    1. `python3 eVOLVER.py -i <your_evolver's_IP_address>`
    2. `python3 eVOLVER.py -i 192.168.1.9`
-6. [Calibrate to blank](../../software/dpu-code-structure/od-blank.md)
+6. [Calibrate to blank](od-blank.md)
    1. Temperature should be fully equilibrated before this
    2. DO NOT add cells before blanking, whatever OD value the cells + media have will be subtracted from future measurements
 7. Stop the experiment using the keyboard shortcut `control+C`

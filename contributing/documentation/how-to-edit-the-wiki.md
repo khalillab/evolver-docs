@@ -33,6 +33,10 @@ For more information see the GitBook [documentation](https://docs.gitbook.com/co
 6. Once finished with changes, click "Submit for review"
 7. Your request will be reviewed and possibly edited before being merged with the Wiki
 
+{% hint style="info" %}
+Be sure to update your change request if you are prompted, because that means someone else has merged a request elsewhere. It also means some functions won't work until you update.
+{% endhint %}
+
 ## Method 2: Comment on GitBook
 
 ### When to use

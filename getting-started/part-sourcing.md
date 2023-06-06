@@ -27,6 +27,10 @@ Old caps: [Making vial caps w/ laser cutter and pipette tip](https://www.evolver
 
 ## Relevant Forum Posts
 
+{% hint style="warning" %}
+Note that the eVOLVER Consumables form post calls for 5/32" barbed connectors and 1/8" tubing. This is no longer recommended; refer to the "Fluidics tab" on the google sheet above and [media bottle and splitter guide.](../guides/making-media-bottles-and-splitters.md#overview)
+{% endhint %}
+
 [eVOLVER Consumables](https://www.evolver.bio/t/evolver-comsumables/189)
 
 [Vial Racks](https://www.evolver.bio/t/vial-racks-for-dishwashing-autoclaving/76)

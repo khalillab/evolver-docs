@@ -97,7 +97,7 @@ The cell stock will likely be much too dense to measure undiluted. For example, 
 
 13. On the eVOLVER app home screen, make sure you are connected to your eVOLVER (green symbol next to active eVOLVER), then choose `CALIBRATIONS` and then `O.D.`
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 14. Give the calibration a name (a standard suggestion is `YYMMDD_YourInitials_od`) and _click_ enter.
 15. Click on the white box by the `S0`. The display should now have an overlay with `Sample 0` on top of a box with a keypad. Input the OD values of each sample.

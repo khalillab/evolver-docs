@@ -4,11 +4,18 @@ description: For routing media from standard lab glassware
 
 # Making media bottles and splitters
 
+## Overview
+
+{% hint style="warning" %}
+Note: The original [forum post](https://www.evolver.bio/t/making-bottles-and-media-splitters/63) calls for 5/32" barbs and 1/8" inner diameter tubing for use with media bottles and splitters. While this will work (with some effort) for soft silicone tubing, it does not work for more firm tubing or some barb styles. We advise that you always match the barb size rating to the tubing inner diameter; i.e. always use 1/8" barbs for 1/8" ID tubing, and 5/32" barbs for 5/32" ID tubing.&#x20;
+{% endhint %}
+
 While large carboys (autoclavable plastic jugs >10L) are useful for long-term experiments or particularly fast-growing bugs, the best typical media storage is standard Pyrex/Corning bottles, which range from 100 mL to 10 L. The 1-2L bottles are the most convenient size for media prep, short experiments, and experiments with many media types, so we'll be sharing the process for those bottles here.
 
 Per media bottle, you will need (see [parts list](../getting-started/part-sourcing.md), fluidics page):
 
-Parts:\
+### Parts:
+
 1 ft of 1/8" ID silicone tubing\
 2 Female luer-lock connector with 1/8" barb, polypropylene\
 1 Male luer-lock connector with 1/8" barb, polypropylene\
@@ -17,6 +24,8 @@ Tools:\
 Scissors/razor\
 Drill gun\
 3/16" drill bit
+
+### Step-by-step
 
 ![Assembled supplies and tools for media bottle](../.gitbook/assets/764708aa78494e9c988044d4d28f5a81ed026f89.jpeg)
 
@@ -45,5 +54,3 @@ Rinse out the straw with diH2O, and add a male luer cap to the top of the straw 
 You can also make splitters with the same 1/8" tubing and corresponding luer-barb connectors and barbed T-connectors, allowing you to split one media bottle to multiple input lines. We usually sterilize the splitters using 10% bleach and ethanol (by connecting them before sterilizing all the lines when beginning  an eVOLVER experiment), but everything shown here is autoclavable as well.
 
 ![Example 4:1 and 2:1 media line splitters.](../.gitbook/assets/793cb7fdf5a874480196eb46544b125983a2a604.jpeg)
-
-Note: The original [forum post](https://www.evolver.bio/t/making-bottles-and-media-splitters/63) called for 5/32" barbs and 1/8" inner diameter tubing. While this will work for soft silicone tubing, it does not work for more firm tubing or some barb styles. We advise that you always match the barb size rating to the tubing inner diameter; i.e. always use 1/8" barbs for 1/8" ID tubing, and 5/32" barbs for 5/32" ID tubing. Both diameters of tubing have similarly good stiffness and flow properties for routing media, but 1/8" barb fittings and tubing are slightly cheaper, so we generally opt for those.

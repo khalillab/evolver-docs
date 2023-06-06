@@ -141,7 +141,7 @@ Stands for list. This command will list out all files in a given directory.
 
 You can provide a path to ls to list files not in the current working directory. Some useful flags are -l (long listing format), which can show you file permissions, owner, size, and last modified date, and -a (shows all files, including hidden files).
 
-![](<../.gitbook/assets/image (2) (1) (2).png>)
+![](<../.gitbook/assets/image (2) (1) (2) (1).png>)
 
 ![Notice the .im\_a\_hidden\_file.txt entry that is only in the output when using -a.](<../.gitbook/assets/image (37).png>)
 
@@ -217,7 +217,7 @@ Displays the first 10 lines of a file. Pass the -n argument to specify how many 
 
 Displays the last 10 lines of a file. Pass the -n argument to specify how many lines to display. Pass the -f flag to follow, or to not stop when end of file is reached, but rather to wait for additional data to be appended to the input. Press Ctrl + C to quit afterwards. **Useful for watching log files in real time**.
 
-![](<../.gitbook/assets/image (4) (2).png>)
+![](<../.gitbook/assets/image (4) (2) (1).png>)
 
 #### <mark style="color:blue;">less</mark>
 
