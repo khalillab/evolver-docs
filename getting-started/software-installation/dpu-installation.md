@@ -10,17 +10,17 @@ You can run eVOLVER experiment culture routines directly on the command line, or
 We recommend running the DPU through the GUI for most use cases. Please see the [Electron App (GUI) Installation](electron-app-gui-installation.md) documentation and the [GUI Start Guide](../../experiments/starting-an-experiment/gui-start-guide.md) for more information.
 {% endhint %}
 
-{% hint style="info" %}
-If you are unfamiliar with working on a command line terminal, but cannot use the Electron GUI for your application, check out the[ Command Line Usage](../../guides/command-line-usage.md) guide!
-{% endhint %}
-
 {% hint style="warning" %}
 Even if you plan to use the GUI to run your experiments, you still need to go through these steps!
 {% endhint %}
 
+{% hint style="success" %}
+If you are unfamiliar with working on a command line terminal or cannot use the Electron GUI for your application, check out the [Command Line / Terminal Usage](../../guides/command-line-usage.md) guide!
+{% endhint %}
+
 ## (Mac only) Homebrew and openssl/sqlite installation
 
-To install homebrew:
+In Terminal, install homebrew:
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -69,6 +69,7 @@ Do not leave the DPU zip file in your Downloads directory. Please move to approp
 7\. Navigate to the DPU directory you just downloaded and unzipped:
 
 * Use this command: `cd <path_to_dpu>`
+* Replace the `<path_to_dpu>` with the location you put your dpu
 
 {% hint style="info" %}
 Windows users: you need python installed. If you install python and are met with 'python3 not found' try `python`, `py`, or `ipython` instead.
@@ -93,6 +94,10 @@ First upgrade pip:
 Then install everything:
 
 `python3 -m pip install .`
+
+{% hint style="danger" %}
+6/26/23 - We are having issues with pip in the DPU installation. Check the forum [discussion](https://www.evolver.bio/t/dpu-installation-issue-exit-code-1/414) if you have a problem.
+{% endhint %}
 
 {% hint style="info" %}
 If you have issues with the setup script, reach out to us on the [forum!](https://www.evolver.bio/)

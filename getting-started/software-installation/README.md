@@ -13,8 +13,3 @@ Search on the [forum ](https://www.evolver.bio/c/software/8)if you have issues w
 [DPU Installation](dpu-installation.md)
 
 [Electron App (GUI) Installation](electron-app-gui-installation.md)
-
-[Arduino Software Installation](../../guides/arduino-software-installation.md)
-
-[Raspberry Pi Reflashing](../../guides/raspberry-pi-configuration.md)
-
