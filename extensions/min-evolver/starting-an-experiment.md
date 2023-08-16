@@ -53,7 +53,8 @@ Do not inoculate cells until after starting the experiment if you want accurate 
 
 In a separate window from your server command line, follow the command line start [guide](../../experiments/starting-an-experiment/command-line-start-guide.md).
 
-1. Start the experiment using the command:
+1. If running more than one min-eVOLVER at a time: you need a separate experiment folder and command line window for each min-eVOLVER
+2. Start the experiment using the command:
    1. `python3 eVOLVER.py -i localhost:<your_min-eV_port>`
    2. `python3 eVOLVER.py -i localhost:5555`
 

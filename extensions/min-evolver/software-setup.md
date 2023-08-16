@@ -1,5 +1,21 @@
 # Setup
 
+## Make / Acquire Additional Hardware
+
+Before Calibration:
+
+1. Acquire a thermometer with probes
+   * Do not use a thermocouple-based thermometer, as the magnetic field from the stir components can interfere with measurements
+   * _We use the "_[Fisherbrand™ Traceable™ Excursion-Trac™ Datalogging Thermometers](https://www.fishersci.com/shop/products/fisher-scientific-traceable-excursion-trac-datalogging-thermometers-7/15081124)"
+2. Acquire 8 eVOLVER vials filled with 15mL water
+   * Glass vials - 40mL  ([Chemglass, CG-4902-08](https://chemglass.com/sample-vials-only-clear-type-1-borosilicate-glass))&#x20;
+
+Before starting an experiment:
+
+1. [Make media bottles with connectors](../../guides/making-media-bottles-and-splitters.md)
+2. Buy a waste container - we use [this ](https://www.amazon.com/5-Gallon-Plastic-Hedpack-cap/dp/B08V98K1H2https:/www.amazon.com/5-Gallon-Plastic-Hedpack-cap/dp/B08V98K1H2)"5 Gallon Plastic Hedpack with cap" from Midwest Brewing
+3. Consider buying extended length 200uL pipette tips for sampling
+
 ## Software Installation
 
 1. Download files from GitHub repositories for the [dpu](https://github.com/FYNCH-BIO/dpu/tree/min) (experiment code) and [server](https://github.com/FYNCH-BIO/evolver/tree/min) (communicator with min-eVOLVER).
@@ -22,6 +38,10 @@ If you are setting up more than one min-eVOLVER, simply make an additional folde
 {% endhint %}
 
 ## Server Startup
+
+{% hint style="info" %}
+If using more than one min-eVOLVER, check the [note ](software-setup.md#multiple-min-evolvers)at the bottom of this page
+{% endhint %}
 
 1. Plug the min-eVOLVER in to your computer using micro-USB and THEN plug it in to the 12V DC power supply.
 
@@ -82,22 +102,14 @@ Do NOT plug the pumps in to the right two ribbon cable ports (reserved for the v
    3. Turn temperature off
 6. Check the server log as commands go in, these should be received and become the new values in the server cycle
 
-## Make / Acquire Additional Experiment Hardware
-
-Before starting an experiment:
-
-1. [Make media bottles with connectors](../../guides/making-media-bottles-and-splitters.md)
-2. Buy a waste container - we use [this ](https://www.amazon.com/5-Gallon-Plastic-Hedpack-cap/dp/B08V98K1H2https:/www.amazon.com/5-Gallon-Plastic-Hedpack-cap/dp/B08V98K1H2)"5 Gallon Plastic Hedpack with cap" from Midwest Brewing
-3. Consider buying extended length pipette tips for sampling
-
 ## Multiple min-eVOLVERs
 
 You can connect multiple min-eVOLVERs to one computer, as long as you have enough USB ports!
 
-1. Make a duplicate min-eVOLVER server code file with a new number ie `evolver2`
+1. Make a duplicate min-eVOLVER server code file with a new number ie `evolver-min2`
 2. Plug in the new min-eVOLVER and follow the Server Startup guide
-   1. The new min-eVOLVER will have a different `serial_port`
-   2. You need to define a different port number (try 5556) in both the `conf.yml` file and the `custom_script.py` (see [here](starting-an-experiment.md#software))
+   1. The new min-eVOLVER will have a different `serial_port` because it is plugged in to a different USB port
+   2. You need to define a different port number (try 5556) in the `conf.yml` file
 3. Make sure you're in the right server code folder when starting the new server
 4. Use a different command line window for each min-eVOLVER server
 
