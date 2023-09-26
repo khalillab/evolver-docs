@@ -40,7 +40,7 @@ If you are attempting to modify this file via a terminal, be sure to escape the 
 
 ![](<../../.gitbook/assets/Screen Shot 2022-04-12 at 11.16.22 AM.png>)
 
-5\. Add a line in this file between the braces: `"dpu-env": "/Users/<your username>/Document/dpu/dpu-env"`
+5\. Add a line in this file between the braces: `"dpu-env": "/Users/<your username>/Document/dpu/venv"`
 
 {% hint style="danger" %}
 If you add this line to the beginning of the block, be sure to add a comma at the end! If you add it to the end, put a comma on the line before it.
@@ -82,7 +82,7 @@ You may need to [enable ](https://support.microsoft.com/en-us/windows/view-hidde
 
 ![](<../../.gitbook/assets/image (47).png>)
 
-4\. Add a line in this file between the braces: `"dpu-env": "C:\\Users\\<Your-UserName>\\Desktop\\dpu\\dpu-env"`
+4\. Add a line in this file between the braces: `"dpu-env": "C:\\Users\\<Your-UserName>\\Desktop\\dpu\\venv"`
 
 Note the escaped `\` , be sure to put double `\\` throughout the path.
 
