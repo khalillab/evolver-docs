@@ -102,6 +102,7 @@
   * [custom\_script.py](software/dpu-code-structure/custom\_script.py.md)
   * [Experiment Data Files](software/dpu-code-structure/experiment-data-files.md)
   * [eVOLVER.py](software/dpu-code-structure/evolver.py.md)
+  * [calibrate.py](software/dpu-code-structure/calibrate.py.md)
 * [Arduino Code Structure](software/arduino-code-structure.md)
 * [Server Code Structure](software/server-code-structure/README.md)
   * [Calibration Files](software/server-code-structure/calibration-files.md)
