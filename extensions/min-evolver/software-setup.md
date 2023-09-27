@@ -23,15 +23,36 @@ Before starting an experiment:
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Make sure you are on the 'min' branch (upper left) and click the code button to download the .zip file for the code</p></figcaption></figure>
 
 2. Follow the dpu installation [guide](../../getting-started/software-installation/dpu-installation.md).
-3. We will use the virtual environment made here to run the experiment
-4. Note: as of now, there is no GUI integration. Command line only.
-5. Create a server virtual environment
+   1. We will use the virtual environment made here to run the experiment
+   2. Note: as of now, there is no GUI integration. Command line only.
+3. Create a server virtual environment
    1. In the command line still, open a new tab or window&#x20;
-   2. If necessary, deactivate the dpu virtual environment with the command below.
-      1. `deactivate`
+   2.  If necessary, deactivate the dpu virtual environment with the command below.
+
+       1. `deactivate`
+
+       ![](../../.gitbook/assets/image.png)
    3. Navigate to the server directory `evolver-min`
-   4. Follow the dpu installation guide from step 7 to make a server virtual environment
-   5. Replace instances of `dpu` in commands with `server`
+   4.  Make a server virtual environment
+
+       1. To avoid confusion with the dpu environment, call your server virtual environment `server-env`
+
+       Mac:
+
+       `python3.9 -m venv server-env`
+
+       `source server-env/bin/activate`
+
+       Windows PowerShell:
+
+       `py -3.9 -m venv server-env`
+
+       `server-env\Scripts\Activate.ps1`
+   5.  Use  poetry to install all necessary dependencies.
+
+       ```
+       poetry install
+       ```
 
 {% hint style="info" %}
 If you are setting up more than one min-eVOLVER, simply make an additional folder and label it something like `evolver-min2`. No need to make an additional virtual environment.
@@ -61,7 +82,7 @@ Whenever possible, avoid plugging / unplugging the min-eVOLVER micro-USB, which 
    2.  On Windows PowerShell:
 
        `server-env\Scripts\Activate.ps1`
-4. Navigate to the `/evolver/` folder inside the evolver-min server code
+4. Navigate to the `/evolver/` folder inside the `evolver-min` server code
 5. Attempt to run the server
    1. `python3 evolver.py`
    2. Exit from the command using `control + C`
