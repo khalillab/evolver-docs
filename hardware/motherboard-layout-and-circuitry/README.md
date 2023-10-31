@@ -17,17 +17,17 @@ TODO: Include a figure to highight transfer of data including voltage divider
 
 ## Tuning Sensor Behavior
 
-As mentioned earlier, the Motherboard makes use of voltage divider circuits to acquire sensory data on cultures. By connecting a two resistors in series with a Vin, a voltage source we can produce Vout, a set fraction of Vin (Fig 1.). The value of Vout is based on the the resitance values of the two resitors and the value of Vin, which can be modeled as:
+As mentioned earlier, the Motherboard makes use of voltage divider circuits to acquire sensory data on cultures. Briefly, a voltage divider circuit works by connecting two resistors in series with Vin, a voltage source, to produce Vout, a set fraction of Vin (Fig 1.). The value of Vout is based on the the resistance values of the two resitors and the value of Vin, which can be modeled as:
 
 $$
 Vout = Vin *R2/(R1+R2)
 $$
 
+<figure><img src="../../.gitbook/assets/voltage_divider_circuit.svg" alt=""><figcaption><p>Figure 1. Basic voltage divider circuit</p></figcaption></figure>
 
+This principle is used by the Motherboard to implement sensory circuits with components that transduce environmental signals into electrical signals (i.e. thermistors, photodiode, phototransistors, etc). This signal is read via Vout, the voltage across the resistor, which is proportional to the sensor's electrical readout (Fig 2.).
 
-![Figure 1. Basic voltage divider circuit](../../.gitbook/assets/voltage-divider-main-circuit.webp)
-
-This principle is used by the Motherboard to implement sensory circuits that leverage variable resistor elements, which produce varying resistance levels in response to environmental parameters (i.e. thermistors, photodiode, etc). By placing a variable resistor at R2, we can acquire a Vout that is proportional to the resistance R2 is producing, which in turn should be proportional to some environmental condition (i.e. heat).&#x20;
+<figure><img src="../../.gitbook/assets/photodiode_circuit.svg" alt=""><figcaption><p>Figure 2. Optical density sensor circuit using a photodiode sensor to transduce changes in light.</p></figcaption></figure>
 
 Based on experimental conditions, it may be of interest to tune how these sensory circuits behave to acquire optimal data. The Motherboard offers two primary ways to modify sensory circuits: 1) swap R1 to alter sensor sensitivity and 2) swap Vin to alter the circuit's dynamic range.
 
