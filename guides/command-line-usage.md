@@ -70,7 +70,7 @@ A relative path is the route through the file-system from one location to anothe
 
 When writing out paths on the shell, if you do not write an absolute path, the shell will interpret the path as relative **starting from the current working directory**. For example, let’s say a user wants to do something with the hello.c file in their /home/unixuser1/myprograms directory, and their current working directory is their home directory (/home/unixuser1), as in this figure:
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (2).png>)
 
 The relative path to their c file would be the following:
 
@@ -149,7 +149,7 @@ You can provide a path to ls to list files not in the current working directory.
 
 Stands for **C**hange **D**irectory. Moves the current working directory to the path specified as an argument to the command. The syntax is `cd <path>`, where \<path> can be any relative or absolute path on the file-system. If the path is invalid, the current working directory will stay the same.
 
-![](<../.gitbook/assets/image (8) (1).png>)
+![](<../.gitbook/assets/image (8) (1) (2).png>)
 
 #### <mark style="color:blue;">mkdir</mark>
 
@@ -181,7 +181,7 @@ Notice in this example that the directory went from having two files to only hav
 
 Stands for remove. Delete a file at a given path. To delete an entire directory, pass the -r flag. You can also pass the -f flag which will not prompt for confirmation regardless of the files permissions. Remember, **there is no undo** when using this command. The syntax is rm \<filename>
 
-![](<../.gitbook/assets/image (14) (1) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1) (1).png>)
 
 #### <mark style="color:blue;">touch</mark>
 
@@ -199,7 +199,7 @@ To append a line into a file:
 
 `echo "This is a string I want to append" >> myfile.txt`
 
-![](<../.gitbook/assets/image (3) (1) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 #### <mark style="color:blue;">cat</mark>
 

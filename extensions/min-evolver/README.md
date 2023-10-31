@@ -4,7 +4,7 @@
 
 The min-eVOLVER is a minimal, mini version of the main eVOLVER. It runs in the same software ecosystem with minimal changes to the code. However, the min-eVOLVER only controls two vials and six pumps, making it simpler, smaller, and less costly.
 
-<img src="../../.gitbook/assets/image (48).png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption><p>min-eVOLVER set up for a basic turbidostat on both vials.</p></figcaption></figure>
 
 ## Software Architecture
 

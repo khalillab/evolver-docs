@@ -9,7 +9,7 @@ This page only details differences from the general min-eVOLVER experimental [pr
 * For general PACE methods see [Miller, Wang 2020 _Nature Protocols_](https://www.nature.com/articles/s41596-020-00410-3)_._
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Two min-eVOLVERs set up for ePACE. They are connected to a dedicated laptop (preliminary picture)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Two min-eVOLVERs set up for ePACE. They are connected to a dedicated laptop (preliminary picture)</p></figcaption></figure>
 
 ### Experimental Overview
 
@@ -62,15 +62,15 @@ Lagoon volume = 10 mL
 To have high accuracy when using the low volume pumps it is important to avoid individual drops. Therefore we want needles to abut inside of the vials to get a constant stream of fluid when pumping.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Vials set up for reservoir (left) and lagoon (right).</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Vials set up for reservoir (left) and lagoon (right).</p></figcaption></figure>
 
 ## Fluidic Lines
 
 Hook up pump lines in the configuration shown below
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## custom\_script.py
 
@@ -111,4 +111,4 @@ chemostats will not pump until this amount of hours has elapsed
 3. Wait for host cells to grow up before starting induction (`inducer_on = True`) and inoculating with phage
 4. As of 04/21/23 inducer is only implemented for pump 5
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Picture of default min-eVOLVER settings as of 04/14/23.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Picture of default min-eVOLVER settings as of 04/14/23.</p></figcaption></figure>

@@ -1,26 +1,10 @@
-# Setup
-
-## Make / Acquire Additional Hardware
-
-Before Calibration:
-
-1. Acquire a thermometer with probes
-   * Do not use a thermocouple-based thermometer, as the magnetic field from the stir components can interfere with measurements
-   * _We use the "_[Fisherbrand™ Traceable™ Excursion-Trac™ Datalogging Thermometers](https://www.fishersci.com/shop/products/fisher-scientific-traceable-excursion-trac-datalogging-thermometers-7/15081124)"
-2. Acquire 8 eVOLVER vials filled with 15mL water
-   * Glass vials - 40mL  ([Chemglass, CG-4902-08](https://chemglass.com/sample-vials-only-clear-type-1-borosilicate-glass))&#x20;
-
-Before starting an experiment:
-
-1. [Make media bottles with connectors](../../guides/making-media-bottles-and-splitters.md)
-2. Buy a waste container - we use [this ](https://www.amazon.com/5-Gallon-Plastic-Hedpack-cap/dp/B08V98K1H2https:/www.amazon.com/5-Gallon-Plastic-Hedpack-cap/dp/B08V98K1H2)"5 Gallon Plastic Hedpack with cap" from Midwest Brewing
-3. Consider buying extended length 200uL pipette tips for sampling
+# Software Installation and Startup
 
 ## Software Installation
 
 1. Download files from GitHub repositories for the [dpu](https://github.com/FYNCH-BIO/dpu/tree/min) (experiment code) and [server](https://github.com/FYNCH-BIO/evolver/tree/min) (communicator with min-eVOLVER).
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Make sure you are on the 'min' branch (upper left) and click the code button to download the .zip file for the code</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (3).png" alt=""><figcaption><p>Make sure you are on the 'min' branch (upper left) and click the code button to download the .zip file for the code</p></figcaption></figure>
 
 2. Follow the dpu installation [guide](../../getting-started/software-installation/dpu-installation.md).
    1. We will use the virtual environment made here to run the experiment
@@ -31,7 +15,7 @@ Before starting an experiment:
 
        1. `deactivate`
 
-       ![](../../.gitbook/assets/image.png)
+       ![](<../../.gitbook/assets/image (49).png>)
    3. Navigate to the server directory `evolver-min`
    4.  Make a server virtual environment
 
@@ -61,7 +45,7 @@ If you are setting up more than one min-eVOLVER, simply make an additional folde
 ## Server Startup
 
 {% hint style="info" %}
-If using more than one min-eVOLVER, check the [note ](software-setup.md#multiple-min-evolvers)at the bottom of this page
+If using more than one min-eVOLVER, check the [note ](software-installation-and-startup.md#multiple-min-evolvers)at the bottom of this page
 {% endhint %}
 
 1. Plug the min-eVOLVER in to your computer using micro-USB and THEN plug it in to the 12V DC power supply.
@@ -99,7 +83,7 @@ Be careful to not alter the `conf.yml` file structure, only the variables (after
    1. The server cycles once every 20 seconds
    2. If the server is not connected to the min-eVOLVER, commands will fail
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>An example min-eVOLVER server readout.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p>An example min-eVOLVER server readout.</p></figcaption></figure>
 
 {% hint style="info" %}
 If you want to know more about the server code or how commands work click [here](../../software/server-code-structure/).

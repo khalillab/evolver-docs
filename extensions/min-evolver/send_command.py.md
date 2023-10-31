@@ -15,7 +15,7 @@ Useful for:
 {% hint style="warning" %}
 You must
 
-1. Start the [server](software-setup.md#server-startup) before using send\_command.py, otherwise commands will not go through.
+1. Start the [server](software-installation-and-startup.md#server-startup) before using send\_command.py, otherwise commands will not go through.
 2. In another terminal window, enter into the `dpu` virtual environment and navigate to the folder send\_command.py is in: `/dpu/experiment/`
 {% endhint %}
 

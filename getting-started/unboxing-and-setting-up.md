@@ -17,6 +17,10 @@ If you ordered the standard kit, this is the tutorial for you! The kit contains 
 
 There are several components with protective foam. Insure all the components were delivered intact.
 
+{% hint style="info" %}
+If your smart sleeves were delivered unassembled use [this ](../guides/building-a-smart-sleeve.md)assembly guide.&#x20;
+{% endhint %}
+
 _16 Smart Sleeves and a Box of Accessories_
 
 ![](../.gitbook/assets/parts1.jpeg)

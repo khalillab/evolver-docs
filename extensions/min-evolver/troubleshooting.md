@@ -4,7 +4,7 @@
 
 ### My min-eVOLVER is plugged in but I can't connect to it via the server code
 
-* If the server code says that the expected min-eVOLVER port is plugged in, check that the `conf.yml` file has the correct port address in it (as detailed in the [setup](software-setup.md#server-startup)).
+* If the server code says that the expected min-eVOLVER port is plugged in, check that the `conf.yml` file has the correct port address in it (as detailed in the [setup](software-installation-and-startup.md#server-startup)).
 * As a last resort, [reupload](troubleshooting.md#reupload-the-arduino) the Arduino [code](https://github.com/FYNCH-BIO/evolver-arduino/tree/master/SAMD21/MINEVOLVER)
 
 ### The server is cycling (every \~20 seconds there are new values) but all commands are erroring
