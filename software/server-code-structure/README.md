@@ -22,11 +22,13 @@ The timing of broadcasts is handled in `evolver.py`, while all subsequent logic 
 
 #### conf.yml
 
-This is the configuration file for the eVOLVER server as a YAML file. YAML is a "_human-friendly, cross language, Unicode based data serialization language designed around the common native data types of dynamic programming languages_". You can read more about YAML [here](https://yaml.org/spec/1.2.2/).
-
 The server uses this file to notate what kinds of experimental parameters are connected, how they should be used, and configurations for running the server itself.
 
-You can modify this file manually (it is meant to be human readable), but be careful not to break the structure or the server will not run. Read more about this file [here](configuration-files-conf.yml.md).
+Read more about this file [here](configuration-files-conf.yml.md).
+
+{% hint style="danger" %}
+You can modify this file manually (it is meant to be human readable), but be careful not to break the structure or the server will not run.&#x20;
+{% endhint %}
 
 #### calibrations.json
 
@@ -100,3 +102,12 @@ where data is a dictionary (json) containing the data to send. Note that any fun
 Be careful with the async/await keywords - read up on the [socketio documentation](https://python-socketio.readthedocs.io/en/latest/index.html) if you want to write your own custom communication events. Improper usage of these keywords and functions can cause the server to hang up or not run at all.
 {% endhint %}
 
+## Relevant information
+
+[View server log and restart server](../../guides/view-the-server-log-and-restart-server.md)
+
+[How to update the server](../../guides/updating-the-evolver-server.md)
+
+[Raspberry Pi hardware page](../../hardware/raspberry-pi.md)
+
+[Server troubleshooting](../../troubleshooting/server-troubleshooting.md)

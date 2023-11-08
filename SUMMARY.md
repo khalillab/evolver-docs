@@ -47,6 +47,7 @@
 * [Making media bottles and splitters](guides/making-media-bottles-and-splitters.md)
 * [Building a Smart Sleeve](guides/building-a-smart-sleeve.md)
 * [Arduino Software Installation](guides/arduino-software-installation.md)
+* [View the Server Log and Restart Server](guides/view-the-server-log-and-restart-server.md)
 * [Raspberry Pi Configuration](guides/raspberry-pi-configuration.md)
 * [Updating the eVOLVER Server](guides/updating-the-evolver-server.md)
 * [Command Line Usage](guides/command-line-usage.md)

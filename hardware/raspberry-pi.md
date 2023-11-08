@@ -20,4 +20,4 @@ We provide a pre-configured RPi image that is configured to run all eVOLVER soft
 
 ### Setting up a new RPi
 
-If you need to setup a new RPi, download the image linked above and install the Raspberry Pi Imager tool on your personal laptop or computer. Plug in the SD card from the RPi and upload them image onto it (this process might take a while). Afterwards, you can plug the card back into the RPi and [update the server code](https://www.evolver.bio/t/updating-the-evolver-server/69).
+If you need to setup a new RPi, download the image linked above and install the Raspberry Pi Imager tool on your personal laptop or computer. Plug in the SD card from the RPi and upload them image onto it (this process might take a while). Afterwards, you can plug the card back into the RPi and [update the server code](../guides/updating-the-evolver-server.md).

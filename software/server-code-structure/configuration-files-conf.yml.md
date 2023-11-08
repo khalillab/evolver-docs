@@ -2,15 +2,31 @@
 
 {% embed url="https://github.com/FYNCH-BIO/evolver/blob/master/evolver/conf.yml" %}
 
-For documentation on YAML files, please see the official documentation [here](https://yaml.org/).
-
 ## Summary
 
-Configuration files (conf.yml) contain the parameters for the server to run.
+This is the configuration file for the eVOLVER server. The server uses this file to notate what kinds of experimental parameters are connected, how they should be used, and configurations for running the server itself.
+
+It is a YAML file. YAML is a "_human-friendly, cross language, Unicode based data serialization language designed around the common native data types of dynamic programming languages_". You can read more about YAML [here](https://yaml.org/spec/1.2.2/).
 
 ## Parameter Explanations
 
 {% embed url="https://docs.google.com/spreadsheets/d/1yUO_DxTS0hi0ieF49wMkXmHYaZIrrflN_vwyP01K5V0/edit?usp=sharing" %}
+
+## Other Parameters in conf.yml
+
+### `broadcast_timing` (in seconds)
+
+How often the server will cycle (run through all of parameters in its list)
+
+## Customizing conf.yml
+
+{% hint style="danger" %}
+Edit the conf.yml file at your own risk. It is made to be human-readable, but small changes in the formatting will cause the server not to run.
+{% endhint %}
+
+#### Adding 'wait' commands or increasing number of parameters greatly
+
+If you use 'wait' commands (see below) or add many commands for the server to run through, you will need to increase the `broadcast_timing` or the server will not finish its cycle before starting a new one. This will cause your last few commands to be never run.
 
 ## Advanced conf.yml: Subcommands
 
@@ -45,6 +61,6 @@ An example subcommand:
 
 ### Examples of potential alternate conf files
 
-Calibration conf - broadcast\_timing parameter should be low to speed up calibration
-
-Experiment conf - the OD LED might need to be normally off unless OD is read to prevent the light affecting sensors
+* Calibration conf - (default conf) broadcast\_timing parameter should be low to speed up calibration
+* stir\_pause\_on\_od - prevents stirring from affecting OD. Important if bubbling or in low volume applications
+* odled\_normally\_off - OD LED will be normally off unless OD is read to prevent the IR light affecting other light sensors
