@@ -33,7 +33,7 @@ For example for two min-eVOLVER experiments:
 * 1`send_commands.py` window (`dpu` environment)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption><p>An example fluidics layout for basic chemostat or turbidostat. If necessary, inducer can be programmed to be controlled via the low flow-rate pumps (not shown).</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>An example fluidics layout for basic chemostat or turbidostat. If necessary, inducer can be programmed to be controlled via the low flow-rate pumps (not shown).</p></figcaption></figure>
 
 4. [Load the vials](../../experiments/starting-an-experiment/loading-vials-and-setting-initial-conditions.md)
    1. Use `send_command.py` to fill the vials to appropriate volumes

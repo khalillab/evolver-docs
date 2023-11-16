@@ -71,11 +71,11 @@ Whenever possible, avoid plugging / unplugging the min-eVOLVER micro-USB, which 
 
        `server-env\Scripts\Activate.ps1`
 4. Navigate to the `/evolver/` folder inside the `evolver-min` server code
-5. Attempt to run the server
+5. Attempt to run the server using the following command:
    1. `python3 evolver.py`
-   2. Exit from the command using `control + C`
 6. This will tell you the list of min-eVOLVERs plugged in to the computer
-7. Copy the full port address into the `serial_port` variable in the `conf.yml` file for the server
+7. Exit from the server log using `control + C`
+8. Copy the full port address into the `serial_port` variable in the `conf.yml` file for the server
    1. On Mac OS for example: `serial_port: /dev/cu.usbmodem1301`
 
 {% hint style="warning" %}
@@ -117,13 +117,7 @@ Make sure you don't swap your min-eVOLVERs USB ports without meaning to!
 
 ## Test min-eV Hardware
 
-{% hint style="danger" %}
-Do NOT plug the pumps in to the right two ribbon cable ports (reserved for the vials). The pumps will draw too much current and likely break components inside of the min-eVOLVER board.
-{% endhint %}
-
-
-
-1. Plug in the hardware as shown above
+1. Plug in the micro-USB and then the 12V power supply
 2. Start the server
 3. In another terminal window, enter the `dpu` virtual environment
 4. Navigate to the `/dpu/experiment/` folder

@@ -2,14 +2,12 @@
 
 ## Overview
 
-This page only details differences from the general min-eVOLVER experimental [protocol](starting-an-experiment.md). You are also expected to have an understanding of PACE and how it is normally run before doing ePACE.
+This page only details differences from the general min-eVOLVER experimental [protocol](../starting-an-experiment.md). You are also expected to have an understanding of PACE and how it is normally run before doing ePACE.
 
 {% hint style="info" %}
 * ePACE described initially in[ Huang, Heins et al. 2022 _Nature Biotech_](https://www.nature.com/articles/s41587-022-01410-2#Sec15)_._
 * For general PACE methods see [Miller, Wang 2020 _Nature Protocols_](https://www.nature.com/articles/s41596-020-00410-3)_._
 {% endhint %}
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Two min-eVOLVERs set up for ePACE. They are connected to a dedicated laptop (preliminary picture)</p></figcaption></figure>
 
 ## Experimental Overview
 
@@ -62,15 +60,15 @@ Lagoon volume = 10 mL
 To have high accuracy when using the low volume pumps it is important to avoid individual drops. Therefore we want needles to abut inside of the vials to get a constant stream of fluid when pumping.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Vials set up for reservoir (left) and lagoon (right).</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Vials set up for reservoir (left) and lagoon (right).</p></figcaption></figure>
 
 ## Fluidic Lines
 
 Hook up pump lines in the configuration shown below
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## custom\_script.py
 
@@ -79,14 +77,14 @@ Copy the ePACE template under `/dpu/experiment/epace-template/`
 ### "USER DEFINED GENERAL SETTINGS"
 
 1. Most likely you should not need to alter any settings in this section, other than `EVOLVER_PORT`
-2. Use the [`"hybrid"` function](epace-with-min-evolver.md#experimental-overview)
+2. Use the [`"hybrid"` function](./#experimental-overview)
 3. Collapse or ignore `growth_curve`, `turbidostat`, and `chemostat` functions
 
 ### Alter settings in the `hybrid` function=
 
 `vial 0` is the host cell reservoir
 
-* It is a turbidostat _and_ a chemostat. Read why [here](epace-with-min-evolver.md#experimental-overview).
+* It is a turbidostat _and_ a chemostat. Read why [here](./#experimental-overview).
 * We are setting OD for `vial 0`
 
 #### `start_time`&#x20;
@@ -95,14 +93,21 @@ chemostats will not pump until this amount of hours has elapsed
 
 #### `rate_config`
 
-1. In vial volumes per hour
-2. Reservoir - set to equal the volume you are taking out
-3. Lagoon - set to based off of phage replication rate
-4. For example:
-   1. Setting to `rate_config = [1, 1]`
+1. Default format: `rate_config = [reservoir, lagoon]`
+2. In vial volumes per hour (V/h)
+3. Reservoir
+   1. Set to greater than the volume you are taking out
+   2. Do not set too high or your cells will be unable to grow fast enough and wash out
+   3. Turbidostat controls will separately preventing reservoir from increasing in OD too much&#x20;
+4. Lagoon - set based off of phage replication rate
+5. For example:
+   1. If you have a 30mL reservoir and 10mL lagoon
+   2. Setting to `rate_config = [1, 1]`
       1. 30mL into reservoir and 10mL into lagoon per hour
-   2. Setting to `rate_config = [0.5, 0.5]`
-      1. 15mL into reservoir and 5mL into lagoon per hour
+   3. Setting to `rate_config = [0.4, 1.2]`
+      1. If we set lagoon rate to 1.2 V/h, we should not set reservoir rate to lower than 0.4 V/h to avoid draining the reservoir
+      2. 1.2 V/h \* 10mL = 12mL/h into lagoon
+      3. 0.4 V/h \* 30mL = 12mLh into reservoir
 
 #### Inducer
 
@@ -110,5 +115,5 @@ chemostats will not pump until this amount of hours has elapsed
 2. Turn inducer off to start (`inducer_on = False`)
 3. Wait for host cells to grow up before starting induction (`inducer_on = True`) and inoculating with phage
 
-<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Picture of default min-eVOLVER settings as of 04/14/23.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Picture of default min-eVOLVER settings as of 04/14/23.</p></figcaption></figure>
 
