@@ -11,6 +11,10 @@ You should have completed both [setup](software-installation-and-startup.md) and
 2. Run an experiment with water before doing so with cells, especially if you change the code
 {% endhint %}
 
+## Questions?
+
+Ask about experiments in the relevant category on the [forum](https://www.evolver.bio/c/min-evolver/min-evolver-experiment/23).
+
 ## Setup
 
 1. [Prepare vials](../../experiments/starting-an-experiment/preparing-vials.md)
@@ -46,6 +50,10 @@ Do not inoculate cells until after starting the experiment if you want accurate 
 6. Allow min-eVOLVER to come to temperature
 
 ## Running the Experiment
+
+{% hint style="warning" %}
+Make sure that your eVOLVER computer is set to never sleep. If your computer falls asleep while you're running an experiment, you will not be collecting data during that time. See more info [here](troubleshooting.md#server-disconnecting-during-an-experiment).
+{% endhint %}
 
 In a separate window from your server command line, follow the command line start [guide](../../experiments/starting-an-experiment/command-line-start-guide.md).
 

@@ -1,5 +1,9 @@
 # Software Installation and Startup
 
+## Questions?
+
+Ask questions about this guide on the forum [here](https://www.evolver.bio/t/software-installation-and-startup-questions/493).
+
 ## Software Installation
 
 1. Download files from GitHub repositories for the [dpu](https://github.com/FYNCH-BIO/dpu/tree/min) (experiment code) and [server](https://github.com/FYNCH-BIO/evolver/tree/min) (communicator with min-eVOLVER).
@@ -39,7 +43,7 @@
        ```
 
 {% hint style="info" %}
-If you are setting up more than one min-eVOLVER, simply make an additional folder and label it something like `evolver-min2`. No need to make an additional virtual environment.
+If you are setting up more than one min-eVOLVER, simply make an additional folder and label it something like `evolver-min2`. No need to make an additional virtual environment. Any time you need to start a server just use the one you made in the first server folder.&#x20;
 {% endhint %}
 
 ## Server Startup
@@ -59,7 +63,7 @@ Whenever possible, avoid plugging / unplugging the min-eVOLVER micro-USB, which 
 {% endhint %}
 
 2. Make sure that you are in the server virtual environment
-3. This means navigating to the correct folder in a command line window and inputting commands:
+3. This means navigating to the server folder in a command line window and inputting commands:
    1.  Mac OS:
 
        `source server-env/bin/activate`
@@ -78,8 +82,8 @@ Whenever possible, avoid plugging / unplugging the min-eVOLVER micro-USB, which 
 Be careful to not alter the `conf.yml` file structure, only the variables (after the ":"). Changing the file structure in the wrong way will result in the server failing to run.
 {% endhint %}
 
-7. Start the server using `python3 evolver.py`
-8. Observe the server for expected behavior
+8. Start the server using `python3 evolver.py`
+9. Observe the server for expected behavior
    1. The server cycles once every 20 seconds
    2. If the server is not connected to the min-eVOLVER, commands will fail
 
@@ -88,24 +92,6 @@ Be careful to not alter the `conf.yml` file structure, only the variables (after
 {% hint style="info" %}
 If you want to know more about the server code or how commands work click [here](../../software/server-code-structure/).
 {% endhint %}
-
-## Test min-eV Hardware
-
-{% hint style="danger" %}
-Do NOT plug the pumps in to the right two ribbon cable ports (reserved for the vials). The pumps will draw too much current and likely break components inside of the min-eVOLVER board.
-{% endhint %}
-
-<img src="../../.gitbook/assets/image (48).png" alt="" data-size="original">
-
-1. Plug in the hardware as shown above
-2. Start the server
-3. In another terminal window, enter the `dpu` virtual environment
-4. Navigate to the `/dpu/experiment/` folder
-5. Familiarize yourself with [send\_command.py](send\_command.py.md) and make sure you can:
-   1. Send a pump command to all pumps and make sure they actuate
-   2. Send a command to start and stop stirring
-   3. Turn temperature off
-6. Check the server log as commands go in, these should be received and become the new values in the server cycle
 
 ## Multiple min-eVOLVERs
 
@@ -128,3 +114,21 @@ Make sure you don't swap your min-eVOLVERs USB ports without meaning to!
   * min-eVOLVER 2 with `serial_port: /dev/cu.usbmodem1301`
   * Plugging min-eVOLVER 2 into `/dev/cu.usbmodem1201` will mean that running the min-eVOLVER 1 server will load calibrations for the wrong min-eVOLVER and vice versa
 {% endhint %}
+
+## Test min-eV Hardware
+
+{% hint style="danger" %}
+Do NOT plug the pumps in to the right two ribbon cable ports (reserved for the vials). The pumps will draw too much current and likely break components inside of the min-eVOLVER board.
+{% endhint %}
+
+
+
+1. Plug in the hardware as shown above
+2. Start the server
+3. In another terminal window, enter the `dpu` virtual environment
+4. Navigate to the `/dpu/experiment/` folder
+5. Familiarize yourself with [send\_command.py](send\_command.py.md) and make sure you can:
+   1. Send a pump command to all pumps and make sure they actuate
+   2. Send a command to start and stop stirring
+   3. Turn temperature off
+6. Check the server log as commands go in, these should be received and become the new values in the server cycle

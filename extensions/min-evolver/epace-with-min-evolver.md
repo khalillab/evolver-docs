@@ -1,6 +1,6 @@
 # ePACE with min-eVOLVER
 
-Overview
+## Overview
 
 This page only details differences from the general min-eVOLVER experimental [protocol](starting-an-experiment.md). You are also expected to have an understanding of PACE and how it is normally run before doing ePACE.
 
@@ -11,7 +11,7 @@ This page only details differences from the general min-eVOLVER experimental [pr
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Two min-eVOLVERs set up for ePACE. They are connected to a dedicated laptop (preliminary picture)</p></figcaption></figure>
 
-### Experimental Overview
+## Experimental Overview
 
 #### Problem: PACE host cells overgrow
 
@@ -78,7 +78,7 @@ Copy the ePACE template under `/dpu/experiment/epace-template/`
 
 ### "USER DEFINED GENERAL SETTINGS"
 
-1. Most likely you should not need to alter any settings, other than `EVOLVER_PORT`
+1. Most likely you should not need to alter any settings in this section, other than `EVOLVER_PORT`
 2. Use the [`"hybrid"` function](epace-with-min-evolver.md#experimental-overview)
 3. Collapse or ignore `growth_curve`, `turbidostat`, and `chemostat` functions
 
@@ -109,6 +109,6 @@ chemostats will not pump until this amount of hours has elapsed
 1. Set `inducer_concentration` to X the final concentration in the lagoon
 2. Turn inducer off to start (`inducer_on = False`)
 3. Wait for host cells to grow up before starting induction (`inducer_on = True`) and inoculating with phage
-4. As of 04/21/23 inducer is only implemented for pump 5
 
 <figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Picture of default min-eVOLVER settings as of 04/14/23.</p></figcaption></figure>
+

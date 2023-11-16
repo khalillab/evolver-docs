@@ -38,27 +38,32 @@ https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manag
 
 ### 4. Choose the correct BOARD and PORT to upload into
 
-The boards used in eVOLVER are the SAMD21 Mini boards. The port changes based on which USB the Arduino is connected to. The wrong port is typically the most common reason why the Arduino won’t upload.&#x20;
+1. Plug the SAMD21 into your computer via a data transfer micro-USB cable.
+2. The boards used in eVOLVER are the SAMD21 Mini boards.
+3. The port changes based on which USB the Arduino is connected to. The wrong port is typically the most common reason why the Arduino won’t upload.
+   1. If you are unsure which port is the correct one, plug and unplug the SAMD21 board and see which port appears and disappears.
 
 **Choosing the board:**
 
-![](../.gitbook/assets/choosing\_board.jpeg)
+![Selecting the SAMD21 Mini in the Board Manager out of available boards.](../.gitbook/assets/choosing\_board.jpeg)
 
 **Choosing the port:**
 
-![](../.gitbook/assets/port.png)
+![You should see the SAMD21 come up on the Ports list if it is plugged in.](../.gitbook/assets/port.png)
 
 ### 5. Download the Arduino scripts and copy eVOLVER libraries into Arduino folder
 
-The scripts can be found on our [Github Page](https://github.com/FYNCH-BIO/evolver-arduino). After downloading the scripts, please copy the libraries folder into your local Arduino libraries folder. For example, on my computer, it is under **Documents > Arduino > libraries**
-
-Copy these files into your local Arduino libraries folder.
+1. Download the scripts from our [Github Page](https://github.com/FYNCH-BIO/evolver-arduino)
+   1. Download by clicking "Code" and downloading as a zip file
+2. Extract the files from the zipped file
+3. Copy the [libraries folder](https://github.com/FYNCH-BIO/evolver-arduino/tree/master/libraries) into your local Arduino libraries folder
+   1. For example, on my computer, it is under **Documents > Arduino > libraries**
 
 ![](../.gitbook/assets/libs\_evo.png)
 
 ### **6. Upload script to Arduino!**
 
-This should be all. Open up the files and upload your scripts to the microcontroller via microUSB!
+This should be all. Open up the files and upload your scripts to the microcontroller via microUSB! The program should tell you that it has uploaded successfully.
 
 {% hint style="warning" %}
 A quick tip: there are many poorly designed microUSB cables out there (e.g. just for charging). Be careful to use one that you know works. If you can’t upload, try another cable. If it still fails, take a look at this [guide](https://learn.sparkfun.com/tutorials/samd21-minidev-breakout-hookup-guide/troubleshooting).

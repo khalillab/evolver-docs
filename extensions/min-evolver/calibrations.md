@@ -7,8 +7,12 @@
 * Therefore, calibrations must be done manually (ie via recording of values and fitting of lines in excel).
 
 {% hint style="info" %}
-Each min-eVOLVER needs its own calibration files. These are kept inside of the server folder for each min-eVOLVER run (ie in `evolver-min/evolver/calibrations.json`)
+Each min-eVOLVER needs its own calibration files. These are kept inside of the server folder for each min-eVOLVER (ie in `evolver-min/evolver/calibrations.json`)
 {% endhint %}
+
+## Questions?
+
+Ask about calibrations in the relevant category on the [forum](https://www.evolver.bio/c/min-evolver/min-evolver-software/22).
 
 ## Before Calibration
 
@@ -113,6 +117,10 @@ For ePACE in the min-eVOLVER, consider running calibration of the lagoon vial wi
 
 ### Procedure
 
+{% hint style="warning" %}
+Make sure you have your [vial cover](min-evolver-construction/parts.md#vial-cover) on! This will drastically alter calibrations if you leave it off.
+{% endhint %}
+
 1. Set the min-eVOLVER to the temperature your experiment will be at
    1. Open your temperature calibration file
    2. Change the temperature in the "Set to ( C )" field for each vial
@@ -168,3 +176,4 @@ After changing which standards are being read, wait for the server to cycle a co
     1. To avoid confusion, replace everything until the `"raw"`&#x20;
 
 <figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+
