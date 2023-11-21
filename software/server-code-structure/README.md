@@ -12,15 +12,15 @@ The server acts as the brain for the physical eVOLVER unit - it manages all of t
 
 In addition to managing communications between connected components and the user, it also stores and manages configuration and calibration data for a given eVOLVER. The RPi also can have other utilities run on it such as this [monitor script](https://github.com/FYNCH-BIO/evolver/blob/master/utils/server\_monitor.sh), which can detect if the server gets hung up and restart it.
 
-### File Structure
+## File Explanations
 
-#### evolver.py and evolver\_server.py
+### evolver.py and evolver\_server.py
 
 The two main python scripts for the server are `evolver.py` and `evolver_server.py`. The first, `evolver.py` sets up the websockets server and get it running in it's own background thread so that in the main thread the server can communicate with the SAMD21 micro controllers continuously and send off data as needed. The main logic of the server lives in `evolver_server.py`.
 
 The timing of broadcasts is handled in `evolver.py`, while all subsequent logic is handled in `evolver_server.py`.
 
-#### conf.yml
+### conf.yml
 
 The server uses this file to notate what kinds of experimental parameters are connected, how they should be used, and configurations for running the server itself.
 
@@ -30,7 +30,7 @@ Read more about this file [here](configuration-files-conf.yml.md).
 You can modify this file manually (it is meant to be human readable), but be careful not to break the structure or the server will not run.&#x20;
 {% endhint %}
 
-#### calibrations.json
+### calibrations.json
 
 This file contains all calibrations for the eVOLVER. Calibrations have a generalized format, so theoretically you can calibrate any number or types of parameters and have the downstream DPU or GUI be able to fetch and use them.
 
@@ -40,6 +40,12 @@ The schema can be found on [Github](https://github.com/FYNCH-BIO/evolver/blob/ma
 
 {% hint style="info" %}
 Don't confuse this file with `calibration.json` - this is a legacy file that will be phased out soon.
+{% endhint %}
+
+## Server Serial Communication
+
+{% hint style="info" %}
+Check [this](../../guides/view-the-server-log-and-restart-server.md) guide to view the serial communications in real time. This is a useful troubleshooting tool.
 {% endhint %}
 
 ### Serial Message Structure
@@ -66,7 +72,7 @@ The RPi communicates to and from the SAMD21 microcontrollers via serial. The str
 
 `<END_CHARACTER>` is a way to denote the end of the message. For messages going **to** the SAMD21 **from** the RPi, this will be `_!`. For messages going **to** the RPi **from** the SAMD21, this will be `end`.
 
-#### Serial Communications Process
+### Serial Communications Process
 
 We use a communication structure similar to the [TCP 3-way handshake](https://en.wikipedia.org/wiki/Handshaking).&#x20;
 
@@ -80,7 +86,33 @@ This process is used in order for the server to have a way to know if commands a
 Failed commands will be communicated back to the DPU via websockets in a future version.
 {% endhint %}
 
-### Websockets Communications
+### Example Annotated Server Logs as a Command Comes in
+
+#### Recurring od\_90 Command Set in the conf.yml File
+
+```
+# Recurring (i) od_90 command, requesting average of 500 values for each Smart Sleeve:
+od_90r,500,_!
+
+# Broadcast (b) data response from the SAMD21
+od_90b,53722,48267,50671,41662,62813,63373,60965,60209,50271,49000,51695,56800,61598,62685,60486,62862,end
+
+# Acknowledge (a) the server tells the SAMD21 Arduino board it received the data
+od_90a,,_!
+```
+
+#### Immediate Stir Off Command from the DPU
+
+```
+Connected dpu as server                    # Connection to the DPU (GUI or experiment script)
+Received COMMAND                           # The following command was from the DPU (not conf.yml)
+stiri,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,_!   # Immediate (i) stir command, each vial is turned off
+Disconnected dpu as Server                 # DPU disconnects after its job is done
+stire,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,end  # Echoed (e) response from the SAMD21 Arduino board. It got the command 
+stira,,,,,,,,,,,,,,,,,_!                   # Acknowledge (a) the server tells the SAMD21 Arduino board it can execute the command
+```
+
+## Websockets Communications
 
 The eVOLVER server uses websockets via [socketio](https://python-socketio.readthedocs.io/en/latest/index.html) to communicate with the DPU and GUI interfaces. Please see their documentation for more information on how websockets work. In brief, functions in the server are decorated with
 

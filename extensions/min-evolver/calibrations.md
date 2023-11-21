@@ -2,9 +2,9 @@
 
 ## Overview
 
-* [Calibrations](../../getting-started/calibrations/) are important for the eVOLVER to match its sensors inputs with its actuator outputs
+* [Calibrations](../../getting-started/calibrations/) are important for the eVOLVER to match its sensor inputs with its actuator outputs
 * The min-eVOLVER is not yet compatible with the normal eVOLVER GUI
-* Therefore, calibrations must be done manually (ie via recording of values and fitting of lines in excel).
+* Therefore, calibrations must be done manually (ie via recording of values and fitting of lines in excel)
 
 {% hint style="info" %}
 Each min-eVOLVER needs its own calibration files. These are kept inside of the server folder for each min-eVOLVER (ie in `evolver-min/evolver/calibrations.json`)

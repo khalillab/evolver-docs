@@ -66,54 +66,91 @@ To have high accuracy when using the low volume pumps it is important to avoid i
 
 Hook up pump lines in the configuration shown below
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-## custom\_script.py
+## Alter Settings in custom\_script.py
 
-Copy the ePACE template under `/dpu/experiment/epace-template/`
+1. Copy the whole ePACE template folder (`/dpu/experiment/epace-template/`)
+2. Rename the copied folder to your experiment name
+3. Change the `EVOLVER_PORT` to your eVOLVER's port
+4. Alter `USER DEFINED VARIABLES` using the guide below:
 
-### "USER DEFINED GENERAL SETTINGS"
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>ePACE user defined variables as of 2023-11-20</p></figcaption></figure>
 
-1. Most likely you should not need to alter any settings in this section, other than `EVOLVER_PORT`
-2. Use the [`"hybrid"` function](./#experimental-overview)
-3. Collapse or ignore `growth_curve`, `turbidostat`, and `chemostat` functions
+### `lower_thresh` and `upper thresh`
 
-### Alter settings in the `hybrid` function=
+* The lower and upper OD threshold of the turbidostat that is running on the reservoir vial
+* Format: `[vial 0, vial 1]`
 
-`vial 0` is the host cell reservoir
+### `start_time`&#x20;
 
+* chemostats will not pump until this amount of hours has elapsed
+* Useful to allow cells in reservoir to grow up before starting experiment
+
+### `rate_config`
+
+* Format: `rate_config = [reservoir, lagoon]`
+* In vial volumes per hour (V/h)
+
+#### For the Reservoir
+
+* Replaces volume in turbidostat that is removed via vial to vial
+* Must be greater than the volume you are taking out
+* Turbidostat controls will separately preventing reservoir from increasing in OD too much
+* Do not set too high or your cells will be unable to grow fast enough and wash out
+
+#### For the Lagoon
+
+* Set based off of phage replication rate
+
+#### Example Settings:
+
+1. If you have a 30mL reservoir and 10mL lagoon
+2. Setting to `rate_config = [1, 1]`
+   1. 30mL media into reservoir and 10mL from reservoir into lagoon per hour
+3. Setting to `rate_config = [0.4, 1.2]`
+   1. If we set lagoon rate to 1.2 V/h, we should not set reservoir rate to lower than 0.4 V/h to avoid draining the reservoir
+   2. 1.2 V/h \* 10mL = 12mL/h into lagoon
+   3. 0.4 V/h \* 30mL = 12mLh into reservoir
+
+### Inducer
+
+`inducer_on`
+
+* Turn inducer off to start (`inducer_on = False`)
+* Wait for host cells to grow up before starting induction (`inducer_on = True`) and inoculating with phage
+
+`inducer_concentration`
+
+* Times greater (X) the concentration of your inducer in its bottle compared to its final concentration in the lagoon
+* Format `[pump 5, pump 6]`
+
+#### For example:
+
+1. Your arabinose stock is 1 M
+2. The final lagoon concentration you want is 10 mM
+3. Therefore 1000 mM / 10 mM = 100 X your final concentration
+4. If you are not using another inducer, `inducer_concentration` `= [100, 0]`
+
+## Optional Settings
+
+_You do not need to alter these settings_
+
+### Swapping Lagoon and Reservoir Vials
+
+If you do want to alter these variables, you also need to swap the vial locations in the turbidostat and chemostat settings of:
+
+* `lower_thresh` and `upper thresh`
+* `rate_config`
+
+#### `reservoir_vial`&#x20;
+
+* Vial number of host cell reservoir
 * It is a turbidostat _and_ a chemostat. Read why [here](./#experimental-overview).
-* We are setting OD for `vial 0`
 
-#### `start_time`&#x20;
+#### `lagoon_vial`&#x20;
 
-chemostats will not pump until this amount of hours has elapsed
-
-#### `rate_config`
-
-1. Default format: `rate_config = [reservoir, lagoon]`
-2. In vial volumes per hour (V/h)
-3. Reservoir
-   1. Set to greater than the volume you are taking out
-   2. Do not set too high or your cells will be unable to grow fast enough and wash out
-   3. Turbidostat controls will separately preventing reservoir from increasing in OD too much&#x20;
-4. Lagoon - set based off of phage replication rate
-5. For example:
-   1. If you have a 30mL reservoir and 10mL lagoon
-   2. Setting to `rate_config = [1, 1]`
-      1. 30mL into reservoir and 10mL into lagoon per hour
-   3. Setting to `rate_config = [0.4, 1.2]`
-      1. If we set lagoon rate to 1.2 V/h, we should not set reservoir rate to lower than 0.4 V/h to avoid draining the reservoir
-      2. 1.2 V/h \* 10mL = 12mL/h into lagoon
-      3. 0.4 V/h \* 30mL = 12mLh into reservoir
-
-#### Inducer
-
-1. Set `inducer_concentration` to X the final concentration in the lagoon
-2. Turn inducer off to start (`inducer_on = False`)
-3. Wait for host cells to grow up before starting induction (`inducer_on = True`) and inoculating with phage
-
-<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Picture of default min-eVOLVER settings as of 04/14/23.</p></figcaption></figure>
-
+* Vial number of lagoon
+* Only a chemostat, can have up to two inducers&#x20;

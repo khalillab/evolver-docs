@@ -37,6 +37,8 @@ If your computer is managed by an IT department, they will sometimes control the
 On Mac: Alternatively, you can type the command `caffeinate` into a terminal window and your computer will never sleep
 {% endhint %}
 
+## Parameters
+
 ## OD
 
 OD is one of the most useful and most challenging aspects of eVOLVER. However the min-eVOLVER OD system is nearly the same as the main eVOLVER. Check the main OD troubleshooting [page](../../troubleshooting/vial-troubleshooting/optical-density-od-readings.md) for potential causes and fixes.

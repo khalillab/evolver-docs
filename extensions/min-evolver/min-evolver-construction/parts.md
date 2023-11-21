@@ -11,7 +11,7 @@ Below is a spreadsheet containing all parts required to make a min-eVOLVER.&#x20
 
 {% embed url="https://docs.google.com/spreadsheets/d/1JSuUWUNsro8VO-MzAukn632tOzvQDoVak4M-vvdhMno/edit?usp=sharing" %}
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>The parts necessary for the min-eVOLVER main unit. Use the spreadsheet above to discern what each item is. </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>The parts necessary for the min-eVOLVER main unit. Use the spreadsheet above to discern what each item is. </p></figcaption></figure>
 
 ## min-eVOLVER PCB
 
@@ -60,3 +60,4 @@ Listed in the "Consumables / General" sheet of the above spreadsheet
 
 * Anything not listed as (Optional) is required for a full experiment.
 * You need a thermometer for calibrating temperature, we have suggested the one we use.
+* If you plan to run multiple min-eVOLVERs from a computer, you will need to have a USB port available for each one. You can use a USB splitter dongle to accomplish this. Example [here](https://www.amazon.com/Anker-Extended-MacBook-Surface-Notebook/dp/B07L32B9C2/ref=sr\_1\_5?crid=2RU3G7JIJJ7RM\&keywords=usb%2Bsplitter\&qid=1700599207\&s=electronics\&sprefix=usb%2Bsplitter%2Celectronics%2C70\&sr=1-5\&th=1).

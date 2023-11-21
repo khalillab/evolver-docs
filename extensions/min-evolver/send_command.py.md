@@ -19,11 +19,33 @@ You must
 2. In another terminal window, enter into the `dpu` virtual environment and navigate to the folder send\_command.py is in: `/dpu/experiment/`
 {% endhint %}
 
+### Send a Command
+
 ```
 python3 send_command.py <port> <parameter> <value>
 ```
 
-The 'port' variable tells the program which eVOLVER to connect to. This is designated in the conf.yml file of the eVOLVER under 'port'. It is arbitrary, but we can choose something like 5555
+The `<port>` variable tells the program which eVOLVER to connect to
+
+1. This is designated in the conf.yml file of the eVOLVER under `'port'`
+2. It is arbitrary, but we can choose something like 5555
+
+### Commands in the Server Log
+
+When you send a command, you should see it come up in the window you're running the server in. See [here](../../software/server-code-structure/#server-serial-communication) for more information about the eVOLVER server and commands.
+
+#### Annotated Server Log as a Command Comes in
+
+```
+Connected dpu as server    # Connection to the send_command.py script
+Received COMMAND           # Command received the send_command.py script
+stiri,0,0,_!               # Stir command, each vial is turned off
+Disconnected dpu as Server
+stire,0,0,end              # Response from the min-eVOLVER board. It got the command 
+stira,,,_!                 # The server tells the min-eV board it can run the command
+```
+
+## Examples
 
 #### To set a parameter on all vials to one value: python3 `send_command.py`
 
@@ -31,28 +53,25 @@ The 'port' variable tells the program which eVOLVER to connect to. This is desig
 For example, to turn stirring ON:
 python3 send_command.py 5555 stir 11
 
-For example, to turn stirring OFF:
+Stirring OFF:
 python3 send_command.py 5555 stir 0
 
-For example, to turn temperature OFF:
+Temperature OFF:
 python3 send_command.py 5555 temp 64000
 ```
 
 #### To run specific pumps (where s is a number of seconds):&#x20;
 
-* `python3 send_command.py 5555 pump s,s,s,s,s,s`
+`python3 send_command.py 5555 pump s,s,s,s,s,s`
 
 For example:
 
-```
-python3 send_command.py 5555 pump 0,0,0,0,5,5
-```
+`python3 send_command.py 5555 pump 0,0,0,0,5,5`
 
-To set a non-pump parameter on specific vials:
+#### To set a non-pump parameter on specific vials:
 
 `python3 send_command.py <port> <parameter> <list_of_values>`
 
-```
 For example:
-python3 send_command.py 5555 temp 30000,31000
-```
+
+`python3 send_command.py 5555 temp 30000,31000`

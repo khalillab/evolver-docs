@@ -30,7 +30,7 @@ More about tubing and connectors [here](../../hardware/overview-of-fluidics/tubi
    2. Put tubing onto the connector barb
    3. Estimate tubing length so that it is comfortable to move the vial in and out of the smart sleeves with the tube attached to the cap (right figure below)
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>(Left) Numbered pumps with the tubing required for a basic turbidostat. (Right) Tubing is short, but still has enough length to take out the vial while still connected.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (3).png" alt=""><figcaption><p>(Left) Numbered pumps with the tubing required for a basic turbidostat. (Right) Tubing is short, but still has enough length to take out the vial while still connected.</p></figcaption></figure>
 
 #### Efflux (Pumps 1 + 2 Right Port)
 

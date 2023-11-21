@@ -124,6 +124,7 @@
   * [Specific Applications](extensions/adding-an-experimental-parameter/specific-applications.md)
   * [Custom Calibration Code](extensions/adding-an-experimental-parameter/custom-calibration-code.md)
 * [min-eVOLVER](extensions/min-evolver/README.md)
+  * [About](extensions/min-evolver/about.md)
   * [min-eVOLVER Construction](extensions/min-evolver/min-evolver-construction/README.md)
     * [Parts](extensions/min-evolver/min-evolver-construction/parts.md)
     * [Construction Protocol](extensions/min-evolver/min-evolver-construction/construction-protocol.md)

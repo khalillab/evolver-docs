@@ -8,5 +8,5 @@ For eVOLVER to be more than a 16-well plate reader, there needs to be control of
 
 
 
-![Modular fluidic control system for the eVOLVER platform. (a) Electronic hardware for fluidic control. The Auxiliary Board enables one Arduino to independently and simultaneously control 48 fluidic elements (e.g. pumps and valves) via three PWM boards. (b) Schematic of system design for basic fluidic control. Serial commands from the Raspberry Pi are sent to the Motherboard and Auxiliary board on the same RS485 communication line. The Auxiliary board interprets the appropriate serial commands and actuates specific pumps for fluids to be metered in and out of a target smart sleeve.](<../../.gitbook/assets/image (2) (1) (3).png>)
+![Modular fluidic control system for the eVOLVER platform. (a) Electronic hardware for fluidic control. The Auxiliary Board enables one Arduino to independently and simultaneously control 48 fluidic elements (e.g. pumps and valves) via three PWM boards. (b) Schematic of system design for basic fluidic control. Serial commands from the Raspberry Pi are sent to the Motherboard and Auxiliary board on the same RS485 communication line. The Auxiliary board interprets the appropriate serial commands and actuates specific pumps for fluids to be metered in and out of a target smart sleeve.](<../../.gitbook/assets/image (2) (1) (3) (1).png>)
 
