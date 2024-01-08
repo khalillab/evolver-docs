@@ -12,6 +12,8 @@ Use GUI for calibrations in most cases
 
 The GUI will run calibrations automatically upon completion of the calibration protocols. However, you can still manually run a calibration if you would like to change calibration settings. Can be useful if your GUI calibration fails for some reason.
 
+Located in [/dpu/calibration/](https://github.com/FYNCH-BIO/dpu/tree/master/calibration).
+
 ## Requirements
 
 1. You have run calibration and logged raw values already
