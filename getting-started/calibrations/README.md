@@ -13,3 +13,7 @@ Calibrations should proceed in the following order:
 1. [Temperature Calibration](temperature-calibration.md)
 2. [Optical Density Calibration](optical-density-calibration.md)
 3. [Pump Calibration](pump-calibration.md)
+
+{% hint style="warning" %}
+If the GUI fails to calibrate you can try to use [calibrate.py](../../software/dpu-code-structure/calibrate.py.md) manually.
+{% endhint %}
