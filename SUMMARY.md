@@ -101,7 +101,7 @@
 ## Software
 
 * [Overview of Software Architecture](software/overview-of-software-architecture.md)
-* [DPU](software/dpu/README.md)
+* [DPU](software/dpu-code-structure/README.md)
   * [Calibration](software/dpu/calibration.md)
   * [custom\_script.py](software/dpu/custom\_script.py.md)
   * [Experiment Data Files](software/dpu/experiment-data-files.md)
@@ -121,6 +121,7 @@
     * [LUX Board Troubleshooting](extensions/custom-experiments/epace/lux-board-troubleshooting.md)
   * [Morbidostat](extensions/custom-experiments/morbidostat.md)
 * [Adding an Experimental Parameter](extensions/adding-an-experimental-parameter/README.md)
+  * [Guide](extensions/adding-an-experimental-parameter/guide.md)
   * [Power Supply](extensions/adding-an-experimental-parameter/power-supply.md)
   * [Specific Applications](extensions/adding-an-experimental-parameter/specific-applications.md)
   * [Custom Calibration Code](extensions/adding-an-experimental-parameter/custom-calibration-code.md)
