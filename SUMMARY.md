@@ -114,17 +114,15 @@
 
 ## Extensions
 
-* [Overview](extensions/overview.md)
+* [Adding New Experimental Parameter](extensions/adding-new-experimental-parameter/README.md)
+  * [Power Supply](extensions/adding-new-experimental-parameter/power-supply.md)
+  * [Specific Applications](extensions/adding-new-experimental-parameter/specific-applications.md)
+  * [Custom Calibration Code](extensions/adding-new-experimental-parameter/custom-calibration-code.md)
 * [Custom Experiments](extensions/custom-experiments/README.md)
   * [ePACE](extensions/custom-experiments/epace/README.md)
     * [ATTiny1634 Writing](extensions/custom-experiments/epace/attiny1634-writing.md)
     * [LUX Board Troubleshooting](extensions/custom-experiments/epace/lux-board-troubleshooting.md)
   * [Morbidostat](extensions/custom-experiments/morbidostat.md)
-* [Adding an Experimental Parameter](extensions/adding-an-experimental-parameter/README.md)
-  * [Overview](extensions/adding-an-experimental-parameter/overview.md)
-  * [Power Supply](extensions/adding-an-experimental-parameter/power-supply.md)
-  * [Specific Applications](extensions/adding-an-experimental-parameter/specific-applications.md)
-  * [Custom Calibration Code](extensions/adding-an-experimental-parameter/custom-calibration-code.md)
 * [min-eVOLVER](extensions/min-evolver/README.md)
   * [About](extensions/min-evolver/about.md)
   * [min-eVOLVER Construction](extensions/min-evolver/min-evolver-construction/README.md)

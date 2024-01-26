@@ -7,7 +7,7 @@ Used to send arbitrary commands to a server outside of both the GUI and an exper
 Useful for:
 
 1. Controlling the [min-eVOLVER](./)
-2. Sending custom commands if you have [added an experimental parameter](../adding-an-experimental-parameter/)
+2. Sending custom commands if you have [added an experimental parameter](https://app.gitbook.com/o/mbob5Ih2vV4dHZ3RRJui/s/Yy5AdmKzUTn7D8n357Md/\~/changes/85/extensions/adding-new-experimental-parameter)
 3. Sending pump commands greater than 20 seconds if you are using the slow (\~1mL/min) pumps or using [IPPs](../../hardware/overview-of-millifluidics/ipps-integrated-peristaltic-pumps.md)
 
 ## Usage
