@@ -65,4 +65,4 @@ In a separate window from your server command line, follow the command line star
 ## Ending an Experiment
 
 1. [Clean up](../../experiments/starting-an-experiment/cleaning-up-after-experiment.md) the experiment
-2. Data is in the [data files](../../software/dpu-code-structure/experiment-data-files.md)
+2. Data is in the [data files](../../software/dpu/experiment-data-files.md)

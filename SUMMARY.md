@@ -51,6 +51,7 @@
 * [Raspberry Pi Configuration](guides/raspberry-pi-configuration.md)
 * [Updating the eVOLVER Server](guides/updating-the-evolver-server.md)
 * [Command Line Usage](guides/command-line-usage.md)
+* [Manual Calibration - calibrate.py](guides/manual-calibration-calibrate.py.md)
 * [Millifluidics Guides](guides/millifluidics-guides/README.md)
   * [Designing Millifluidics Using Eagle](guides/millifluidics-guides/designing-millifluidics-using-eagle.md)
   * [Constructing Laser Cut Millifluidics](guides/millifluidics-guides/constructing-laser-cut-millifluidics.md)
@@ -100,15 +101,15 @@
 ## Software
 
 * [Overview of Software Architecture](software/overview-of-software-architecture.md)
-* [DPU Code Structure](software/dpu-code-structure/README.md)
-  * [custom\_script.py](software/dpu-code-structure/custom\_script.py.md)
-  * [Experiment Data Files](software/dpu-code-structure/experiment-data-files.md)
-  * [eVOLVER.py](software/dpu-code-structure/evolver.py.md)
-  * [calibrate.py](software/dpu-code-structure/calibrate.py.md)
-* [Arduino Code Structure](software/arduino-code-structure.md)
-* [Server Code Structure](software/server-code-structure/README.md)
-  * [Calibration Files](software/server-code-structure/calibration-files.md)
-  * [Configuration Files (conf.yml)](software/server-code-structure/configuration-files-conf.yml.md)
+* [DPU](software/dpu/README.md)
+  * [Calibration](software/dpu/calibration.md)
+  * [custom\_script.py](software/dpu/custom\_script.py.md)
+  * [Experiment Data Files](software/dpu/experiment-data-files.md)
+  * [eVOLVER.py](software/dpu/evolver.py.md)
+* [Arduino](software/arduino.md)
+* [Server (Raspberry Pi)](software/server-raspberry-pi/README.md)
+  * [Calibration Files](software/server-raspberry-pi/calibration-files.md)
+  * [Configuration Files (conf.yml)](software/server-raspberry-pi/configuration-files-conf.yml.md)
 * [Known Issues](software/known-issues.md)
 
 ## Extensions

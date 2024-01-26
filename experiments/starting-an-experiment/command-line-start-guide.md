@@ -32,7 +32,7 @@ Set your computer to never fall asleep to prevent experiments from being halted.
 4. Alter settings in `custom_script.py`
    1. `EVOLVER_PORT` = set correct IP of the eVOLVER
    2. Set initial temp and stir settings
-   3. `custom_script.py` has basic settings for running chemostat and turbidostat experiments, but you can also customize. To learn more click [here](../../software/dpu-code-structure/custom\_script.py.md).
+   3. `custom_script.py` has basic settings for running chemostat and turbidostat experiments, but you can also customize. To learn more click [here](../../software/dpu/custom\_script.py.md).
 5. Start the experiment using the command:
    1. `python3 eVOLVER.py -i <your_evolver's_IP_address>`
    2. `python3 eVOLVER.py -i 192.168.1.9`
@@ -52,7 +52,11 @@ Set your computer to never fall asleep to prevent experiments from being halted.
    1. Create a new experiment folder (different `custom_script.py`) and change IP
    2. Follow this procedure in an additional command line window
 
+{% hint style="info" %}
+You can graph your experiment using the graphing tool [here](https://github.com/FYNCH-BIO/dpu/tree/master/graphing).
+{% endhint %}
+
 ## Ending an Experiment
 
 1. [Clean up](cleaning-up-after-experiment.md) the experiment
-2. Data is in the [data files](../../software/dpu-code-structure/experiment-data-files.md)
+2. Data is in the [data files](../../software/dpu/experiment-data-files.md)

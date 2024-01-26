@@ -6,9 +6,9 @@ description: High-level description of software architecture
 
 All code is located in our [Github Repositories](https://github.com/FYNCH-BIO):
 
-1. [eVOLVER Code](server-code-structure/) (Raspberry Pi, Python)
-2. [Arduino/Microcontroller Code](arduino-code-structure.md) (C/C++)
-3. [Data Processing Unit](dpu-code-structure/) (Python)
+1. [eVOLVER Code](server-raspberry-pi/) (Raspberry Pi, Python)
+2. [Arduino/Microcontroller Code](arduino.md) (C/C++)
+3. [Data Processing Unit](dpu/) (Python)
 4. [eVOLVER GUI](https://github.com/FYNCH-BIO/evolver-electron) (Node, JS, Electron, React)
 
 ![](../.gitbook/assets/software-highlevel.png)

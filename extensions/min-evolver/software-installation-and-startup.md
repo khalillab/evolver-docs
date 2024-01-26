@@ -53,7 +53,7 @@ If you are setting up more than one min-eVOLVER, simply make an additional folde
 ## Server Startup
 
 {% hint style="info" %}
-Optional: for more information about the eVOLVER server you can check [here](../../software/server-code-structure/).
+Optional: for more information about the eVOLVER server you can check [here](../../software/server-raspberry-pi/).
 {% endhint %}
 
 {% hint style="info" %}
@@ -104,7 +104,7 @@ Be careful to not alter the `conf.yml` file structure, only the variables (after
 <figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p>An example min-eVOLVER server readout.</p></figcaption></figure>
 
 {% hint style="info" %}
-If you want to know more about the server code or how commands work click [here](../../software/server-code-structure/).
+If you want to know more about the server code or how commands work click [here](../../software/server-raspberry-pi/).
 {% endhint %}
 
 ## Multiple min-eVOLVERs

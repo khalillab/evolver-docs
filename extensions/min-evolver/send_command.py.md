@@ -32,7 +32,7 @@ The `<port>` variable tells the program which eVOLVER to connect to
 
 ### Commands in the Server Log
 
-When you send a command, you should see it come up in the window you're running the server in. See [here](../../software/server-code-structure/#server-serial-communication) for more information about the eVOLVER server and commands.
+When you send a command, you should see it come up in the window you're running the server in. See [here](../../software/server-raspberry-pi/#server-serial-communication) for more information about the eVOLVER server and commands.
 
 #### Annotated Server Log as a Command Comes in
 

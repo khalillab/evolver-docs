@@ -89,6 +89,10 @@ You can also click the folder icon on the bottom left to view the files in a fil
 
 When you're ready to start the experiment, click the Play button either on the Experiment Manager page or the Experiment Editor page. Then you can click the graphs icon to go watch your experiment running in real-time.
 
+{% hint style="info" %}
+If GUI graphing is not working, use [this](https://github.com/FYNCH-BIO/dpu/tree/master/graphing) graphing tool.
+{% endhint %}
+
 When you navigate to the graphs page, the graphs will look fairly empty to start. After a minute or so, data will start to appear as it is collected. You can also click the `VIEW LOGS` button to see how the experiment is running.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-07-05 at 11.59.18 AM (2).png>)

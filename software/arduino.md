@@ -1,4 +1,4 @@
-# Arduino Code Structure
+# Arduino
 
 This page aims to explain the general code structure for the Arduinos ([SAMD21 mini-breakout boards](https://www.sparkfun.com/products/13664)) used in the eVOLVER. The repository can be found [here](https://github.com/FYNCH-BIO/evolver-arduino).
 
@@ -13,7 +13,7 @@ Three main libraries are used throughout the Arduino files to simplify the code 
 * The `PID_v1` library contains all the logic and calculations for [PID control](https://en.wikipedia.org/wiki/PID\_controller).
 
 {% hint style="info" %}
-See the [server code structure](server-code-structure/#serial-message-structure) page for information on serial communications structure.
+See the [server code structure](server-raspberry-pi/#serial-message-structure) page for information on serial communications structure.
 {% endhint %}
 
 The Arduino code structure can be thought of in 3 sections: pre-setup, setup, and loop. The fluidics script is slightly different and will be explained separately, but it has the same basic structure.
@@ -54,7 +54,7 @@ In this block we generally initialize the various pins of the SAMD21 for INPUT o
 
 This is the section of the script that is run continuously (on loop) over and over. The general logic is to read from the serial line, see if there are any messages to act on, read data from the Smart Sleeves if applicable, then update any elements that are being controlled for each Smart Sleeve.
 
-If a message on serial is found, the script will save those values, send a message back to the RPi, and continue looping until it receives an ACK from the RPi addressed to it to act on the previously sent values. See the [server code structure](server-code-structure/#serial-message-structure) for more information on serial messages between the RPi and SAMD21s.
+If a message on serial is found, the script will save those values, send a message back to the RPi, and continue looping until it receives an ACK from the RPi addressed to it to act on the previously sent values. See the [server code structure](server-raspberry-pi/#serial-message-structure) for more information on serial messages between the RPi and SAMD21s.
 
 ## Arduino Functions
 

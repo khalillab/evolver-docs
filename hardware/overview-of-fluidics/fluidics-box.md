@@ -24,7 +24,7 @@ The existing pump pox can control up to 16 additional pumps (or any other 12V va
 
 ### Modifying fluidics code
 
-Adding another pump array will of course require changes to custom\_script.py, because pump indices 33-48 are not being sent commands during normal eVOLVER operation. The MESSAGE variable holds all information on how long to run each pump, and this is where you should implement your commands in custom\_script. See the [turbidostat](../../software/dpu-code-structure/custom\_script.py.md#turbidostat) section of the custom\_script page for more information.
+Adding another pump array will of course require changes to custom\_script.py, because pump indices 33-48 are not being sent commands during normal eVOLVER operation. The MESSAGE variable holds all information on how long to run each pump, and this is where you should implement your commands in custom\_script. See the [turbidostat](../../software/dpu/custom\_script.py.md#turbidostat) section of the custom\_script page for more information.
 
 ### Daisy-chaining multiple boxes
 

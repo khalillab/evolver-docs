@@ -2,7 +2,7 @@
 
 ## About Server Logs
 
-We use [`supervisor`](http://supervisord.org/running.html) to run and manage the logs for the [eVOLVER server](../software/server-code-structure/). eVOLVERs should come pre-configured with this.
+We use [`supervisor`](http://supervisord.org/running.html) to run and manage the logs for the [eVOLVER server](../software/server-raspberry-pi/). eVOLVERs should come pre-configured with this.
 
 We also provide a utility monitoring and restart script, `evolvercron` and `server_monitor.sh`. To use, add the crontab job line in `evolvercron` into your cron installation.
 
@@ -17,7 +17,7 @@ We also provide a utility monitoring and restart script, `evolvercron` and `serv
    1. `tail -f evolver`
 
 {% hint style="info" %}
-To understand what you see in the server log, take a look at the information [here](../software/server-code-structure/#serial-message-structure).
+To understand what you see in the server log, take a look at the information [here](../software/server-raspberry-pi/#serial-message-structure).
 {% endhint %}
 
 ## Restart the eVOLVER Server

@@ -2,7 +2,7 @@
 description: Description of how the DPU (Data Processing Unit) code functions.
 ---
 
-# DPU Code Structure
+# DPU
 
 This page aims to explain how the server on the Data Processing Unit (DPU) functions. The repository can be found on [Github](https://github.com/FYNCH-BIO/dpu).
 
@@ -27,12 +27,6 @@ The DPU uses websockets via [socketio](https://python-socketio.readthedocs.io/en
 #### custom\_script.py
 
 This file is where the experimental culture routine is located. At the top of the file is commented code directing the user to modify constant variables to configure the experiment (experiment name, eVOLVER to run on, etc.) Then there are two default experiment functions for running either a turbidostat or a chemostat. It is also possible to write your own custom function to run by changing the `OPERATION_MODE` variable to your custom function name.
-
-### Calibration
-
-The `calibrate.py` script is used to fit sensor data from eVOLVER (generated via the GUI) to experimental values. The script uses websockets to fetch the sensor and experimental data from the server for a previously run calibration, the does the fit according to the users specifications. Arbitrary experimental parameters can be fit to. The script can do constant, linear, sigmoid, and 3D fits.
-
-The GUI will automatically run this script upon completion of a calibration, but it is also possible to run manually via the command line to fetch .png files for the calibrations if desired.
 
 ### Graphing
 
