@@ -71,7 +71,7 @@
   * [Replacing Photodiodes and LEDs](troubleshooting/vial-troubleshooting/replacing-photodiodes-and-leds.md)
   * [Heating Element](troubleshooting/vial-troubleshooting/heating-element.md)
   * [Stirring](troubleshooting/vial-troubleshooting/stirring.md)
-* [Motherboard Troubleshooting](troubleshooting/motherboard-troubleshooting.md)
+* [Motherboard Troubleshooting/Replacement](troubleshooting/motherboard-troubleshooting-replacement.md)
 * [GUI Troubleshooting](troubleshooting/gui-troubleshooting.md)
 * [Server Troubleshooting](troubleshooting/server-troubleshooting.md)
 
