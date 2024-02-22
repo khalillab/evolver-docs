@@ -1,22 +1,27 @@
-# Overview
+# Adding A New Experimental Parameter
 
-### 0. Does new experimental parameter require sensing, actuation, or both?:
+## 0. Design questions before you start
 
-Examples
+### Does the new experimental parameter require sensing, actuation, or both?
 
-* Sensing only: optical sensor (photodiode, phototransistor) for new spectra, pH sensor, etc
+#### Examples
+
+* Sensing only: optical sensor (photodiode, phototransistor) for new spectra, pH sensor
 * Actuation only: optical stimulation w/ new LED
 * Both: fluorescence measurements (LED/optical sensor pair), feedback driven optical stimulation
 
-Additional high level questions to ask yourself as you plan to additional components to track custom experimental parameters:
+### Additional Questions
 
 * Can new hardware be fitted onto vial?
-* Can eVOLVER provide necessary power to control actuator?
-* Is desired signal strong enough to be sensed using eVOLVER?
+  * Hardware CAD files can be found [here](https://github.com/FYNCH-BIO/hardware).
+* Can the eVOLVER provide necessary power to control actuator?
+  * The base eVOLVER can provide 5V or 12V [PWM](https://en.wikipedia.org/wiki/Pulse-width\_modulation) signal to the vials.
+  * Otherwise, look into changing the [power supply](power-supply.md).
+* Is the signal you are sensing strong enough to be sensed using the components you will use?
 
 The best way to answer these questions is to go through the datasheets of components you are interested in integrating and breadboarding with the eVOLVER Motherboard. This will help you also establish and tune dynamic ranges for new sensing capabilities. Additionally, you can explore swapping in new power supplies for components with higher power consumption specs. Once you've established compatibility and feasibility, you can begin integrating a new experimental parameter for eVOLVER.
 
-### Low Level (Hardware/Arduino)
+## Low Level (Hardware/Arduino)
 
 ### 1. Add appropriate boards (PWM/ADC) to SA slots in eVOLVER Motherboard.
 

@@ -115,10 +115,10 @@
 
 ## Extensions
 
-* [Adding New Experimental Parameter](extensions/adding-new-experimental-parameter/README.md)
-  * [Power Supply](extensions/adding-new-experimental-parameter/power-supply.md)
-  * [Specific Applications](extensions/adding-new-experimental-parameter/specific-applications.md)
-  * [Custom Calibration Code](extensions/adding-new-experimental-parameter/custom-calibration-code.md)
+* [Adding A New Experimental Parameter](extensions/adding-a-new-experimental-parameter/README.md)
+  * [Power Supply](extensions/adding-a-new-experimental-parameter/power-supply.md)
+  * [Specific Applications](extensions/adding-a-new-experimental-parameter/specific-applications.md)
+  * [Custom Calibration Code](extensions/adding-a-new-experimental-parameter/custom-calibration-code.md)
 * [Custom Experiments](extensions/custom-experiments/README.md)
   * [ePACE](extensions/custom-experiments/epace/README.md)
     * [ATTiny1634 Writing](extensions/custom-experiments/epace/attiny1634-writing.md)
