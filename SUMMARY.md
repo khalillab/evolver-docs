@@ -87,6 +87,7 @@
   * [IPPs (Integrated Peristaltic Pumps)](hardware/overview-of-millifluidics/ipps-integrated-peristaltic-pumps.md)
   * [Pressure Regulator](hardware/overview-of-millifluidics/pressure-regulator.md)
 * [Smart Sleeve](hardware/smart-sleeve/README.md)
+  * [Vial Board](hardware/smart-sleeve/vial-board.md)
   * [🌪️ Stirring](hardware/smart-sleeve/stirring.md)
   * [Temperature](hardware/smart-sleeve/temperature.md)
   * [Optical Density](hardware/smart-sleeve/optical-density.md)

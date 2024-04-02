@@ -11,7 +11,7 @@ Below is a spreadsheet containing all parts required to make a min-eVOLVER.&#x20
 
 {% embed url="https://docs.google.com/spreadsheets/d/1JSuUWUNsro8VO-MzAukn632tOzvQDoVak4M-vvdhMno/edit?usp=sharing" %}
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>The parts necessary for the min-eVOLVER main unit. Use the spreadsheet above to discern what each item is. </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>The parts necessary for the min-eVOLVER main unit. Use the spreadsheet above to discern what each item is. </p></figcaption></figure>
 
 ## min-eVOLVER PCB
 

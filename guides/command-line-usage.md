@@ -125,7 +125,7 @@ Notice that after executing the command, the shell will print a new prompt for t
 
 Identifies the location of an executable. Use this to determine if a command or program is installed on your system, and also to see where it actually resides on the file-system. If the program cannot be found, nothing will be returned.
 
-![](<../.gitbook/assets/image (2) (1) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 #### <mark style="color:blue;">pwd</mark>
 

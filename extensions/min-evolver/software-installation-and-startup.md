@@ -150,7 +150,7 @@ Make sure you don't swap your min-eVOLVERs USB ports without meaning to!
 1. Run a full hardware test using test\_hardware.py
 2. Use the command: `python3 test_hardware.py`
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>An example data output from the min-eVOLVER, soon after it has been turned on. This same data can be found continuously in the server window.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>An example data output from the min-eVOLVER, soon after it has been turned on. This same data can be found continuously in the server window.</p></figcaption></figure>
 
 3. Check that all pumps actuate individually
 4. Check that stirring turns off and on
