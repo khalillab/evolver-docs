@@ -42,14 +42,14 @@ NOT AN OPTIONAL COMPONENT - Protects OD photodiodes from environmental light, wh
 
 ## eVOLVER Smart Sleeves
 
-May be purchased from Fynch Bio. If interested in making your own see the main [parts sheet](../../../getting-started/part-sourcing.md) and follow [this](../../../guides/building-a-smart-sleeve.md) guide. This is not recommended for its added complication, but will save money.
+May be purchased from Fynch Bio. If interested in making your own see the main [parts sheet](../../../getting-started/part-sourcing.md) and follow [this](../../../guides/building-a-smart-sleeve.md) assembly guide. This is not recommended for its added complication (you will need to machine the aluminum tube for example), but will save money.
 
 ### Tube Holder
 
 {% hint style="warning" %}
 (As of 10/24/2023) If you ordered your smart sleeves from Fynch, they will come with a 3D printed tube holder that does not have defined OD LED and photodiode positions.
 
-It is highly recommended that you instead print the latest (as of writing v5.1.1) tube holder to allow for more consistent OD readings (see [here](https://www.evolver.bio/t/how-deeply-the-photodiode-and-ir-led-are-pushed-in-to-the-vial-greatly-affects-od-readings/360)). Choose the cheapest _black FDM_ printing type on hubs.com, shapeways.com, or a local 3D printing shop and give them the .stl file in the github [repository](https://github.com/FYNCH-BIO/hardware/blob/master/Smart%20Sleeve/tube-holder/Tube%20Holder\_V5.1.1.STL).
+It is highly recommended that you instead print the latest (as of writing v5.1.1) tube holder to allow for more consistent OD readings (see [here](https://www.evolver.bio/t/how-deeply-the-photodiode-and-ir-led-are-pushed-in-to-the-vial-greatly-affects-od-readings/360)). Choose the cheapest _black FDM_ printing type on hubs.com, shapeways.com, or a local 3D printing shop and give them the .stl file in the github [repository](https://github.com/FYNCH-BIO/hardware/tree/master/Smart%20Sleeve/tube-holder).
 
 Use [this](../../../guides/building-a-smart-sleeve.md) guide to swap in the new tube holder.
 {% endhint %}

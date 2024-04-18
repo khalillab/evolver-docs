@@ -23,7 +23,7 @@ As with the main eVOLVER, you should have a dedicated computer to run min-eVOLVE
 
        1. `deactivate`
 
-       ![](<../../.gitbook/assets/image (49).png>)
+       ![](<../../.gitbook/assets/image (49) (1).png>)
    3. Navigate to the server directory `evolver-min`
    4.  Make a server virtual environment
 

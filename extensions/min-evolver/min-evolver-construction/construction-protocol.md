@@ -18,7 +18,7 @@ It may be helpful to have the [parts](parts.md) page open as well, so you can id
    2. The easiest way crimp these connectors is to use a clamp or vice, unless you have a specialized tool (figure below C)
       1. Place the connector in the _center_ of the clamp (making sure it remains in the right location)
       2. Tighten clamp until sides of connector are flush and it is full closed (figure below D)
-   3. You can also use pliers or a hammer, but this is more annoying / prone to breaking the connectors
+   3. You can also , but this is more annoying / prone to breaking the connectors
 
 <figure><img src="../../../.gitbook/assets/image (60).png" alt=""><figcaption><p>(A) Ribbon cable connector placed at 5" with both knobs on the same side (arrows). (B) Align the ribbon cable connector with the end of the cable. (C) Connector is placed in center of clamp. (D) Completed ribbon cable after connector is crimped on.</p></figcaption></figure>
 
@@ -57,8 +57,6 @@ Surface mount soldering of the min-eVOLVER PCB is outside of the scope of this g
 4. Slide the shorting jumpers onto the right two pins for each vial (see figure below C)
 
 <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>(A) The SAMD21 board and the 2x12-pin header with flat side of the 24-pins up. (B) SAMD21 board partially soldered, starting from the pins in the corners. (C) Placing the jumpers on the right two selector pins for each vial. (D) The assembled min-eVOLVER PCB.</p></figcaption></figure>
-
-#### (Advanced Users Only) Selecting OD90 vs OD135 in the min-eVOLVER
 
 1. OD90 = OD LED and photodiode at 90 degrees from eachother
 2. OD135 = OD LED and photodiode at 135 degrees from eachother
