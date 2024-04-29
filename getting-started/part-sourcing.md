@@ -1,5 +1,9 @@
 # Part Sourcing
 
+{% hint style="info" %}
+Check the upgrades guide [here](../guides/upgrade-base-evolver-hardware.md).
+{% endhint %}
+
 ## Guidelines
 
 1. Use the below Google Sheet to source parts for each of the eVOLVER subsystems (click on the tabs for different parts of the eVOLVER)&#x20;

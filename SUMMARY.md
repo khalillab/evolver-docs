@@ -11,6 +11,7 @@
 ## Getting Started
 
 * [Buying eVOLVER](getting-started/buying-evolver.md)
+* [Part Sourcing](getting-started/part-sourcing.md)
 * [Unboxing and Setting Up](getting-started/unboxing-and-setting-up.md)
 * [Software Installation](getting-started/software-installation/README.md)
   * [DPU Installation](getting-started/software-installation/dpu-installation.md)
@@ -21,7 +22,6 @@
   * [Temperature Calibration](getting-started/calibrations/temperature-calibration.md)
   * [Optical Density Calibration](getting-started/calibrations/optical-density-calibration.md)
   * [Pump Calibration](getting-started/calibrations/pump-calibration.md)
-* [Part Sourcing](getting-started/part-sourcing.md)
 
 ## Experiments
 
@@ -45,6 +45,7 @@
 
 * [Use the GUI to Control Parameters](guides/use-the-gui-to-control-parameters.md)
 * [Making media bottles and splitters](guides/making-media-bottles-and-splitters.md)
+* [Upgrade Base eVOLVER Hardware](guides/upgrade-base-evolver-hardware.md)
 * [Building a Smart Sleeve](guides/building-a-smart-sleeve.md)
 * [Arduino Software Installation](guides/arduino-software-installation.md)
 * [View the Server Log and Restart Server](guides/view-the-server-log-and-restart-server.md)
