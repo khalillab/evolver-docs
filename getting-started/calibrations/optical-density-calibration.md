@@ -38,6 +38,10 @@ Yes. Temperature effects the photodiode sensors that we use to measure OD. If yo
   * If calibrating to ODs above 1.5, you may need more cells
 * 300 mL of 1X PBS (Phosphage Buffered Saline)
 
+{% hint style="info" %}
+Check your Smart Sleeves with a vial containing water vs a culture of an arbitrary OD to make sure that you see some change in the Setup page of the GUI. Otherwise you will need to change the photodiode or OD LED.
+{% endhint %}
+
 ## OD Standard Preparation
 
 {% hint style="info" %}
@@ -93,6 +97,10 @@ The cell stock will likely be much too dense to measure undiluted. For example, 
     2. This may take >30 minutes
     3. Each vial is labelled with its latest temperature in the `SETUP` page of the GUI
 
+{% hint style="info" %}
+Don't immediately throw out your standards after finishing calibration! You could need to make another calibration should one or more vials be off.
+{% endhint %}
+
 ## Calibrate OD using the GUI
 
 13. On the eVOLVER app home screen, make sure you are connected to your eVOLVER (green symbol next to active eVOLVER), then choose `CALIBRATIONS` and then `O.D.`
@@ -115,6 +123,3 @@ The cell stock will likely be much too dense to measure undiluted. For example, 
 {% hint style="info" %}
 Before doing an experiment it is recommended to further validate your calibration (after you have selected it on the `SETUP` page) by [starting an experiment](../../experiments/starting-an-experiment/gui-start-guide.md) and logging a few values for each vial at a known OD.
 {% endhint %}
-
-
-

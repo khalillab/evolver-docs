@@ -18,6 +18,7 @@ If OD is not working at all on a single vial: [replacing-photodiodes-and-leds.md
 
 Experiment Considerations
 
+* Outside of vials can have smudges or dried media
 * [Ambient light](https://www.evolver.bio/t/od-oscillating-even-with-no-sample/209)
 * Photodiode Temperature - make sure temperature is equilibrated before calibration and before start of experiment
 * eVOLVER recently turned on - causes rapid change in values
