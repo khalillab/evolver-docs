@@ -41,4 +41,4 @@ On Mac: Alternatively, you can type the command `caffeinate` into a terminal win
 
 ## OD
 
-OD is one of the most useful and most challenging aspects of eVOLVER. However the min-eVOLVER OD system is nearly the same as the main eVOLVER. Check the main OD troubleshooting [page](../../troubleshooting/vial-troubleshooting/optical-density-od-readings.md) for potential causes and fixes.
+OD is one of the most useful and most challenging aspects of eVOLVER. However the min-eVOLVER OD system is nearly the same as the main eVOLVER. Check the main OD troubleshooting [page](../../troubleshooting/optical-density-od-readings.md) for potential causes and fixes.

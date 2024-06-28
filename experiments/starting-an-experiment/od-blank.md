@@ -4,7 +4,7 @@
 
 When we start an experiment, the script asks us whether we want to calibrate to blank.
 
-[OD is dependent](../../troubleshooting/vial-troubleshooting/optical-density-od-readings.md) on vial position, vial opacity, media, environmental light conditions, temperature, and more.
+[OD is dependent](../../troubleshooting/optical-density-od-readings.md) on vial position, vial opacity, media, environmental light conditions, temperature, and more.
 
 Therefore, we take the first OD measurement as a zero and subtract that out from every subsequent measurement.
 
