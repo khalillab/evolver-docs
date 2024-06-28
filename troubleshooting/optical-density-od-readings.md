@@ -27,11 +27,12 @@ For more in-depth information about the OD hardware see [here](../hardware/smart
 1. [Standardize LED/Photodiode distance](../guides/upgrade-base-evolver-hardware.md#strongly-recommended-better-3d-printed-vial-holder)
 2. If you already have a version of the 3D printed tube holder with defined OD LED and photodiode distances:
    1. Use the upgrade [guide](../guides/upgrade-base-evolver-hardware.md#guide) to double check your photodiodes and LEDs are correctly placed!
-3. Try [OD90 for OD600 0.5-4.5 or OD135 for OD600 0.0-0.5](../hardware/smart-sleeve/optical-density/od90-vs-od135.md)
-4. Try different ADC resistor packs
+3. Sometimes a given OD photodiode or LED can be variable as they are cheap parts. Swap both out for new ones. Part numbers [here](../getting-started/part-sourcing.md).
+4. Try [OD90 for OD600 0.5-4.5 or OD135 for OD600 0.0-0.5](../hardware/smart-sleeve/optical-density/od90-vs-od135.md)
+5. Try different ADC resistor packs
    1. eVOLVERs come with a variety of these
    2. Ask on the forum for help
-5. Check that your vial construction is not variable
+6. Check that your vial construction is not variable
 
 ### Noisy OD Data
 
