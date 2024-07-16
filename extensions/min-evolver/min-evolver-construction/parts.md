@@ -59,5 +59,5 @@ Use [this](../../../guides/building-a-smart-sleeve.md) guide to swap in the new 
 Listed in the "Consumables / General" sheet of the above spreadsheet
 
 * Anything not listed as (Optional) is required for a full experiment.
-* You need a thermometer for calibrating temperature, we have suggested the one we use.
+* You need a thermometer for calibrating temperature we suggest [this](https://www.fishersci.com/shop/products/fisher-scientific-traceable-hi-accuracy-refrigerator-thermometer-5/15078177) one.
 * If you plan to run multiple min-eVOLVERs from a computer, you will need to have a USB port available for each one. You can use a USB splitter dongle to accomplish this. Example [here](https://www.amazon.com/Anker-Extended-MacBook-Surface-Notebook/dp/B07L32B9C2/ref=sr\_1\_5?crid=2RU3G7JIJJ7RM\&keywords=usb%2Bsplitter\&qid=1700599207\&s=electronics\&sprefix=usb%2Bsplitter%2Celectronics%2C70\&sr=1-5\&th=1).

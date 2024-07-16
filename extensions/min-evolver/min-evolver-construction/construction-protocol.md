@@ -8,7 +8,7 @@ It may be helpful to have the [parts](parts.md) page open as well, so you can id
 
 1. Measure ribbon cables and mark length (figure below A)
    1. 5" ribbon cable for pump board to min-eVOLVER PCB connection
-   2. Two 3.5" ribbon cables for smart sleeves to min-eVOLVER PCB connection
+   2. Two 4" ribbon cables for smart sleeve PCB to min-eVOLVER PCB connection
 2. Cut ribbon cables to size using scissors or razor.
 3. Open the connector and align to the end of the ribbon cable (figure below B)
    1. _The connectors should both have the knob on the same side_ (figure below A, red arrows)

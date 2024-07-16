@@ -29,7 +29,7 @@ Temperature calibration should be done before OD calibration because the OD sens
 
 * Glass eVOLVER vials (6X)
 * eVOLVER vial caps (6X)
-* Digital temperature probe (we use a [Fisherbrand™ Traceable™ Hi-Accuracy 0.01° Refrigerator Thermometer](https://www.fishersci.com/shop/products/traceable-hi-accuracy-0-01-refrigerator-thermometer/S98174))
+* Temperature probe (we use a [2 Probe Fisherbrand Traceable Hi-Accuracy Refrigerator Thermometer](https://www.fishersci.com/shop/products/fisher-scientific-traceable-hi-accuracy-refrigerator-thermometer-5/15078177))
 * 20mL pipette or a small graduated cylinder
 * 200mL cells at OD600 > 2
 
