@@ -14,3 +14,15 @@ The software architecture of the min-eVOLVER is similar to the [original eVOLVER
 
 * The Raspberry Pi server has been replaced with a server run on the connected laptop&#x20;
 * A single Arduino SAMD21 actuates all functions and collects vial data through the min-eVOLVER board
+
+## Maximum Power Draw
+
+* Maximum current draw\* = 2 Amps
+* Power supply voltage = 12V
+* Maximum power draw = 24W
+
+\*Maximum current draw was measured from a bench-top power supply with the heaters fully on, all pumps running, and stirring on. Instantaneous spikes in current could be higher when pumps and stirring start up
+
+{% hint style="warning" %}
+Especially if you plan to run multiple (>4) min-eVOLVERs off of one power strip, make sure you have a power strip that is rated for more than enough current. Most power strips are rated for 15A, but you should check.
+{% endhint %}
