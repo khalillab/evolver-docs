@@ -100,6 +100,7 @@
   * [Analog-to-Digital Converter (ADC) Boards](hardware/motherboard-layout-and-circuitry/analog-to-digital-converter-adc-boards.md)
 * [Raspberry Pi](hardware/raspberry-pi.md)
 * [Chassis](hardware/chassis.md)
+* [Light Blocker / Splash Guard](hardware/light-blocker-splash-guard.md)
 * [Known Issues](hardware/known-issues.md)
 
 ## Software

@@ -72,7 +72,7 @@ Pre-Calibration Considerations
 * [Resistor pack value](https://www.evolver.bio/t/od-led-power-level-vs-resistor-packs/87)
 * [Ambient light](https://www.evolver.bio/t/od-oscillating-even-with-no-sample/209)
   * Use the splash guard that comes with your eVOLVER
-  * Or make one using black acrylic
+  * Or [make one](https://github.com/FYNCH-BIO/hardware/tree/master/Accessories/splash-shield\_light-blocker) using black acrylic
   * You may need to recalibrate if you calibrated with ambient light
 
 Experiment Considerations

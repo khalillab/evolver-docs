@@ -28,6 +28,10 @@ Yes. Cells with different size and shapes scatter differently and would result i
 
 Yes. Temperature effects the photodiode sensors that we use to measure OD. If you plan to use different temperatures we suggest doing a new calibration for each one.
 
+{% hint style="warning" %}
+_Always_ calibrate OD with the [light blocker / splash guard](../../hardware/light-blocker-splash-guard.md) on to block ambient light. **Recommendation**: check the [OD troubleshooting](../../troubleshooting/optical-density-od-readings.md) page for other things that can effect OD readings.
+{% endhint %}
+
 ## Prepare the day before:
 
 * 16 assembled glass vials:
