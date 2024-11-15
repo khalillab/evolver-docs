@@ -23,19 +23,3 @@ Because of biofilming, it is useful to have another set of caps/bubblers that ca
 Bubblers will produce different sized bubbles depending on media type. This is related to the amount of salts, proteins, carbohydrates, etc that are in the media. These can act as surfactants to create smaller bubbles. Therefore, largest bubbles will be in water and smallest bubbles will be in rich media, as can be seen below:
 
 \<Add picture of bubbler in water vs algae media vs LB>
-
-## Cleaning Protocol
-
-Although autoclaving the lids with bubblers removes the risk of contaminating the next experiment, you'll ideally want to remove media residue and any biofilm that may have accumulated on the bubbler. This is best achieved in the following process, which utilizes 3 valves and Y connectors to control the pressure in the tubing connected to the bubbler: a valve to pressurize the bubbler, a valve to apply vacuum to the bubbler, and a valve to "neutralize" the bubbler to ambient pressure. This can also be achieved manually with a syringe.
-
-* Remove all lids from their vials
-* In a 1L beaker full of 10% bleach, pressurize the bubbler to purge any residual media/bacteria into the bleach
-* Apply vacuum to the bubbler to pull bleach into it
-* Neutralize the bubbler pressure once you see bleach heading up the tube connecting the bubbler to the lid
-* Repeat with the rest of your lids, and allow them to rest submerged in bleach for 30 minutes (don't leave them in bleach for longer than a few hours, as the steel in the bubblers will begin to rust)
-* Pour out the bleach, rinse the lids with water a few times, and refill the beaker with water
-* Pressurize each bubbler to purge the bleach inside each bubbler into the water
-* Apply vacuum to pull in water (or 70% ethanol), and then apply pressure to purge
-* Leave your lids to dry in a rack or put them in vials for your next experiment!
-
-If residual salts on the bubbler is not a concern, a simpler protocol is to soak the lids in 10% bleach (without any purging or vacuum), and then blow out the resultant bleach/media mixture with an air supply or syringe, and then rinse with water.

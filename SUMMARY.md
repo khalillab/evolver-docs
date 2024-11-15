@@ -134,6 +134,7 @@
   * [Adding a Third Pump Rack](extensions/custom-fluidics/adding-a-third-pump-rack.md)
   * [Bubblers / In-Vial Aeration](extensions/custom-fluidics/bubblers-in-vial-aeration/README.md)
     * [Bubbler Construction Protocol](extensions/custom-fluidics/bubblers-in-vial-aeration/bubbler-construction-protocol.md)
+    * [Bubbler Cleaning Protocol](extensions/custom-fluidics/bubblers-in-vial-aeration/bubbler-cleaning-protocol.md)
 * [min-eVOLVER](extensions/min-evolver/README.md)
   * [About](extensions/min-evolver/about.md)
   * [min-eVOLVER Construction](extensions/min-evolver/min-evolver-construction/README.md)
