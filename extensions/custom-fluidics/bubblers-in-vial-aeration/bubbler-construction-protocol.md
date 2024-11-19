@@ -3,7 +3,7 @@
 ## Materials
 
 * 3D printed (SLS, nylon PA-12) vial cap with ports for nylon tubing
-* 3D printed (SLS, nylon PA-12) bubbler body
+* 3D printed (SLS, nylon PA-12) [bubbler body](https://github.com/FYNCH-BIO/hardware/tree/master/Accessories/bubbler)
 * [Plasticweld epoxy](https://www.mcmaster.com/7605A5/)
 * [Nylon tubing](https://www.mcmaster.com/9685T1/) (1/8" OD)
 * [Stainless steel frit ](https://www.mcmaster.com/9446T31/)- 5 micron filter, 1/4" Diameter, 1/16" Thick
