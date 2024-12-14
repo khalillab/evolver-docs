@@ -64,6 +64,7 @@ Does not require joining GitBook, only requires GitHub account
 1. Click "Edit on GitHub" on the right hand side of the page you want to edit. (Or click on the three dots next to the title to show it)
 2. [Edit the file directly on GitHub and open a Pull Request](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files).
 
+
 ## Resources
 
 [Other ](https://www.gitbook.com/explore)[GitBook](https://docs.airbyte.com/contributing-to-airbyte/) [communities](https://docs.rocket.chat/)
