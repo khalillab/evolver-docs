@@ -203,7 +203,7 @@ To append a line into a file:
 
 #### <mark style="color:blue;">cat</mark>
 
-Stands for con**cat**enate**.** Displays the contents of a file. You can use it to concatenate by passing it multiple files, and it will print them to some output location.
+Stands for con**cat**enat&#x65;**.** Displays the contents of a file. You can use it to concatenate by passing it multiple files, and it will print them to some output location.
 
 ![](<../.gitbook/assets/image (21).png>)
 
