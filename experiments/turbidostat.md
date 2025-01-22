@@ -52,12 +52,13 @@ _However, the mox dilution is 20 seconds to avoid overflow._
 
 Calculated in eVOLVER.py in [this](https://github.com/FYNCH-BIO/dpu/blob/1ea8fe36a6a7cdbcf4e5a872c43abfdf53acaf35/experiment/template/eVOLVER.py#L483) function and stored in your data folder during an experiment.
 
-When there is a turbidostat dilution, it fits a line to the log of the OD data since the last growth curve (ie last turbidostat dilution) time. The slope of that line is reported as the growth rate in 1/h.
+When there is a turbidostat dilution, it fits a line to the log of the OD data since the last growth curve (ie last turbidostat dilution) time. The slope of that line is reported as the growth rate in 1/hr.
 
 ### Doubling Time
 
-Convert growth rate to doubling time (in hours) via ln(2)/growthrate.\
+Convert growth rate to doubling time (in hours) via ln(2)/growthrate.
 
+<table><thead><tr><th>Growth Rate (1/hr)</th><th width="320">Doubling Time (hr)</th></tr></thead><tbody><tr><td>0.2</td><td>3.47</td></tr><tr><td>0.5</td><td>1.39</td></tr><tr><td>1.0</td><td>0.69</td></tr><tr><td>1.5</td><td>0.46</td></tr><tr><td>2.0</td><td>0.35</td></tr></tbody></table>
 
 ## More Info
 
