@@ -28,7 +28,7 @@ description: >-
 
 ### Dilution Calculation Example
 
-Dilution is calculated [here](https://github.com/FYNCH-BIO/dpu/blob/1ea8fe36a6a7cdbcf4e5a872c43abfdf53acaf35/experiment/template/custom\_script.py#L124C17-L124C85) in the code and is modeled as a mass balance equation
+Dilution is calculated [here](https://github.com/FYNCH-BIO/dpu/blob/1ea8fe36a6a7cdbcf4e5a872c43abfdf53acaf35/experiment/template/custom_script.py#L124C17-L124C85) in the code and is modeled as a mass balance equation
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -46,6 +46,19 @@ time_in = -(np.log(0.5/1)*25)/0.75 = 23.1 # seconds
 
 _However, the mox dilution is 20 seconds to avoid overflow._
 
+## Growth Rate
+
+### Calculation
+
+Calculated in eVOLVER.py in [this](https://github.com/FYNCH-BIO/dpu/blob/1ea8fe36a6a7cdbcf4e5a872c43abfdf53acaf35/experiment/template/eVOLVER.py#L483) function and stored in your data folder during an experiment.
+
+When there is a turbidostat dilution, it fits a line to the log of the OD data since the last growth curve (ie last turbidostat dilution) time. The slope of that line is reported as the growth rate in 1/h.
+
+### Doubling Time
+
+Convert growth rate to doubling time (in hours) via ln(2)/growthrate.\
+
+
 ## More Info
 
-See [custom\_script](../software/dpu/custom\_script.py.md) and the [GUI start guide](starting-an-experiment/gui-start-guide.md) for information.
+See [custom\_script](../software/dpu/custom_script.py.md) and the [GUI start guide](starting-an-experiment/gui-start-guide.md) for information.
