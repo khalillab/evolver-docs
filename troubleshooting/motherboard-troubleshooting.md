@@ -18,6 +18,10 @@ In the example below, overflow events during an experiment caused media to leak 
 Before getting started with disassembly, be sure to unplug the eVOLVER from the wall outlet.&#x20;
 {% endhint %}
 
+{% hint style="info" %}
+You may want to purchase an [Integrated Circuit (IC) puller](https://www.amazon.com/Jonard-S-340-Insulated-Spring-Extractor/dp/B006C4BCAK) to help remove the PCBs from the motherboard without damaging them.
+{% endhint %}
+
 ### Unfasten Motherboard
 
 The motherboard is fastened to the eVOLVER platform and other internal components in several ways (numbers correspond to image below):
@@ -40,13 +44,25 @@ The motherboard is fastened to the eVOLVER platform and other internal component
 
 ### Transfer Parts to New Motherboard
 
-The PWM boards, ADC boards, SAMD21 mini breakout boards and jumpers need to be transferred to the new motherboard.
+The PWM boards, ADC boards, SAMD21 mini Arduino boards and jumpers need to be transferred to the new motherboard.
 
 {% hint style="info" %}
 Be sure to take note of where each board is on the old motherboard before removing them. An image of the configuration can be seen in the images above.
 {% endhint %}
 
-Remove the ADC boards, PWM boards, and SAMD21 mini breakout boards from their slots using an Integrated Circuit (IC) puller, as seen in the image below. Pull the IC puller perpendicular to the motherboard to prevent bending or breaking the SA boards’ pins.
+#### Remove the ADC boards, PWM boards, and SAMD21 mini breakout boards from their slots
+
+1. Using an Integrated Circuit (IC) puller, as seen in the image below.&#x20;
+   1. Pull the IC puller perpendicular to the motherboard to prevent bending or breaking the SA boards’ pins.
+2. Or put a screwdriver in the hollow under the board and SLOWLY work it back and forth the pry the board out.
+
+Make sure you pull the pins out as straight as possible because it will be challenging to get the board back in if they are bent.&#x20;
+
+<figure><img src="../.gitbook/assets/IMG_1291.jpg" alt="" width="375"><figcaption><p>Using an IC puller to remove an ADC board. In black are the PWM boards. Small red boards are the SAMD21 Arduinos</p></figcaption></figure>
+
+{% hint style="warning" %}
+BE VERY CAREFUL. If you break off the wrong connector pin on their bottom, it's pretty annoying to figure out a solution other than replacing the whole board. Unfortunately, you also need to apply a good amount of force to get the board up. But be patient!
+{% endhint %}
 
 1. If pins are bent in the process of removing the boards, they can be straightened using tweezers. Avoid bending the pins too much; excess bending can cause the pins to snap off.
 2. If pins are snapped off during this process:
@@ -54,19 +70,17 @@ Remove the ADC boards, PWM boards, and SAMD21 mini breakout boards from their sl
    2. Alternatively, the pins can be soldered back into place onto the board, but this is much trickier to do.
    3. The board should be replaced with a new board if other options do not work&#x20;
 
-<figure><img src="../.gitbook/assets/IMG_1291.jpg" alt="" width="375"><figcaption><p>Using an IC puller to remove SA boards</p></figcaption></figure>
-
-_Optional: If your motherboard includes a variable resistance board, proceed to steps 3 and 4. If not, skip to step 5._
+_**Optional: If your motherboard includes a variable resistance board, proceed to steps 3 and 4. If not, skip to step 5.**_
 
 3. Remove the variable resistance board from the motherboard. The ADC boards on this board can be removed first, or the variable resistance board and ADC boards can be removed as a single part.&#x20;
 4. Remove the headers under the variable resistor board and transfer to the new motherboard. These can be removed with pliers.&#x20;
 
 <figure><img src="../.gitbook/assets/IMG_1304.jpg" alt="" width="375"><figcaption><p>Variable resistance board sitting on top of headers after being removed</p></figcaption></figure>
 
-5. Remove the yellow resistor arrays (see below). An IC puller or pliers may be helpful here. Transfer the resistor arrays to the new motherboard, making sure to insert them in the proper orientation.&#x20;
+5. Remove the yellow resistor arrays (see below). An [IC puller](https://www.amazon.com/Jonard-S-340-Insulated-Spring-Extractor/dp/B006C4BCAK) or pliers may be helpful here. Transfer the resistor arrays to the new motherboard, making sure to insert them in the proper orientation.&#x20;
 6. On the side of the resistor array, there is a description of the part and a black dot, seen in the image below. This black dot indicates the ground pin of the resistor array, and should go into the slot towards the top of the motherboard.
 
-![](../.gitbook/assets/IMG\_1299.jpg)![](../.gitbook/assets/IMG\_1293.jpg)
+![](../.gitbook/assets/IMG_1299.jpg)![](../.gitbook/assets/IMG_1293.jpg)
 
 7. Remove the jumpers to the old motherboard by pulling them straight up. Transfer the jumpers to the new motherboard, recreating the same configuration as shown below.
 
@@ -98,7 +112,7 @@ Adding the SA parts to their slots on the motherboard can be quite tricky, espec
 
 10. Use electrical tape to cover all exposed elements on the back of the motherboard. There are exposed pins on both the top and bottom of the motherboard.
 
-![](../.gitbook/assets/IMG\_1353.jpg)![](../.gitbook/assets/IMG\_1354.jpg)
+![](../.gitbook/assets/IMG_1353.jpg)![](../.gitbook/assets/IMG_1354.jpg)
 
 The new motherboard is now ready to be fastened to the vial platform!&#x20;
 
