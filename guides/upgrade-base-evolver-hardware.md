@@ -1,16 +1,18 @@
 # Upgrade Base eVOLVER Hardware
 
-## Vial Cap Variants
+## Vial Cap Upgrades
 
 {% hint style="info" %}
 As of 25/01/15, FynchBio gives the cap that only accommodates needles. This cap does not have a tight seal on the vial and thus does not enable emergency efflux.
 {% endhint %}
 
-### Upgrades
+### Benefits / Options
 
 1. Better seal to vial - enables emergency efflux away from vial should too much be pumped in
 2. More ports
 3. Reusable connectors - can use luer connectors to connect to eVOLVER tubing
+
+See [here](../hardware/vial-caps/) for more information and construction protocols.
 
 ## Stronger Stirring
 

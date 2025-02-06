@@ -4,21 +4,21 @@ It may be helpful to have the [parts](parts.md) page open as well, so you can id
 
 ## Make Ribbon Cables
 
-1. Measure ribbon cables and mark length (figure below A)
+<figure><img src="../../../.gitbook/assets/image (60).png" alt=""><figcaption><p>(A) Ribbon cable connector placed at 5" with both knobs on the same side (arrows). (B) Align the ribbon cable connector with the end of the cable. (C) Connector is placed in center of clamp. (D) Completed ribbon cable after connector is crimped on.</p></figcaption></figure>
+
+1. Measure ribbon cables and mark length (figure above A)
    1. 5" ribbon cable for pump board to min-eVOLVER PCB connection
    2. Two 4" ribbon cables for smart sleeve PCB to min-eVOLVER PCB connection
 2. Cut ribbon cables to size using scissors or razor.
-3. Open the connector and align to the end of the ribbon cable (figure below B)
-   1. _The connectors should both have the knob on the same side_ (figure below A, red arrows)
+3. Open the connector and align to the end of the ribbon cable (figure above B)
+   1. _The connectors should both have the knob on the same side_ (figure above A, red arrows)
    2. You can apply pressure to the connector so that it stays in place as you work with it
 4. Crimp on ribbon cable connectors (one on each side of cable)
    1. _Be careful_ not to break the connectors, they're fragile!
-   2. The easiest way crimp these connectors is to use a clamp or vice (figure below C), unless you have a specialized tool
+   2. The easiest way crimp these connectors is to use a clamp or vice (figure above C), unless you have a specialized tool
       1. Place the connector in the _center_ of the clamp (making sure it remains in the right location)
-      2. Tighten clamp until sides of connector are flush and it is full closed (figure below D)
+      2. Tighten clamp until sides of connector are flush and it is full closed (figure above D)
    3. You can also use pliers, but this is more annoying / prone to breaking the connectors
-
-<figure><img src="../../../.gitbook/assets/image (60).png" alt=""><figcaption><p>(A) Ribbon cable connector placed at 5" with both knobs on the same side (arrows). (B) Align the ribbon cable connector with the end of the cable. (C) Connector is placed in center of clamp. (D) Completed ribbon cable after connector is crimped on.</p></figcaption></figure>
 
 ## Prepare case
 
@@ -56,11 +56,12 @@ Surface mount soldering of the min-eVOLVER PCB is outside of the scope of this g
    2. You will have a useless board and it will be necessary to get a new one
    3. Therefore, you should add [epoxy](https://www.mcmaster.com/7605A5/) to the perimeter of the connector in the (locations shown in the figure below C)&#x20;
    4. Follow directions on the epoxy label for use
-   5. A weigh boat and pipette tip work for mixing and application
-   6. _Important - Avoid putting epoxy into the holes in the micro-USB connector_
-   7. Otherwise, be generous with the epoxy, it's ok to get it on the electronics
+   5. Use gloves when working with epoxy!
+   6. A weigh boat and pipette tip work for mixing and application
+   7. _Important - Avoid putting epoxy into the holes in the micro-USB connector_
+   8. Otherwise, be generous with the epoxy, it's ok to get it on the electronics
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>(A) The SAMD21 board and the 2x12-pin header with flat side of the 24-pins up. (B) SAMD21 board partially soldered, starting from the pins in the corners. (C) Locations for epoxy (cyan) avoiding openings in the micro-USB connector. (D) Placing the jumpers on the right two selector pins for each vial. (E) The assembled min-eVOLVER PCB.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>(A) The SAMD21 board and the 2x12-pin header with flat side of the 24-pins up. (B) SAMD21 board partially soldered, starting from the pins in the corners. (C) Locations for epoxy (cyan) avoiding openings in the micro-USB connector. (D) Placing the jumpers on the right two selector pins for each vial. (E) The assembled min-eVOLVER PCB.</p></figcaption></figure>
 
 ### Assemble min-eVOLVER PCB
 

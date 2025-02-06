@@ -8,7 +8,7 @@ No longer! We can seal our vials, so that even if we make a mistake and pump too
 
 ## Requirements
 
-1. Emergency efflux enabled [vial cap](../../hardware/smart-sleeve/vial-caps/)
+1. Emergency efflux enabled [vial cap](../../hardware/vial-caps/)
 2. O-ring
 3. Luer caps for unused vial cap ports
 4. Emergency efflux tube
