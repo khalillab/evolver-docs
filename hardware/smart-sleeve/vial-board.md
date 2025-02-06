@@ -2,7 +2,7 @@
 
 ## Version D
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Picture of version D vial board in KiCAD</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption><p>Picture of version D vial board in KiCAD</p></figcaption></figure>
 
 ### Pin Map
 
@@ -19,7 +19,7 @@ _Differences to Version C bolded_
 
 ## Version C
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Picture of version C vial board in KiCAD</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Picture of version C vial board in KiCAD</p></figcaption></figure>
 
 ### Pin Map
 

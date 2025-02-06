@@ -1,8 +1,6 @@
 # Construction Protocol
 
-{% hint style="info" %}
 It may be helpful to have the [parts](parts.md) page open as well, so you can identify what you need for each step.
-{% endhint %}
 
 ## Make Ribbon Cables
 
@@ -15,10 +13,10 @@ It may be helpful to have the [parts](parts.md) page open as well, so you can id
    2. You can apply pressure to the connector so that it stays in place as you work with it
 4. Crimp on ribbon cable connectors (one on each side of cable)
    1. _Be careful_ not to break the connectors, they're fragile!
-   2. The easiest way crimp these connectors is to use a clamp or vice, unless you have a specialized tool (figure below C)
+   2. The easiest way crimp these connectors is to use a clamp or vice (figure below C), unless you have a specialized tool
       1. Place the connector in the _center_ of the clamp (making sure it remains in the right location)
       2. Tighten clamp until sides of connector are flush and it is full closed (figure below D)
-   3. You can also , but this is more annoying / prone to breaking the connectors
+   3. You can also use pliers, but this is more annoying / prone to breaking the connectors
 
 <figure><img src="../../../.gitbook/assets/image (60).png" alt=""><figcaption><p>(A) Ribbon cable connector placed at 5" with both knobs on the same side (arrows). (B) Align the ribbon cable connector with the end of the cable. (C) Connector is placed in center of clamp. (D) Completed ribbon cable after connector is crimped on.</p></figcaption></figure>
 
@@ -43,6 +41,8 @@ Use the below video:
 Surface mount soldering of the min-eVOLVER PCB is outside of the scope of this guide. It is assumed that you have an already assembled min-eVOLVER PCB.
 {% endhint %}
 
+### Solder SAMD21 Arduino
+
 1. Place the 2x12-pin header on a workbench with the flat (non conical) side of the pins up (figure below A). Place the SAMD21 board on top of it
    1. You can also carefully plug the SAMD21 into a breadboard if you want to avoid it moving
 2. Carefully solder the SAMD21 board pins.
@@ -51,17 +51,31 @@ Surface mount soldering of the min-eVOLVER PCB is outside of the scope of this g
    3. Solder all pins
       1. If you want to be extra careful, only solder half the pins on a side before switching to the other side (to avoid overheating the board)
    4. Make sure that each pin is individual and no solder has reached the electronic components on the board surface
-3. Press the SAMD21 board into the min-eVOLVER PCB until you feel a click and the SAMD21 sits mostly flush
+3. \[**Recommended**] Strengthen SAMD21 Board USB
+   1. The micro-USB port on the SAMD21 easily pops off when you move the ribbon cable
+   2. You will have a useless board and it will be necessary to get a new one
+   3. Therefore, you should add [epoxy](https://www.mcmaster.com/7605A5/) to the perimeter of the connector in the (locations shown in the figure below C)&#x20;
+   4. Follow directions on the epoxy label for use
+   5. A weigh boat and pipette tip work for mixing and application
+   6. _Important - Avoid putting epoxy into the holes in the micro-USB connector_
+   7. Otherwise, be generous with the epoxy, it's ok to get it on the electronics
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>(A) The SAMD21 board and the 2x12-pin header with flat side of the 24-pins up. (B) SAMD21 board partially soldered, starting from the pins in the corners. (C) Locations for epoxy (cyan) avoiding openings in the micro-USB connector. (D) Placing the jumpers on the right two selector pins for each vial. (E) The assembled min-eVOLVER PCB.</p></figcaption></figure>
+
+### Assemble min-eVOLVER PCB
+
+1. Press the SAMD21 board into the min-eVOLVER PCB until you feel a click and the SAMD21 sits mostly flush
    1. Micro-USB port should be on edge of board
    2. Carefully align the pins with the sockets
-4. Slide the shorting jumpers onto the right two pins for each vial (see figure below C)
+2. Slide the shorting jumpers onto the right two pins for each vial (see figure above D)
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>(A) The SAMD21 board and the 2x12-pin header with flat side of the 24-pins up. (B) SAMD21 board partially soldered, starting from the pins in the corners. (C) Placing the jumpers on the right two selector pins for each vial. (D) The assembled min-eVOLVER PCB.</p></figcaption></figure>
+### OD 90 vs OD 135
 
 1. OD90 = OD LED and photodiode at 90 degrees from eachother
 2. OD135 = OD LED and photodiode at 135 degrees from eachother
-3. By default, we choose to use OD90 for our vials, which is typically better at measuring higher ODs > 0.4 and is what most people want
-4. You can also place the jumper across the left two pins for each vial, meaning you will register OD135. You will need to make different OD calibrations for OD135 and OD90
+3. _By default, we choose to use OD90 for our vials, which is typically better at measuring higher ODs > 0.4 and is what most people want_
+4. You can also place the jumper across the left two pins for each vial, meaning you will register OD135.
+5. You will need to make different OD calibrations for OD135 and OD90
 
 ## Assemble min-eVOLVER PCB and pumps with the case
 

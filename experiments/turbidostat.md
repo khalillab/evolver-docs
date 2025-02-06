@@ -30,7 +30,7 @@ description: >-
 
 Dilution is calculated [here](https://github.com/FYNCH-BIO/dpu/blob/1ea8fe36a6a7cdbcf4e5a872c43abfdf53acaf35/experiment/template/custom_script.py#L124C17-L124C85) in the code and is modeled as a mass balance equation
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
 #### Example Dilution
 
