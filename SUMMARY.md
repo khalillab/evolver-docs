@@ -51,6 +51,7 @@
 * [View the Server Log and Restart Server](guides/view-the-server-log-and-restart-server.md)
 * [Raspberry Pi Configuration](guides/raspberry-pi-configuration.md)
 * [Updating the eVOLVER Server](guides/updating-the-evolver-server.md)
+* [Change Your conf.yml File](guides/change-your-conf.yml-file.md)
 * [Command Line Usage](guides/command-line-usage.md)
 * [Manual Calibration - calibrate.py](guides/manual-calibration-calibrate.py.md)
 * [Millifluidics Guides](guides/millifluidics-guides/README.md)

@@ -2,6 +2,10 @@
 
 {% embed url="https://github.com/FYNCH-BIO/evolver/blob/master/evolver/conf.yml" %}
 
+{% hint style="info" %}
+Guide [here](../../guides/change-your-conf.yml-file.md) to change your conf.yml file.&#x20;
+{% endhint %}
+
 ## Summary
 
 This is the configuration file for the eVOLVER server. The server uses this file to notate what kinds of experimental parameters are connected, how they should be used, and configurations for running the server itself.
