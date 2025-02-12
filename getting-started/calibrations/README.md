@@ -19,5 +19,5 @@ Calibrations should proceed in the following order:
 3. [Pump Calibration](pump-calibration.md)
 
 {% hint style="warning" %}
-If the GUI fails to calibrate you can try to use [calibrate.py](../../guides/manual-calibration-calibrate.py.md) manually.
+If the GUI fails to calibrate you can try to use [calibrate.py](manual-calibration-calibrate.py.md) manually.
 {% endhint %}

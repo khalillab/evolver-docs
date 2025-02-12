@@ -1,11 +1,7 @@
-# calibrate.py
+# Manual Calibration - calibrate.py
 
-{% hint style="warning" %}
-**Advanced Users Only**:
-
-Currently called by the GUI
-
-Use GUI for calibrations in most cases
+{% hint style="info" %}
+You can use manual calibration to view past calibrations after they are done. This can be useful for troubleshooting if a vial is not behaving as expected.
 {% endhint %}
 
 ## About
@@ -17,11 +13,11 @@ Located in [/dpu/calibration/](https://github.com/FYNCH-BIO/dpu/tree/master/cali
 ## Requirements
 
 1. You have run calibration and logged raw values already
-2. You are in your DPU virtual environment in command line. This is set up when you [install ](../../getting-started/software-installation/dpu-installation.md)the DPU.
+2. You are in your DPU virtual environment in command line. This is set up when you [install ](../software-installation/dpu-installation.md)the DPU.
 
 ## Commands
 
-#### List raw calibration files on eVOLVER
+### List raw calibration files on the eVOLVER
 
 **Mac**
 
@@ -31,13 +27,13 @@ python3 calibration/calibrate.py -a <ip_address> -g
 
 For Windows, use py instead of python for all commands.
 
-#### Calibrate Temperature
+### Calibrate Temperature
 
 ```sh
 python3 calibration/calibrate.py -a <ip_address> -n <file_name> -t linear -f <name_after_fit> -p temp
 ```
 
-#### List raw OD JSON files logged on evolver
+### Calibrate OD
 
 **OD135**
 

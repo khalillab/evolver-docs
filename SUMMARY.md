@@ -22,6 +22,7 @@
   * [Temperature Calibration](getting-started/calibrations/temperature-calibration.md)
   * [Optical Density Calibration](getting-started/calibrations/optical-density-calibration.md)
   * [Pump Calibration](getting-started/calibrations/pump-calibration.md)
+  * [Manual Calibration - calibrate.py](getting-started/calibrations/manual-calibration-calibrate.py.md)
 
 ## Experiments
 
@@ -53,7 +54,6 @@
 * [Updating the eVOLVER Server](guides/updating-the-evolver-server.md)
 * [Change Your conf.yml File](guides/change-your-conf.yml-file.md)
 * [Command Line Usage](guides/command-line-usage.md)
-* [Manual Calibration - calibrate.py](guides/manual-calibration-calibrate.py.md)
 * [Millifluidics Guides](guides/millifluidics-guides/README.md)
   * [Designing Millifluidics Using Eagle](guides/millifluidics-guides/designing-millifluidics-using-eagle.md)
   * [Constructing Laser Cut Millifluidics](guides/millifluidics-guides/constructing-laser-cut-millifluidics.md)

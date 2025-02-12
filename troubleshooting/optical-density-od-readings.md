@@ -38,7 +38,7 @@ For more in-depth information about the OD hardware see [here](../hardware/smart
 
 1. Stir bars jumping around during OD readings
    1. Decrease stir speed
-   2. [Stop stirring during OD readings](https://github.com/FYNCH-BIO/evolver/tree/master/evolver/alternate\_conf\_files)
+   2. [Stop stirring during OD readings](https://github.com/FYNCH-BIO/evolver/tree/master/evolver/alternate_conf_files)
 2. You are near the edge of your calibrated OD range
 3. [OD blank](../experiments/starting-an-experiment/od-blank.md) is off enough to make your calibration fail
 
@@ -49,7 +49,7 @@ ie eVOLVER OD is offset from the cuvette or plate reader measured value.&#x20;
 1. Bad [OD blank](../experiments/starting-an-experiment/od-blank.md)
    1. Especially because you did not wait for temperatures of the vials to equilibriate
 2. Poor quality OD calibration
-   1. You can check your OD calibration using the [manual calibration](../guides/manual-calibration-calibrate.py.md) script
+   1. You can check your OD calibration using the [manual calibration](../getting-started/calibrations/manual-calibration-calibrate.py.md) script
    2. Different temperatures require different OD calibrations
 
 ### No Change in OD
@@ -72,7 +72,7 @@ Pre-Calibration Considerations
 * [Resistor pack value](https://www.evolver.bio/t/od-led-power-level-vs-resistor-packs/87)
 * [Ambient light](https://www.evolver.bio/t/od-oscillating-even-with-no-sample/209)
   * Use the splash guard that comes with your eVOLVER
-  * Or [make one](https://github.com/FYNCH-BIO/hardware/tree/master/Accessories/splash-shield\_light-blocker) using black acrylic
+  * Or [make one](https://github.com/FYNCH-BIO/hardware/tree/master/Accessories/splash-shield_light-blocker) using black acrylic
   * You may need to recalibrate if you calibrated with ambient light
 
 Experiment Considerations
