@@ -90,7 +90,7 @@
   * [IPPs (Integrated Peristaltic Pumps)](hardware/overview-of-millifluidics/ipps-integrated-peristaltic-pumps.md)
   * [Pressure Regulator](hardware/overview-of-millifluidics/pressure-regulator.md)
 * [Vial Caps](hardware/vial-caps/README.md)
-  * [Universal Vial Construction Guide](hardware/vial-caps/universal-vial-construction-guide.md)
+  * [Universal Vial Construction Guide (Luer Connectors Only)](hardware/vial-caps/universal-vial-construction-guide-luer-connectors-only.md)
   * [5 and 7 Port Nylon Tubing Caps Construction Protocol](hardware/vial-caps/5-and-7-port-nylon-tubing-caps-construction-protocol.md)
 * [Smart Sleeve](hardware/smart-sleeve/README.md)
   * [Vial Board](hardware/smart-sleeve/vial-board.md)

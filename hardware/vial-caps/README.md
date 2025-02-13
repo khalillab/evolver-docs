@@ -24,7 +24,7 @@ Must be assembled with needles at correct heights before each run.
 
 GitHub [link](https://github.com/FYNCH-BIO/hardware/tree/master/Smart%20Sleeve/vial_cap/4port_needle_or_luer)
 
-[Construction guide](universal-vial-construction-guide.md)
+[Construction guide](universal-vial-construction-guide-luer-connectors-only.md)
 
 #### Overview
 
