@@ -74,8 +74,9 @@
   * [Replacing Photodiodes and LEDs](troubleshooting/vial-troubleshooting/replacing-photodiodes-and-leds.md)
   * [Heating Element](troubleshooting/vial-troubleshooting/heating-element.md)
   * [Stirring](troubleshooting/vial-troubleshooting/stirring.md)
-* [Motherboard Troubleshooting/Replacement](troubleshooting/motherboard-troubleshooting.md)
-* [12V Power Supply Troubleshooting/Replacement](troubleshooting/12v-power-supply-troubleshooting-replacement.md)
+* [Vial Platform](troubleshooting/vial-platform/README.md)
+  * [Motherboard Troubleshooting/Replacement](troubleshooting/motherboard-troubleshooting.md)
+  * [12V Power Supply Troubleshooting/Replacement](troubleshooting/12v-power-supply-troubleshooting-replacement.md)
 * [GUI Troubleshooting](troubleshooting/gui-troubleshooting.md)
 * [Server Troubleshooting](troubleshooting/server-troubleshooting.md)
 
