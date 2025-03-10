@@ -6,20 +6,6 @@ An essential component that screws on top of the glass eVOLVER vial. Connects to
 
 ## Versions
 
-### Old Needle-Only
-
-GitHub [link](https://github.com/FYNCH-BIO/hardware/tree/master/Smart%20Sleeve/vial_cap/old_needle_only)
-
-#### Overview
-
-This is the cap that is currently given by default from FynchBio as of 25/01/15.
-
-Requires needles, so cannot have a full seal on the vial. Therefore, should be used with caution because of overflow risk.
-
-#### Assembly
-
-Must be assembled with needles at correct heights before each run.
-
 ### 4 Port Universal \[Needle or Luer Lock]
 
 GitHub [link](https://github.com/FYNCH-BIO/hardware/tree/master/Smart%20Sleeve/vial_cap/4port_needle_or_luer)
@@ -66,3 +52,17 @@ Use a honeycomb pattern for the ports to cram more ports onto the cap.
 #### Assembly
 
 See construction protocol [here](5-and-7-port-nylon-tubing-caps-construction-protocol.md).
+
+### Old Needle-Only
+
+GitHub [link](https://github.com/FYNCH-BIO/hardware/tree/master/Smart%20Sleeve/vial_cap/old_needle_only)
+
+#### Overview
+
+This is the cap that is currently given by default from FynchBio as of 25/01/15.
+
+Requires needles, so cannot have a full seal on the vial. Therefore, should be used with caution because of overflow risk.
+
+#### Assembly
+
+Must be assembled with needles at correct heights before each run.

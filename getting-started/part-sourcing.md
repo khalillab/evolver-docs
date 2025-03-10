@@ -19,15 +19,13 @@ Many eVOLVER parts must be 3D printed or are custom PCBs made to control eVOLVER
 
 ### Vial Caps
 
-{% hint style="info" %}
-3D printed nylon caps are currently preferred for their defined influx angles and ease of setting efflux height.&#x20;
-{% endhint %}
+Choose and 3D print vial caps for your application [here](../hardware/vial-caps/). For most applications choose the "universal" cap.
 
-[Nylon Caps](https://www.evolver.bio/t/where-can-i-order-additional-nylon-caps/81) should be 3D printed from the [hardware GitHub](https://github.com/FYNCH-BIO/hardware) or ordered from [Fynch Bio](https://www.fynchbio.com/accessories)
+### Other "Consumables"
 
-* Once nylon caps arrive, clean excess nylon powder out of the tubes with a drill bit or small pipe cleaner
+See Consumables tab in spreadsheet above.
 
-Old caps: [Making vial caps w/ laser cutter and pipette tip](https://www.evolver.bio/t/making-vial-caps-w-laser-cutter-and-pipette-tip/67)
+Recommended to buy several vial racks as well for ease of handling vials.
 
 ## Relevant Forum Posts
 
