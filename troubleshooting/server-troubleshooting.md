@@ -1,12 +1,19 @@
 # Server Troubleshooting
 
+{% hint style="info" %}
+For more information about the server software, see [here](../software/server-raspberry-pi/).
+{% endhint %}
+
+## Overview
+
+If a parameter is not working properly, often the first place to check for issues is the server
+
 ## Guide
 
-1. Check the server software [page](../software/server-raspberry-pi/) for more information
-2. Monitor the server log file
+1. Monitor the server log file
    1. Guide [here](../guides/view-the-server-log-and-restart-server.md)
-3. Any time you are troubleshooting the server, make sure to save your calibrations.json file in a secure location before going further
-4. If the log file is not updating (via `evolver tail -f`)
+2. Any time you are troubleshooting the server, make sure to save your calibrations.json file in a secure location before going further
+3. If the log file is not updating (via `evolver tail -f`)
    1. If you have manually edited the conf.yml file, most likely you have made an error somewhere there
       1. This could be formatting or a typo
       2. Copy a conf.yml that you know works (for example to [base eVOLVER conf.yml](https://github.com/FYNCH-BIO/evolver/blob/master/evolver/conf.yml))

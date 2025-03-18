@@ -51,14 +51,5 @@ python3 calibration/calibrate.py -a <ip_address> -n <file_name> -t sigmoid -f <n
 
 ```sh
 python3 calibration/calibrate.py -a <ip_address> -n <file_name> -t 3d -f <name_after_fit> -p od_90,od_135
+
 ```
-
-## Example Procedure to Plot OD90 After Calibration
-
-1. Navigate to the dpu environment in terminal
-   1. `cd <your_dpu_address>`
-2. Put in the following command to get the exact name of your calibration file
-   1. `python3 calibration/calibrate.py -a <ip_address> -g`
-3. Do the following command, replacing ip\_address, file\_name, name\_after\_fit:
-   1. `python3 calibration/calibrate.py -a <ip_address> -n <file_name> -t sigmoid -f <name_after_fit> -p od_90`
-4. Close out of the python file and say no to updating the eVOLVER with new calibration

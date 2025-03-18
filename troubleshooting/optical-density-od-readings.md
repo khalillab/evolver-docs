@@ -61,7 +61,7 @@ ie eVOLVER OD is offset from the cuvette or plate reader measured value.&#x20;
    4. Check that they have the long (positive) lead in the correct positive terminal
 2. ADC board or motherboard broken&#x20;
    1. Can happen after vial overflow
-   2. See motherboard [hardware ](../hardware/motherboard-layout-and-circuitry/)and [troubleshooting](motherboard-troubleshooting.md)
+   2. See motherboard [hardware ](../hardware/motherboard-layout-and-circuitry/)and [troubleshooting](vial-platform-troubleshooting/motherboard-troubleshooting-replacement.md)
 
 ## Other Considerations
 

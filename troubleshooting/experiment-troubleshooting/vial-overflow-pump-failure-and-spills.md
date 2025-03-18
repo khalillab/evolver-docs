@@ -14,9 +14,9 @@ If you did not catch an overflow quickly, or a large amount of media spilled, fo
 
 Overflowed media can enter into the vial platform through the ports that connect the Smart Vials to the motherboard. This can cause damage to the internal circuitry, which is should first be evaluated by visually inspecting the motherboard, SA boards, power supplies, and Raspberry Pi. Damage to any of these components can look like burned or melted spots or loose/broken connections. If you see visible damage to any of these parts, they will need to be fully replaced. See pages below for specific instructions on how to replace these various parts.
 
-[motherboard-troubleshooting.md](../motherboard-troubleshooting.md "mention")
+[motherboard-troubleshooting-replacement.md](../vial-platform-troubleshooting/motherboard-troubleshooting-replacement.md "mention")
 
-[12v-power-supply-troubleshooting-replacement.md](../12v-power-supply-troubleshooting-replacement.md "mention")
+[12v-power-supply-troubleshooting-replacement.md](../vial-platform-troubleshooting/12v-power-supply-troubleshooting-replacement.md "mention")
 
 ## Old evolver pumps (solid black plastic head)
 

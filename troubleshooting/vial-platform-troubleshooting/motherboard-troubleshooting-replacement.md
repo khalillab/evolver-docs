@@ -4,15 +4,21 @@
 
 [12V Power Supply Connection to Motherboard Melted](https://www.evolver.bio/t/12v-power-supply-connection-to-motherboard-melted/263)
 
-## Motherboard Replacement
+## Overview
 
-The [motherboard](../hardware/motherboard-layout-and-circuitry/) is the main printed circuit board (PCB) of the eVOLVER. It houses the PWM boards, ADC boards, and SAMD21 mini breakout boards. In the event that the motherboard is damaged, it will need to be replaced. Some damage to the motherboard will be immediately obvious.
+The [motherboard](../../hardware/motherboard-layout-and-circuitry/) is the large printed circuit board (PCB) in the vial platform that connects the Smart sleeves to the PWM boards, ADC boards, and SAMD21 mini breakout boards and these boards to the Raspberry Pi. In the event that the motherboard is damaged, it will need to be replaced. Some damage to the motherboard will be immediately obvious.
+
+## Diagnosis
+
+[Link](https://github.com/FYNCH-BIO/hardware/tree/master/Vial%20Platform/Motherboard) to GitHub hardware page for the motherboard
+
+If you have determined that the server and Arduinos are both functioning properly, however, the link between them seems to be broken in some or all ways, then the last likely culprit is the motherboard.
 
 In the example below, overflow events during an experiment caused media to leak through the Smart Vial ribbon cable ports into the vial platform, which houses all of the eVOLVER circuitry. This resulted in visible damage to the motherboard, which can be seen below.
 
-<figure><img src="../.gitbook/assets/damaged motherboard.PNG" alt="" width="375"><figcaption><p>Layout of damaged motherboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/damaged motherboard.PNG" alt="" width="375"><figcaption><p>Layout of damaged motherboard</p></figcaption></figure>
 
-## Protocol
+## Replacement Protocol
 
 {% hint style="danger" %}
 Before getting started with disassembly, be sure to unplug the eVOLVER from the wall outlet.&#x20;
@@ -32,7 +38,7 @@ The motherboard is fastened to the eVOLVER platform and other internal component
 4. Cable connecting motherboard to Raspberry Pi (fastened to base of platform)
 5. Cable connecting motherboard to display screen (fastened to lid of platform, obstructed by ribbon cable in image)
 
-<figure><img src="../.gitbook/assets/labeled motherboard.PNG" alt="" width="365"><figcaption><p>Internal components fastening the motherboard to the vial platform</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/labeled motherboard.PNG" alt="" width="365"><figcaption><p>Internal components fastening the motherboard to the vial platform</p></figcaption></figure>
 
 ### Remove Motherboard
 
@@ -58,7 +64,7 @@ Be sure to take note of where each board is on the old motherboard before removi
 
 Make sure you pull the pins out as straight as possible because it will be challenging to get the board back in if they are bent.&#x20;
 
-<figure><img src="../.gitbook/assets/IMG_1291.jpg" alt="" width="375"><figcaption><p>Using an IC puller to remove an ADC board. In black are the PWM boards. Small red boards are the SAMD21 Arduinos</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMG_1291.jpg" alt="" width="375"><figcaption><p>Using an IC puller to remove an ADC board. In black are the PWM boards. Small red boards are the SAMD21 Arduinos</p></figcaption></figure>
 
 {% hint style="warning" %}
 BE VERY CAREFUL. If you break off the wrong connector pin on their bottom, it's pretty annoying to figure out a solution other than replacing the whole board. Unfortunately, you also need to apply a good amount of force to get the board up. But be patient!
@@ -75,16 +81,16 @@ _**Optional: If your motherboard includes a variable resistance board, proceed t
 3. Remove the variable resistance board from the motherboard. The ADC boards on this board can be removed first, or the variable resistance board and ADC boards can be removed as a single part.&#x20;
 4. Remove the headers under the variable resistor board and transfer to the new motherboard. These can be removed with pliers.&#x20;
 
-<figure><img src="../.gitbook/assets/IMG_1304.jpg" alt="" width="375"><figcaption><p>Variable resistance board sitting on top of headers after being removed</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMG_1304.jpg" alt="" width="375"><figcaption><p>Variable resistance board sitting on top of headers after being removed</p></figcaption></figure>
 
 5. Remove the yellow resistor arrays (see below). An [IC puller](https://www.amazon.com/Jonard-S-340-Insulated-Spring-Extractor/dp/B006C4BCAK) or pliers may be helpful here. Transfer the resistor arrays to the new motherboard, making sure to insert them in the proper orientation.&#x20;
 6. On the side of the resistor array, there is a description of the part and a black dot, seen in the image below. This black dot indicates the ground pin of the resistor array, and should go into the slot towards the top of the motherboard.
 
-![](../.gitbook/assets/IMG_1299.jpg)![](../.gitbook/assets/IMG_1293.jpg)
+![](../../.gitbook/assets/IMG_1299.jpg)![](../../.gitbook/assets/IMG_1293.jpg)
 
 7. Remove the jumpers to the old motherboard by pulling them straight up. Transfer the jumpers to the new motherboard, recreating the same configuration as shown below.
 
-<figure><img src="../.gitbook/assets/IMG_1306.jpg" alt="" width="375"><figcaption><p>Jumper configuration indicating power supply for each component</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMG_1306.jpg" alt="" width="375"><figcaption><p>Jumper configuration indicating power supply for each component</p></figcaption></figure>
 
 {% hint style="info" %}
 Before transferring the SA boards to the new motherboard, they should be evaluated for damage. Damage to SA boards will look like burns, melted parts, etc. Damaged SA components should be replaced.
@@ -106,13 +112,13 @@ Adding the SA parts to their slots on the motherboard can be quite tricky, espec
 
 9. Unscrew the 3D printed corners from the old motherboard and fasten them to the new motherboard. These parts act as spacers to prevent the backside of the motherboard from touching the eVOLVER platform.
 
-<figure><img src="../.gitbook/assets/IMG_1334.jpg" alt="" width="375"><figcaption><p>3D printed spacers in corners</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMG_1334.jpg" alt="" width="375"><figcaption><p>3D printed spacers in corners</p></figcaption></figure>
 
 ### Prepare New Motherboard and Plug in to eVOLVER
 
 10. Use electrical tape to cover all exposed elements on the back of the motherboard. There are exposed pins on both the top and bottom of the motherboard.
 
-![](../.gitbook/assets/IMG_1353.jpg)![](../.gitbook/assets/IMG_1354.jpg)
+![](../../.gitbook/assets/IMG_1353.jpg)![](../../.gitbook/assets/IMG_1354.jpg)
 
 The new motherboard is now ready to be fastened to the vial platform!&#x20;
 

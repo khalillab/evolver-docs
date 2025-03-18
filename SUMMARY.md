@@ -49,9 +49,9 @@
 * [Upgrade Base eVOLVER Hardware](guides/upgrade-base-evolver-hardware.md)
 * [Building a Smart Sleeve](guides/building-a-smart-sleeve.md)
 * [Arduino Software Installation](guides/arduino-software-installation.md)
-* [View the Server Log and Restart Server](guides/view-the-server-log-and-restart-server.md)
 * [Raspberry Pi Configuration](guides/raspberry-pi-configuration.md)
 * [Updating the eVOLVER Server](guides/updating-the-evolver-server.md)
+* [View the Server Log and Restart Server](guides/view-the-server-log-and-restart-server.md)
 * [Change Your conf.yml File](guides/change-your-conf.yml-file.md)
 * [Command Line Usage](guides/command-line-usage.md)
 * [Millifluidics Guides](guides/millifluidics-guides/README.md)
@@ -64,7 +64,6 @@
 ## Troubleshooting
 
 * [Troubleshooting Overview](troubleshooting/troubleshooting-overview.md)
-* [eVOLVER Maintenance](troubleshooting/evolver-maintenance.md)
 * [Experiment Troubleshooting](troubleshooting/experiment-troubleshooting/README.md)
   * [Contamination](troubleshooting/experiment-troubleshooting/contamination.md)
   * [Vial Overflow, Pump Failure, and Spills](troubleshooting/experiment-troubleshooting/vial-overflow-pump-failure-and-spills.md)
@@ -74,11 +73,12 @@
   * [Replacing Photodiodes and LEDs](troubleshooting/vial-troubleshooting/replacing-photodiodes-and-leds.md)
   * [Heating Element](troubleshooting/vial-troubleshooting/heating-element.md)
   * [Stirring](troubleshooting/vial-troubleshooting/stirring.md)
-* [Vial Platform](troubleshooting/vial-platform/README.md)
-  * [Motherboard Troubleshooting/Replacement](troubleshooting/motherboard-troubleshooting.md)
-  * [12V Power Supply Troubleshooting/Replacement](troubleshooting/12v-power-supply-troubleshooting-replacement.md)
-* [GUI Troubleshooting](troubleshooting/gui-troubleshooting.md)
 * [Server Troubleshooting](troubleshooting/server-troubleshooting.md)
+* [Vial Platform Troubleshooting](troubleshooting/vial-platform-troubleshooting/README.md)
+  * [Motherboard Troubleshooting/Replacement](troubleshooting/vial-platform-troubleshooting/motherboard-troubleshooting-replacement.md)
+  * [12V Power Supply Troubleshooting/Replacement](troubleshooting/vial-platform-troubleshooting/12v-power-supply-troubleshooting-replacement.md)
+* [GUI Troubleshooting](troubleshooting/gui-troubleshooting.md)
+* [eVOLVER Maintenance](troubleshooting/evolver-maintenance.md)
 
 ## Hardware
 
