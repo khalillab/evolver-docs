@@ -21,7 +21,7 @@ Option 2: \[Recommended] Can be easily constructed with luer locks&#x20;
 #### Advantages
 
 1. Airtight seal to vial
-2. \[[Emergency efflux](../../extensions/custom-fluidics/emergency-efflux.md) enabled] - prevent vial overflows
+2. \[[Emergency efflux](../../guides/emergency-efflux.md) enabled] - prevent vial overflows
 3. Reusable without swapping in new needles
 4. Easy assembly with few additional parts&#x20;
 5. Can do needles if needed
@@ -45,7 +45,7 @@ Use a honeycomb pattern for the ports to cram more ports onto the cap.
 #### Advantages
 
 1. Airtight seal to vial
-2. \[[Emergency efflux](../../extensions/custom-fluidics/emergency-efflux.md) enabled] - prevent vial overflows
+2. \[[Emergency efflux](../../guides/emergency-efflux.md) enabled] - prevent vial overflows
 3. Reusable without swapping in new needles
 4. Can hook up more tubes to the cap because nylon tubes are thinner
 

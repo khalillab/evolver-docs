@@ -11,7 +11,7 @@ The following are different from the base eVOLVER [setup](../../../getting-start
 
 1. [Smart sleeve construction](photo-evolver-smart-sleeves/photo-evolver-smart-sleeve-construction-guide.md)
 2. Additional fluidics
-   1. [Emergency efflux](../../custom-fluidics/emergency-efflux.md)
+   1. [Emergency efflux](../../../guides/emergency-efflux.md)
    2. Bubbling splitter
    3. \[Optional] Additional slow pump rack for inducers
 3. Vials (recommended to get parts for at least two sets)

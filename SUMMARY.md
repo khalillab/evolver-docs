@@ -44,14 +44,15 @@
 
 ## Guides
 
-* [Use the GUI to Control Parameters](guides/use-the-gui-to-control-parameters.md)
-* [Making media bottles and splitters](guides/making-media-bottles-and-splitters.md)
-* [Upgrade Base eVOLVER Hardware](guides/upgrade-base-evolver-hardware.md)
 * [Building a Smart Sleeve](guides/building-a-smart-sleeve.md)
+* [Making media bottles and splitters](guides/making-media-bottles-and-splitters.md)
+* [View the Server Log and Restart Server](guides/view-the-server-log-and-restart-server.md)
+* [Updating the eVOLVER Server](guides/updating-the-evolver-server.md)
+* [Emergency Efflux](guides/emergency-efflux.md)
+* [Use the GUI to Control Parameters](guides/use-the-gui-to-control-parameters.md)
+* [Upgrade Base eVOLVER Hardware](guides/upgrade-base-evolver-hardware.md)
 * [Arduino Software Installation](guides/arduino-software-installation.md)
 * [Raspberry Pi Configuration](guides/raspberry-pi-configuration.md)
-* [Updating the eVOLVER Server](guides/updating-the-evolver-server.md)
-* [View the Server Log and Restart Server](guides/view-the-server-log-and-restart-server.md)
 * [Change Your conf.yml File](guides/change-your-conf.yml-file.md)
 * [Command Line Usage](guides/command-line-usage.md)
 * [Millifluidics Guides](guides/millifluidics-guides/README.md)
@@ -154,7 +155,6 @@
   * [Bubblers / In-Vial Aeration](extensions/custom-fluidics/bubblers-in-vial-aeration/README.md)
     * [Bubbler Construction Protocol](extensions/custom-fluidics/bubblers-in-vial-aeration/bubbler-construction-protocol.md)
     * [Bubbler Cleaning Protocol](extensions/custom-fluidics/bubblers-in-vial-aeration/bubbler-cleaning-protocol.md)
-  * [Emergency Efflux](extensions/custom-fluidics/emergency-efflux.md)
   * [Running the slow pumps](extensions/custom-fluidics/running-the-slow-pumps.md)
 * [min-eVOLVER](extensions/min-evolver/README.md)
   * [About](extensions/min-evolver/about.md)
