@@ -10,7 +10,7 @@ An essential component that screws on top of the glass eVOLVER vial. Connects to
 
 GitHub [link](https://github.com/FYNCH-BIO/hardware/tree/master/Smart%20Sleeve/vial_cap/4port_needle_or_luer)
 
-[Construction guide](universal-vial-construction-guide-luer-connectors-only.md)
+[Construction guide](universal-vial-cap-construction-guide-luer-connectors-only.md)
 
 #### Overview
 
