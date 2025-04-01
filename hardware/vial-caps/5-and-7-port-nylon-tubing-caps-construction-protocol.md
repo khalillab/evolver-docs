@@ -1,6 +1,6 @@
 # 5 and 7 Port Nylon Tubing Caps Construction Protocol
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Example cap with 5 ports, one of which is a <a href="../../extensions/custom-fluidics/bubblers-in-vial-aeration/">bubbler</a> [optional].</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Example cap with 5 ports, one of which is a <a href="../../extensions/custom-fluidics/bubblers-in-vial-aeration/">bubbler</a> [optional].</p></figcaption></figure>
 
 ## Materials
 

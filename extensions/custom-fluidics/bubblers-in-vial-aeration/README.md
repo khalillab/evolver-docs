@@ -4,6 +4,48 @@
 
 An in-vial aerator, which can be hooked up to a gas stream of your choice. Normal stir bar-based mixing in the eVOLVER does not provide enough gas exchange in many situations. These bubblers produce small bubbles that greatly increase gas exchange.
 
+<figure><img src="../../../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>Bubbler (right) epoxied in to universal cap. Efflux tube (left) is above bubbler.</p></figcaption></figure>
+
+## Requirements
+
+### Cap with Nylon Tubing
+
+Allows the nylon tube of the bubbler to slot into cap. See [here](../../../hardware/vial-caps/) for options.
+
+### Long Stir Bars
+
+The normal eVOLVER stir bars allow large bubbles to adhere if you are bubbling. This creates lots of noise in OD readings. It is therefore necessary to use thinner stir bars that don't allow such large bubbles to stick to them. We have found these to be the only ones that work with bubbling: [Length 20 mm, Diameter 3 mm (# SBM-2003-MIC)](https://www.stirbars.com/list.php?category=Stir%20Bars\&subCat=Micro%20PTFE\&sessionID=eel7i7mvvdo1r965d2dp0e6le0).
+
+#### Long Stir Bar Jittering and Low Stir Stability
+
+These stir bars are unfortunately prone to jitter and not stir. This is a function of at least the following:
+
+1. Distance to magnets on the fan used for stirring
+   1. The newest eVOLVERs have a bigger distance to the fan because of the 3D printed magnet holder and 1/4" acrylic spacers
+   2. Try ordering thinner acrylic spacers&#x20;
+2. Shape and smoothness of the glass vial bottom - try several glass vials and see if there is
+
+Please let us know on the forum if you find other stir bars that work with bubbling. However, several people have looked and not found any.
+
+### Stop Stir During OD Reads
+
+While bubbling, you must stop stirring while taking OD readings to allow bubbles to float to the surface. Otherwise, bubbles will create too much variability in OD readings and make your OD calibration useless.
+
+#### During OD Calibration
+
+While calibrating OD, we mimic experimental OD readings as much as possible. To do this:
+
+1. Turn off stirring via the GUI
+2. Calibrate with long stir bars (see above) and caps with bubblers
+3. Swirl OD standards at least every other time you move them to avoid cell sedimentation
+
+#### During Experiments
+
+Load a conf.yml onto the server that pauses stir whenever an OD measurement is taken
+
+1. Guide [here](../../../guides/change-your-conf.yml-file.md) | example stir pause conf.yml file [here](https://github.com/FYNCH-BIO/evolver/blob/master/evolver/alternate_conf_files/stir_pause_for_OD_reads/conf.yml)
+2. This decreases data acquisition rate (20 seconds to 60 seconds), but greatly increases OD accuracy
+
 ## Considerations
 
 ### Variability Between Bubblers
