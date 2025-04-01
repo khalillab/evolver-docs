@@ -24,11 +24,19 @@
 
 ## Design
 
-Efflux straw sets the volume of the culture
-
-Angled influx tubing should touch the inside of the glass vial to create a stream of liquid rather than drops. This increases influx accuracy. It should also be well above the efflux line to avoid contamination.
-
-You can optionally use different colors of tubing to denote different ports (see above).
+1. Choose the minimum number of ports necessary
+   1. You will need to block up ports that are unused if you want to do emergency efflux
+   2. Therefore, choose the cap with the minimum number of ports that you need
+   3. For example, counting ports for PACE
+      1. Lagoon: 1 vial-to-vial + 1 efflux + 2 inducers + 1 emergency efflux = 5 ports
+      2. Cell reservoir: 1 media influx + 1 efflux + 1 vial-to-vial + 1 emergency efflux = 4 ports
+      3. For simplicity, you may want to just use this type of cap and plug the extra port with a luer [cap](https://www.mcmaster.com/51525K311/).
+2. Efflux straw sets the volume of the culture
+3. Increase influx accuracy
+   1. **Important for low volume influx like inducers**
+   2. Angled influx tubing should touch the inside of the glass vial to create a stream of liquid rather than drops.
+   3. It should also be well above the efflux line to avoid contamination.
+4. \[Optional] Use different colors of tubing to denote different ports (see above)
 
 ## Construction Protocol
 

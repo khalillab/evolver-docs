@@ -24,9 +24,9 @@ For more in-depth information about the OD hardware see [here](../hardware/smart
 
 <figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption><p>Vial 1 (left) shows a smaller range than vial 2 (right). However, vial 2 is still unable to accurately differentiate values under OD 0.5.</p></figcaption></figure>
 
-1. [Standardize LED/Photodiode distance](../guides/upgrade-base-evolver-hardware.md#strongly-recommended-better-3d-printed-vial-holder)
+1. [Standardize LED/Photodiode distance](../upgrade-base-evolver-hardware.md#strongly-recommended-better-3d-printed-vial-holder)
 2. If you already have a version of the 3D printed tube holder with defined OD LED and photodiode distances:
-   1. Use the upgrade [guide](../guides/upgrade-base-evolver-hardware.md#guide) to double check your photodiodes and LEDs are correctly placed!
+   1. Use the upgrade [guide](../upgrade-base-evolver-hardware.md#guide) to double check your photodiodes and LEDs are correctly placed!
 3. Sometimes a given OD photodiode or LED can be variable as they are cheap parts. Swap both out for new ones. Part numbers [here](../getting-started/part-sourcing.md).
 4. Try [OD90 for OD600 0.5-4.5 or OD135 for OD600 0.0-0.5](../hardware/smart-sleeve/optical-density/od90-vs-od135.md)
 5. Try different ADC resistor packs

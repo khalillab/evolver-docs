@@ -1,7 +1,7 @@
 # Part Sourcing
 
 {% hint style="info" %}
-Check the upgrades guide [here](../guides/upgrade-base-evolver-hardware.md).
+Check the upgrades guide [here](../upgrade-base-evolver-hardware.md).
 {% endhint %}
 
 ## Guidelines

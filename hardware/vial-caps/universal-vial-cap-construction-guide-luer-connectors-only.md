@@ -1,4 +1,6 @@
-# Universal Vial Construction Guide (Luer Connectors Only)
+# Universal Vial Cap Construction Guide (Luer Connectors Only)
+
+<figure><img src="../../.gitbook/assets/2025-04-01 12.33.33.jpg" alt="" width="375"><figcaption><p>Universal vial cap with efflux tube in place.</p></figcaption></figure>
 
 ## Materials
 

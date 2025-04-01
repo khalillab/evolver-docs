@@ -12,7 +12,7 @@ The computer needed for running experiments does not have to be new or powerful.
 
 ## Upgrades
 
-Consider implementing these [upgrades](../guides/upgrade-base-evolver-hardware.md) to the Fynch Bio eVOLVER.
+Consider implementing these [upgrades](../upgrade-base-evolver-hardware.md) to the Fynch Bio eVOLVER.
 
 ## Variants
 
