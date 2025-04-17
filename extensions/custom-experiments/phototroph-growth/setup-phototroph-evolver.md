@@ -2,18 +2,24 @@
 
 ## Base eVOLVER Requirements
 
-1. Buy an eVOLVER [base](../../../getting-started/buying-evolver.md)
-2.
+1. From [Fynch Bio](../../../getting-started/buying-evolver.md):
+   1. eVOLVER base
+   2. Fluidics box
+   3. 2X fast pump racks&#x20;
+   4. \[Optional] Additional slow pump rack for inducers
+2. [Router](../../../getting-started/configuring-computer-and-networking/router-setup.md)
+3. Dedicated computer for experimentation
+   1. Mac strongly recommended for ease of setup and reliability
 
 ## Phototroph eVOLVER Hardware Setup
 
-The following are different from the base eVOLVER [setup](../../../getting-started/unboxing-and-setting-up.md):
+**The following are&#x20;**_**different**_**&#x20;from the base eVOLVER** [**setup**](../../../getting-started/unboxing-and-setting-up.md)**:**
 
 1. [Smart sleeve construction](photo-evolver-smart-sleeves/photo-evolver-smart-sleeve-construction-guide.md)
 2. Additional fluidics
    1. [Emergency efflux](../../../guides/emergency-efflux.md)
-   2. Bubbling splitter
-   3. \[Optional] Additional slow pump rack for inducers
+   2. Bubbling 1-16 millifluidic splitter
+   3. Gas mixer (or tank of premixed gas with regulators)
 3. Vials (recommended to get parts for at least two sets)
    1. [5-port nylon tube cap](../../../hardware/vial-caps/5-and-7-port-nylon-tubing-caps-construction-protocol.md)
    2. [Bubbler](../../custom-fluidics/bubblers-in-vial-aeration/bubbler-construction-protocol.md) (plugs in to cap)
