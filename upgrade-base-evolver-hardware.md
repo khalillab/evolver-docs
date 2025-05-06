@@ -25,3 +25,11 @@ Guide [here](guides/emergency-efflux.md).
 Many organisms require additional gas exchange outside of what eVOLVER stirring can provide. Others require custom gas mixes for growth. In-vial bubblers provide this.
 
 Guide [here](extensions/custom-fluidics/bubblers-in-vial-aeration/).
+
+## Stop Stir While Taking OD
+
+This is a measure that is _necessary_ if you are bubbling, but can improve OD in general by decreasing noise.
+
+To do this, swap in a [conf.yml](guides/change-your-conf.yml-file.md) with stir stopping.
+
+_You will need to calibrate with stir off._ Swirl the vials when moving standards to make sure cells do not settle.
