@@ -7,6 +7,8 @@ description: >-
 
 # Motherboard Layout and Circuitry
 
+Github hardware [link](https://github.com/FYNCH-BIO/hardware/tree/master/Vial%20Platform/Motherboard)
+
 ## General Information
 
 As a quick recap, the Motherboard is designed to collect and send data/power to all 16 Smart Sleeves. The Motherboard is essentially a large PCB used to route signals via a network of electrical traces. Each SA slot (8 total) posses two electrical connections (positive and negative leads) to each Smart Sleeve CMB (8\*2=16 connections per CMB). These two leads per SA slot are then used to make the physical connections to a sensor/actuator. In total, this results in **2** (leads per sensor/actuator) **\* 8** (SA slots) **\* 16** (number of Smart Sleeves) **= 256 total traces.** This is important to keep in mind when modifying the Smart Sleeve or troubleshooting when problems arise.

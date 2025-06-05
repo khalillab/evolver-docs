@@ -108,6 +108,7 @@
   * [Sensor/Actuator Board Slots](hardware/motherboard-layout-and-circuitry/sensor-actuator-board-slots.md)
   * [Pulse Width Modulation (PWM) Boards](hardware/motherboard-layout-and-circuitry/pulse-width-modulation-pwm-boards.md)
   * [Analog-to-Digital Converter (ADC) Boards](hardware/motherboard-layout-and-circuitry/analog-to-digital-converter-adc-boards.md)
+  * [RS485 Board](hardware/motherboard-layout-and-circuitry/rs485-board.md)
 * [Raspberry Pi](hardware/raspberry-pi.md)
 * [Chassis](hardware/chassis.md)
 * [Light Blocker / Splash Guard](hardware/light-blocker-splash-guard.md)
