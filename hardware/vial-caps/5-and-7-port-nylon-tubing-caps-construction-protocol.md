@@ -40,7 +40,7 @@
 
 ## Construction Protocol
 
-### 0. Mark fluid lines on a glass eVOLVER vial (see below image)
+### 0. Mark fluid lines on a glass eVOLVER vial (see above image)
 
 1. This will be used to set the efflux tube height, which sets the volume in the eVOLVER vial.
 2. Tape an eVOLVER vial
