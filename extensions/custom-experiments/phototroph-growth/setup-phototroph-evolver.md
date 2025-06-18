@@ -35,7 +35,7 @@ We pause stirring and phototroph growth lights when we take OD. Without this, OD
 
 ### Additional Calibration Procedures
 
-1. Switch to calibration conf.yml before doing calibration
+1. [Switch](../../../guides/change-your-conf.yml-file.md) to calibration conf.yml before doing calibration
    1. Because this will give us data every 20 seconds and greatly speed up calibration
 2. Settings during calibration should mimic the experiment therefore:
    1. Phototroph growth lights off

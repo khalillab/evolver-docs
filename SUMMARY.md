@@ -152,6 +152,7 @@
     * [Setup Phototroph eVOLVER](extensions/custom-experiments/phototroph-growth/setup-phototroph-evolver.md)
     * [Photo-eVOLVER Smart Sleeves](extensions/custom-experiments/phototroph-growth/photo-evolver-smart-sleeves/README.md)
       * [Photo-eVOLVER Smart Sleeve Construction Guide](extensions/custom-experiments/phototroph-growth/photo-evolver-smart-sleeves/photo-evolver-smart-sleeve-construction-guide.md)
+    * [Light Calibration](extensions/custom-experiments/phototroph-growth/light-calibration.md)
     * [Experiment Guide](extensions/custom-experiments/phototroph-growth/experiment-guide.md)
 * [Custom Fluidics](extensions/custom-fluidics/README.md)
   * [Adding a Third Pump Rack](extensions/custom-fluidics/adding-a-third-pump-rack.md)
