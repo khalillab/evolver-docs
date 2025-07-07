@@ -1,7 +1,7 @@
 # Starting an Experiment
 
 {% hint style="warning" %}
-You should have completed both [setup](software-installation-and-startup.md) and [calibrations](calibrations.md) before proceeding to an experiment.
+You should have completed both [setup](software-installation-and-startup.md) and [calibrations](calibrations/) before proceeding to an experiment.
 {% endhint %}
 
 {% hint style="info" %}
