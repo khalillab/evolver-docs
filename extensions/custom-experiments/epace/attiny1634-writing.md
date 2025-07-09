@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # ATTiny1634 Writing
 
 For upgrading an Arduino so that it can program another microcontroller

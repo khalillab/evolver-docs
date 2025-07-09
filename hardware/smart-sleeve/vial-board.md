@@ -17,6 +17,8 @@ _Differences to Version C bolded_
 7. **OD 90 photodiode / Spare A**
 8. Spare B
 
+<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption><p>Differences to vial board revision C inside box.</p></figcaption></figure>
+
 ## Version C
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Picture of version C vial board in KiCAD</p></figcaption></figure>
@@ -33,3 +35,5 @@ _Differences to Version D bolded_
 6. **OD 90 photodiode**
 7. **OD 135 photodiode / Spare A**
 8. Spare B
+
+<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption><p>Differences to vial board revision D inside box.</p></figcaption></figure>

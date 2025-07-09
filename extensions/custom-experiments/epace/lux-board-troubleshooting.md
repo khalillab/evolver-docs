@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # LUX Board Troubleshooting
 
 1. Make sure that the board is receiving 6V
@@ -12,3 +16,4 @@
    1. The LUX board may be incorrectly flashed with code
       1. Plug an Arduino Uno directly into the board to see what outputs it receives
    2. If the boards were previously working or have been verified to be outputting the correct signal directly to an Arduino, the connection between the SAMD21 and the LUX board is broken
+

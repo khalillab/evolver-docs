@@ -12,6 +12,8 @@ description: High-level description of hardware architecture
       2. ADC Board
 3. Auxiliary Board
 
+<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption><p>Motherboard set up for revision D vial board. Differences to vial board revision C inside black box.</p></figcaption></figure>
+
 ## **General Overview**
 
 The eVOLVER hardware framework contains three levels of organization: (1) programmable sensors and actuators (e.g. Smart Sleeve components, pumps/fluidic control elements) (2) a Motherboard and microcontrollers, and (3) a Raspberry Pi. At the level of individual culture vessels, Smart Sleeves enable individual control over several experimental parameters in the culture.&#x20;
