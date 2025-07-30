@@ -59,16 +59,18 @@ The length of the tubing connecting the lid to the bubbler will be dependent on 
 ### 3. Test Bubblers
 
 {% hint style="info" %}
-To our best guess, the stainless steel bubbler frits need to be [passivated](https://en.wikipedia.org/wiki/Passivation\_\(chemistry\)), but they are incompletely passivated when they leave the factory. Without this step, they will produce larger (worse) bubbles, likely due to a more hydrophobic surface.
+To our best guess, the stainless steel bubbler frits need to be [passivated](https://en.wikipedia.org/wiki/Passivation_\(chemistry\)), but they are incompletely passivated when they leave the factory. Without this step, they will produce larger (worse) bubbles, likely due to a more hydrophobic surface.
 {% endhint %}
 
 1. Passivate the frits by submerging in liquid
    1. Option 1: Soak in water overnight
-   2. Option 2: Soak in LB-Miller media or 5% citric acid for 1 hour. Lemon juice will do in a pinch.
+   2. Option 2: Soak in LB-Miller media (or any rich salty media) or 5% citric acid for 1 hour. Lemon juice will do in a pinch.
 2. Create a test system for the bubblers
-   1. You can attach the normal 1/16" ID eVOLVER tubing to the end of the nylon, but this may take more time per bubbler as the silicone tubing is hard to put on the nylon tubes
-   2. Especially if you have a lot of bubblers to test, you may want to use a [push to connect fitting ](https://www.mcmaster.com/5779K11/)for easy swapping of bubblers
-   3. Connect the bubblers to your air distributor (ie your 1:16 air supply)
+   1. Option 1 \[Recommended]: Construct a [bubbler cleaning apparatus](broken-reference)
+   2. Option 2 \[Less Efficient]: Simple test system for the bubblers
+      1. You can attach the normal 1/16" ID eVOLVER tubing to the end of the nylon, but this may take more time per bubbler as the silicone tubing is hard to put on the nylon tubes
+      2. Especially if you have a lot of bubblers to test, you may want to use a [push to connect fitting ](https://www.mcmaster.com/5779K11/)for easy swapping of bubblers
+      3. Connect the bubblers to your air distributor (ie your 1:16 air supply)
 3. Check that your bubblers work well in rich media like LB, YPD, or BHI. As a rule of thumb, the less salt and peptides your media has dissolved in it, the larger your bubbles will be.
 4. If one of your bubblers are not bubbling at all, check your tubing connections and try to run air through just that bubbler. If it's still not producing bubbles at 5psi of back pressure, it's likely blocked with epoxy, and is not useable.
 5. If one of your bubblers is producing a steady stream of large bubbles from the rim of the frit, it means there's an incomplete epoxy seal against the bubbler body. You can attempt to fix this by adding more epoxy on the outside, but it'll likely be easier to just make a new bubbler.
@@ -77,9 +79,31 @@ To our best guess, the stainless steel bubbler frits need to be [passivated](htt
 Four bubblers working well. Note the small bubbles.
 {% endembed %}
 
-### 4. Epoxy Bubbler into eVOLVER Cap
+### 4. Attach Bubbler to eVOLVER Cap
+
+#### Options
+
+1. Epoxy directly into cap
+   1. Advantages:
+      1. Pre-defined and rigid position in the cap
+      2. If assembled correctly you won't have to worry about it slipping and altering OD blank
+   2. Disadvantage:
+      1. If bubbler is broken (rusty or not working), it will be much more annoying to change out for a new one
+2. Attach to 1/8" nylon tube via 3/32" silicone tubing
+   1. Advantages:
+      1. Easily swap bubblers if one doesn't work
+   2. Disadvantage
+      1. Less defined position of bubbler. It is easier to have inconsistent bubbler height and direction, which will affect OD readings
+
+#### Epoxy Directly Into Cap
 
 1. Similar to the assembly of the nylon tube into the bubbler body, apply expoy to the other end of the tube attached to your bubbler, insert into one of the ports on the bottom of the vial cap (whatever one corresponds to your preferred layout; my preference is for media in on the right, bubbler in the back, efflux straw on the left).
-2. Again, be sure to check for epoxy blocking the tubing, and clear with a paperclip if it's blocked.
-3. Set assembled caps upright (with a vial rack or spare vials) so that epoxy doesn't drip into the o-ring groove as it cures.
-4. Allow epoxy to cure 24 hours before sterilizing via autoclave as part of experiment prep.&#x20;
+2. Make sure bubbler is pushed all the way in and steel frit is facing sampling port
+   1. Being inconsistent about this will mean different caps will have different scattering properties that will change OD
+3. Again, be sure to check for epoxy blocking the tubing, and clear with a paperclip if it's blocked.
+4. Set assembled caps upright (with a vial rack or spare vials) so that epoxy doesn't drip into the o-ring groove as it cures.
+5. Allow epoxy to cure 24 hours before sterilizing via autoclave as part of experiment prep.
+
+#### Attach via Silicone Tubing
+
+See protocol [here](../../../hardware/vial-caps/5-and-7-port-nylon-tubing-caps-construction-protocol.md).
