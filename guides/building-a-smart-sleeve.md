@@ -29,7 +29,7 @@ Here is a great introductory tutorial on soldering from our friends at [**Sparkf
 
 **How can I modify or change the design?**
 
-We built our PCB designs on [**KiCAD**](http://kicad-pcb.org/), an open-sourced software for circuit board design, and our 3D models on Solidworks. Here is a schematic of the PCB [**here**](https://www.fynchbio.com/s/Vial\_Board\_Schematic.pdf) and the Solidworks part [**here**](https://www.fynchbio.com/s/Tube-Holder.SLDPRT). There are many other programs for vial board design, including a bunch of tutorials on [Eagle from Sparkfun](https://learn.sparkfun.com/tutorials/using-eagle-schematic), another popular CAD tool for the open-source community.
+We built our PCB designs on [**KiCAD**](http://kicad-pcb.org/), an open-sourced software for circuit board design, and our 3D models on Solidworks. Here is a schematic of the PCB [**here**](https://www.fynchbio.com/s/Vial_Board_Schematic.pdf) and the Solidworks part [**here**](https://www.fynchbio.com/s/Tube-Holder.SLDPRT). There are many other programs for vial board design, including a bunch of tutorials on [Eagle from Sparkfun](https://learn.sparkfun.com/tutorials/using-eagle-schematic), another popular CAD tool for the open-source community.
 
 #### **Does this tutorial include how to build the Motherboard?**
 
@@ -37,95 +37,112 @@ No. This tutorial only provides instructions on how to build a Smart Sleeve.
 
 ## Guide
 
-**1. Order all of the necessary parts and tools.**
+Use the below video to help if you are confused about any of the steps in this guide.
 
-![](../.gitbook/assets/ss\_parts.jpeg)
+{% embed url="https://youtu.be/6M6KdABQahk" %}
 
+### 1. Source parts
 
+* To assemble each Smart Sleeve, you will need all 16 components listed in Figure 1.
+* See [here](../getting-started/part-sourcing.md) for part sourcing or order the Smart Sleeve unassembled from Fynch Bio
 
-List of supplies needed ( **displayed in photograph above** ):
+<figure><img src="../.gitbook/assets/Fig 1 (1).png" alt="" width="563"><figcaption><p>Figure 1</p></figcaption></figure>
 
-1. Laser Cut 1/4" Acrylic Base
-2. 2 pieces of laser cut 1/8" Acrylic Fan Spacers
-3. 5/64" Hex Key
+List of supplies needed (**Figure 1**):
+
+1. Aluminum Vial Sleeve Tube
+2. Thermistor
+3. 2x IR Photodiode
 4. IR LED
-5. IR Photodiode
-6. Thermistor
-7. 2x Socket head screw
-8. 12 V DC Computer Fan with Magnets Glued
-9. Vial Board
-10. Lab Tape
-11. 3D Printed Part
-12. Aluminum Tube
-13. Soldering Iron + Solder
-14. 2x Stainless Steel Screws, 2.5" 4-40 threading **(Not Shown)**
+5. 2x Stainless Steel Screws, 2.5" 4-40 Thread
+6. 2x Black pan head screws, 1/4" 2-56 Thread
+7. 1.5mm Flathead screwdriver
+8. Number 1 Phillips screwdriver
+9. Laser cut 1/8" Acrylic Fan Spacer with circular cutout
+10. Laser cut 1/8" Acrylic Fan Spacer
+11. Laser Cut 1/4" Acrylic Base
+12. 12V DC Computer Fan with 3D Printed Magnet Holder
+13. Vial Board PCB
+14. 3D Printed Tube Holder
+15. Lab Tape **(Not Shown)**
+16. Soldering Iron + Solder **(Not Shown)**
 
-**2. Familiarize yourself with how the Vial Board, 3D printed part, and aluminum tube should be assembled.**
+### 2. Assemble Aluminum Tube and Vial Board
 
-![](../.gitbook/assets/ss\_step2.jpeg)
+1. Align the holes as shown in Figure 2
+2. Secure the two pieces together using a 1/4" black head screw (Figure 3)
+3. Repeat this process to align and secure the holes on the opposite side
 
-Take notice if all the components line up properly:
+<div align="center"><figure><img src="../.gitbook/assets/Fig 2 (1).png" alt="" width="375"><figcaption><p>Figure 2</p></figcaption></figure> <figure><img src="../.gitbook/assets/Fig 3.png" alt="" width="375"><figcaption><p>Figure 3</p></figcaption></figure></div>
 
-* Tapped 2-56 holes on the Aluminum Tube lines up with holes on heating resistors (2 black rectangular components soldered on vial board)
-* The heating resistors should sit on two rectangular holes on the 3D printed part
-* Green screw terminals line up with the LED holes on the 3D printed part
+### **3. Tape Thermistor Onto Aluminum Vial Sleeve**
 
-Take note of where the two holes labeled “thermistor” are on the PCB.
+1. The thermistor has one side covered in plastic (with writing) and one exposed side (Figure 4). Ensure the exposed side faces the aluminum tube
+2. Thread the thermistor’s lead wires through the two holes on the PCB (Figure 5) and secure it in place using lab tape, as shown in Figures 6.1 and 6.2.
+   1. The holes are labelled "Thermistor" on the top side of the PCB
+   2. Tape the thermistor parallel to the length of the tube, about 0.5 cm away from the bottom of the tube. The leads should be exposed when slotted into the 3D printed part.
+   3. Avoid allowing tape into the hole in the aluminum tube to the right of the thermistor
+3. The aluminum tube may need to be cleaned with alcohol if tape is not sticking
 
-**3. Tape thermistor on the aluminum tube near where the two vias were located on the PCB.**
+<div><img src="../.gitbook/assets/Fig 4.png" alt="Figure 4" width="375"> <figure><img src="../.gitbook/assets/Fig 5.png" alt="" width="375"><figcaption><p>Figure 5</p></figcaption></figure></div>
 
-![](../.gitbook/assets/ss\_step3.jpeg)
+<div><figure><img src="../.gitbook/assets/Fig 6.1.png" alt="" width="375"><figcaption><p>Figure 6.1</p></figcaption></figure> <figure><img src="../.gitbook/assets/Fig 6.2.png" alt="" width="375"><figcaption><p>Figure 6.2</p></figcaption></figure></div>
 
-When taping the thermistor, ensure the writing on the thermistor is facing away from the aluminum tube. Tape the thermistor parallel to the length of the tube about .5 cm away from the bottom of the tube. The leads should be exposed when slotted into the 3D printed part.
+### 4. Insert the Aluminum Tube into the 3D Printed Tube Holder
 
-**4. Slot the aluminum tube into the 3D printed part. Verify that the holes for the LEDs on both the aluminum tube and 3D printed part are properly aligned.**
+1. Next, insert the black 3D-printed tube holder beneath the PCB (Figure 7), positioning the indented section over the thermistor
+   1. All holes in the 3D-printed tube holder should align with the holes in the aluminum tube
+   2. Avoid damaging the thermistor by twisting or rotating the parts.
+2. Secure all components using two 4-40 stainless steel screws (Figure 8).
+   1. If the screws are not sliding into the holes, loosen the black screws that are securing the heaters to the aluminum tube. Make sure to tighten these after you get the stainless steel screws through
 
-![](../.gitbook/assets/ss\_step4.jpeg)
+<div><img src="../.gitbook/assets/Fig 7.png" alt="Figure 7" width="375"> <figure><img src="../.gitbook/assets/Fig 8.png" alt="" width="375"><figcaption><p>Figure 8</p></figcaption></figure></div>
 
-Make sure 3D printed part is slotted tightly. Add additional pieces of tape if is loose. Avoid damaging the thermistor by twisting or rotating the parts.
+### 5. Assemble Acrylic Parts and Fan
 
-**5. Align the PCB over the 3D printed part, with the two thermistor leads threading through the vias on the PCB.**
+1. Slide the solid acrylic fan spacer onto the 4-40 stainless steel screws, followed by the spacer with the circular cutout (Figure 9.1).
+2. Orient the fan according to the directional arrows shown in Figure 9.2 and slide it onto the screws
+   1. The arrows are on the same side as the 16-pin ribbon cable connector that overhangs off of the vial PCB
+3. Coil the fan wires _very_ tightly around the base of the Smart Sleeve and connect them to the right two ports of the screw terminal labeled “P2” (Figure 9.3)
+   1. The red wire should be connected to the ‘+’ terminal and the black wire should be connected to the ‘-’ terminal
+   2. It can help get the fan wires into the terminal to bend their tips
+   3. This can be challenging, so it's okay if you have to rotate the fan 90 degrees to give more slack
+4. Finally, attach the acrylic base to the bottom of the Smart Sleeve (Figure 9.4) and secure the assembly by tightening the two 4-40 stainless steel screws.
 
-![](../.gitbook/assets/ss\_step5.jpeg)
+<div><figure><img src="../.gitbook/assets/Fig 9.2.png" alt="" width="375"><figcaption><p>Figure 9.1</p></figcaption></figure> <figure><img src="../.gitbook/assets/Fig 9.2 (1).png" alt="" width="375"><figcaption><p>Figure 9.2</p></figcaption></figure></div>
 
-Also verify that the two small 2-56 holes on the aluminum sleeve align with the holes on the heating resistor.
+<div><figure><img src="../.gitbook/assets/Fig 9.3 (1).png" alt="" width="375"><figcaption><p>Figure 9.3</p></figcaption></figure> <figure><img src="../.gitbook/assets/Fig 9.4.png" alt="" width="375"><figcaption><p>Figure 9.4</p></figcaption></figure></div>
 
-**6. Use the** **2x Socket head screws to fasten the heating resistors to the aluminum sleeve.**
+### 6. Connect the IR LED and IR Photodiodes
 
-![](../.gitbook/assets/ss\_step6.jpeg)
+1. Both the IR LED (clear) and the IR photodiodes (black) feature one long and one short lead (Figure 10.1). The long lead should be connected to the ‘+’ vial on the PCB, and the short lead to the ‘–’ vial (Figure 11.1).
 
-Aligning the hole with the heating resistor makes screwing the socket cap in much easier. Thermal paste can also be applied before this step to form better contact between the heaters and aluminum tube.
+<div><img src="../.gitbook/assets/Fig 10.png" alt="Figure 10" width="375"> <figure><img src="../.gitbook/assets/Fig 11.1.png" alt="" width="375"><figcaption><p>Figure 11.1</p></figcaption></figure></div>
 
-**7. Place the 1/8" laser cut acrylic pieces onto of the fan to act as spacers between the magnets and glass vessel.**
+2. Connect the IR LED
+   1. Connect the IR LED (clear) to the IR LED screw terminal ports on the PCB, using the following polarity:
+      1. Long lead to the ‘+’ port and short lead to the ‘–’ port (Figure 11.2)
+   2. Bend the sensor into the corresponding slot, which is an opening on the black 3D-printed part below the IR LED terminal (Figure 11.3)
+   3. Using a screwdriver, firmly press the IR LED into the hole until it no longer moves
+   4. Press the leads towards the 3D-printed part so that they are separate as shown in Figure 11.4.
 
-![](../.gitbook/assets/ss\_step7.jpeg)
+![Figure 11.2](<../.gitbook/assets/Fig 11.2.png>)
 
-**8. Use the two 4-40 stainless steel screws to fasten the assembled 3D printed part and the computer fan with spacers. Fasten both screws onto the 1/4" acrylic piece.**
+<div><figure><img src="../.gitbook/assets/Fig 11.3.png" alt="" width="375"><figcaption><p>Figure 11.3</p></figcaption></figure> <figure><img src="../.gitbook/assets/Fig 11.4.png" alt="" width="375"><figcaption><p>Figure 11.4</p></figcaption></figure></div>
 
-![](../.gitbook/assets/ss\_step8a.jpeg)
+3. Repeat the same process for both IR photodiodes (black), connecting each to the appropriate screw terminal ports labeled with “Spare A” and “PD135” (Figures 12 and 13)
+   1. _Again, make sure the long lead goes into the + terminal_
 
-![](../.gitbook/assets/ss\_step8b.jpeg)
+<div><img src="../.gitbook/assets/Fig 12.png" alt="Figure 12" width="375"> <figure><img src="../.gitbook/assets/Fig 13.png" alt="" width="375"><figcaption><p>Figure 13</p></figcaption></figure></div>
 
-**9. Coil the wires from the computer fan around the Smart Sleeve and connect to appropriate ports on the screw terminal labeled “fan”.**
+### 7. Solder the Thermistor
 
-The red wire should go into PWR and the black wire should go into the GND ports.
+Finally, solder the thermistor onto the PCB (Figure 14).
 
-![](../.gitbook/assets/ss\_step9.jpeg)
+![Figure 14](../.gitbook/assets/ss_step12.jpeg)
 
-**10. Attach the LED (clear packaging) and photodiode (dark packaging) for OD measurement to the appropriately labeled slots.**
+### **That’s it! You’re done.**
 
-![](../.gitbook/assets/ss\_step10.jpeg)
+Following a similar framework for building the Smart Sleeves enables adding different parameters, adaptation to different vial sizes, and other creative eVOLVER applications! Have fun!
 
-Both the photodiode and LED should have a short and a long lead. This corresponds to the polarity of components. Make sure for both components, the _**longer lead is connected to PWR**_ . If this is done improperly, you will not get a reliable signal.
-
-**11. Bend the LED and diode into the corresponding slots.**
-
-![](../.gitbook/assets/ss\_step11.jpeg)
-
-**12. Finally, solder the thermistor onto the PCB.**
-
-![](../.gitbook/assets/ss\_step12.jpeg)
-
-**That’s it! You’re done.**
-
-Following a similar framework for building the Smart Sleeves enables adding different parameters, adaptation to different vial sizes, and other creative eVOLVER applications! Have fun! Let me know if anything is unclear on the [forum](https://www.evolver.bio/t/building-a-smart-sleeve-for-continuous-culture-40-ml/30).
+Let us know if anything is unclear on the [forum](https://www.evolver.bio/t/building-a-smart-sleeve-for-continuous-culture-40-ml/30).

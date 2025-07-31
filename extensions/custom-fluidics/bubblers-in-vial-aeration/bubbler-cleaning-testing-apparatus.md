@@ -4,7 +4,7 @@
 
 This apparatus is designed to save you time when you are cleaning bubblers.
 
-![](../../../.gitbook/assets/image.jpeg)
+![](<../../../.gitbook/assets/image (1).jpeg>)
 
 ## Construction
 
@@ -42,7 +42,7 @@ Make sure to have a vacuum trap to prevent fluids from going into your vacuum li
 
 ### Assembly
 
-![](../../../.gitbook/assets/image.jpeg)
+![](<../../../.gitbook/assets/image (1).jpeg>)
 
 #### 1. Assemble apparatus
 
@@ -66,7 +66,7 @@ Never allow water, bleach, or media into the apparatus as it will corrode the va
 
 1. Attach the bubbler to the black 2-way connector connected to the green falcon tube lid as pictured below. To attach, push the bubbler in; to detach, push the black ledge into the connector and then pull the bubbler out.
 
-<figure><img src="../../../.gitbook/assets/IMG_0425.jpeg" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/IMG_0425 (1).jpeg" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Fill a vial with \~15mL of rich media like LB, YPD, or BHI. BG11 media will also work. As a rule of thumb, the less salt and peptides your media has dissolved in it, the larger your bubbles will be.
 3. Place the green lid with the bubbler attached into the vial with media. Ensure the bubbler is submerged in the liquid.&#x20;

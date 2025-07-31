@@ -17,7 +17,7 @@ Use this protocol if residual salts on the bubbler are not a concern
 
 Although autoclaving the lids with bubblers removes the risk of contaminating the next experiment, you'll ideally want to remove media residue and any biofilm that may have accumulated on the bubbler. This is best achieved in the following process, which utilizes 3 valves and Y connectors to control the pressure in the tubing connected to the bubbler (pictured below): a valve to pressurize the bubbler, a valve to apply vacuum to the bubbler, and a valve to "neutralize" the bubbler to ambient pressure. This can also be achieved manually with a syringe.
 
-<figure><img src="../../../.gitbook/assets/image.jpeg" alt="" width="375"><figcaption><p>Bubbler cleaning device: 3 valves and Y connectors</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).jpeg" alt="" width="375"><figcaption><p><a href="bubbler-cleaning-testing-apparatus.md">Bubbler cleaning device</a>: 3 valves and Y connectors</p></figcaption></figure>
 
 1. Remove all lids from their vials
 2. In a 1L beaker full of 10% bleach, pressurize the bubbler to purge any residual media/bacteria into the bleach
