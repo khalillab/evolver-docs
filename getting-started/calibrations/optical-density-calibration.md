@@ -49,7 +49,7 @@ Check your Smart Sleeves with a vial containing water vs a culture of an arbitra
 ## OD Standard Preparation
 
 {% hint style="info" %}
-Before preparing standards, turn eVOLVER on and [set all vials ](../../guides/use-the-gui-to-control-parameters.md)to the temperature you will use this calibration at (ie 37C for E coli and 30C for yeast) and set stirring to 8.
+Before preparing standards, turn eVOLVER on and [set all vials ](../../guides/use-the-gui-to-control-parameters.md)to the temperature you will use this calibration at (ie 37C for E coli and 30C for yeast) and set stirring to 4.
 {% endhint %}
 
 **Wash cells and resuspend in 1X PBS to avoid cell growth**
