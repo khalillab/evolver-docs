@@ -32,7 +32,14 @@ Should be ordered from [PCBWay](https://www.pcbway.com/) or another manufacturer
 
 ## min-eVOLVER Case
 
-Give [Protocase](https://www.protocase.com/) the .x\_t, .easm, and .step files found [here](https://github.com/FYNCH-BIO/hardware/tree/master/min-eVOLVER/case).
+Options:
+
+1. We use [Protocase](https://www.protocase.com/) to manufacture the cases
+   1. Request a quote for the number of cases you require by emailing Jenn Hurd  (jhurd@protocase.com)
+   2. Mention you want to order the previously ordered name and number below:
+      1. Boston University min-eV Case Rev2.1 T120324039-205634-1
+2. For other manufacturers, give them the .x\_t, .easm, and .step files found [here](https://github.com/FYNCH-BIO/hardware/tree/master/min-eVOLVER/case)
+   1. Request sheet metal construction out of 18 gauge steel, ideally a powder coated exterior
 
 ## 12V Power Supply
 

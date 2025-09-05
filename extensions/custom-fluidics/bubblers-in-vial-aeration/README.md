@@ -6,7 +6,7 @@ _**Please cite Daniel Hart's paper when it comes out!**_
 
 An in-vial aerator, which can be hooked up to a gas stream of your choice. Normal stir bar-based mixing in the eVOLVER does not provide enough gas exchange in many situations. These bubblers produce small bubbles that greatly increase gas exchange.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>Bubbler (right) epoxied in to universal cap. Efflux tube (left) is above bubbler.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (53).png" alt="" width="375"><figcaption><p>Bubbler (right) epoxied in to universal cap. Efflux tube (left) is above bubbler.</p></figcaption></figure>
 
 ## Requirements
 
