@@ -17,7 +17,7 @@ _Differences to Version C bolded_
 7. **OD 90 photodiode / Spare A**
 8. Spare B
 
-<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption><p>Differences to vial board revision C inside box.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (78) (1).png" alt=""><figcaption><p>Differences to vial board revision C inside box.</p></figcaption></figure>
 
 ## Version C
 

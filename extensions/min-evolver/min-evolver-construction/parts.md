@@ -11,24 +11,41 @@ Below is a spreadsheet containing all parts required to make a min-eVOLVER.&#x20
 
 {% embed url="https://docs.google.com/spreadsheets/d/1JSuUWUNsro8VO-MzAukn632tOzvQDoVak4M-vvdhMno/edit?usp=sharing" %}
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>The parts necessary for the min-eVOLVER main unit. Use the spreadsheet above to discern what each item is. </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>The parts necessary for the min-eVOLVER main unit. Use the spreadsheet above to discern what each item is. </p></figcaption></figure>
 
 ## min-eVOLVER PCB
 
-**You can find the gerber files to order the PCB** [**here**](https://github.com/FYNCH-BIO/hardware/tree/master/min-eVOLVER/min-eV-PCB/gerbers)**.**
-
 If you are making a min-eVOLVER Control Board PCB from scratch you have two options (as of 11/20/2024):
 
-1. Order an assembled PCB from [PCBWay](https://www.pcbway.com/) or another manufacturer
-   1. You will need to also give them the [centroid](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/bom/PCBWAY-min-eV-positions-centroid.csv) and [bill of materials](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/bom/BOM_PCBWay.xlsx) (BOM) files
-   2. Give PCBway the [zip file](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/gerbers/min-eV-gerbers_240731.zip) of all of the gerber files
-2. Buy the parts needed from Digikey, order the PCB from [PCBWay](https://www.pcbway.com/) or another manufacturer, and solder the board yourself
+1. \[Recommended] Order an assembled PCB from [PCBWay](https://www.pcbway.com/) (guide below) or another manufacturer
+2. Buy the parts needed from Digikey, order the [PCB](https://github.com/FYNCH-BIO/hardware/tree/master/min-eVOLVER/min-eV-PCB) from [PCBWay](https://www.pcbway.com/) or another manufacturer, and solder the board yourself
    1. _NOT recommended for anyone not already familiar with surface mount soldering._
    2. An interactive bill of materials (for part placement) can be found [here](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/bom/ibom.html). Download it and open it into your browser.
 
+### Ordering an Assembled min-eVOLVER PCB from PCBway
+
+1. Make an account on [PCBWay](https://www.pcbway.com/).
+2. On the homepage, scroll down and click on PCB assembly
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+3. Choose the following:
+   1. Turnkey, Single pieces, Both sides, fill out the quantity you want, select No "Select PCBway's PCB Order #", uncheck PCB Specifications, and click the green 'Calculate' button.
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+4. Download the following files from [this](https://github.com/FYNCH-BIO/hardware/tree/master/min-eVOLVER/min-eV-PCB/PCBway-order) folder, upload to PCBway, and click "Submit the File Now":
+   1. Gerber files: [min-eV-gerbers\_240731.zip](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/PCBway-order/min-eV-gerbers_240731.zip)
+   2. Parts List (BOM): [BOM\_PCBWay.xlsx](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/PCBway-order/BOM_PCBWay.xlsx)
+   3. Centroid File: [PCBWAY-min-eV-positions-centroid.csv](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/PCBway-order/PCBWAY-min-eV-positions-centroid.csv)
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+5. Wait for PCBway to review your order (1-2 business days) before paying
+
 ## Pump PCB
 
-Should be ordered from [PCBWay](https://www.pcbway.com/) or another manufacturer. You can find the gerber files [here](https://github.com/FYNCH-BIO/hardware/tree/master/min-eVOLVER/pump-PCB/gerbers).
+Should be ordered from [PCBWay](https://www.pcbway.com/) or another manufacturer. You can find the .zip of the gerber files [here](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/pump-PCB/gerbers/pump_board-gerbers.zip). Assembly is not needed.
 
 ## min-eVOLVER Case
 

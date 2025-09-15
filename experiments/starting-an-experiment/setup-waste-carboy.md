@@ -13,4 +13,4 @@
 If you intend to leave overnight or for a weekend, make sure that the carboy has _more than enough_ room in it for the maximum volume you will efflux. Consider using two carboys.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Waste carboy with black heat shrink over the waste lines and hole in carboy cap.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption><p>Waste carboy with black heat shrink over the waste lines and hole in carboy cap.</p></figcaption></figure>

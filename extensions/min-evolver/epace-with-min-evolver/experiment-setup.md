@@ -32,7 +32,7 @@ Hook up pump lines in the configuration shown below
 
 <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Alter Settings in custom\_script.py
 
@@ -41,7 +41,7 @@ Hook up pump lines in the configuration shown below
 3. Change the `EVOLVER_PORT` to your eVOLVER's port
 4. Alter `USER DEFINED VARIABLES` using the guide below:
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>ePACE user defined variables as of 2023-11-20</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>ePACE user defined variables as of 2023-11-20</p></figcaption></figure>
 
 ### `lower_thresh` and `upper thresh`
 

@@ -39,7 +39,7 @@
       6. Measure length when you have this correct - use this for the rest of your vials (or use cut length as a guide for cutting the rest)
    4. Cut all tubing for the caps you are making
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 3. Use gloves when working with epoxy
 4. Put epoxy into mixing tray and mix

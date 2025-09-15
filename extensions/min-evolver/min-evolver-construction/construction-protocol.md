@@ -61,7 +61,7 @@ Surface mount soldering of the min-eVOLVER PCB is outside of the scope of this g
    7. _Important - Avoid putting epoxy into the holes in the micro-USB connector_
    8. Otherwise, be generous with the epoxy, it's ok to get it on the electronics
 
-<figure><img src="../../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption><p>(A) The SAMD21 board and the 2x12-pin header with flat side of the 24-pins up. (B) SAMD21 board partially soldered, starting from the pins in the corners. (C) Locations for epoxy (cyan) avoiding openings in the micro-USB connector. (D) Placing the jumpers on the right two selector pins for each vial. (E) The assembled min-eVOLVER PCB.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (3) (1) (1).png" alt=""><figcaption><p>(A) The SAMD21 board and the 2x12-pin header with flat side of the 24-pins up. (B) SAMD21 board partially soldered, starting from the pins in the corners. (C) Locations for epoxy (cyan) avoiding openings in the micro-USB connector. (D) Placing the jumpers on the right two selector pins for each vial. (E) The assembled min-eVOLVER PCB.</p></figcaption></figure>
 
 ### Assemble min-eVOLVER PCB
 
