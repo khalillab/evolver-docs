@@ -18,6 +18,10 @@ Using this protocol, we can get significantly closer to actual experimental cond
 
 We also turn off stirring for OD to get more stable OD readings. This is especially important in ePACE where the lagoon is only 10mL and thus the liquid line is very close to the OD sensor level.
 
+{% hint style="info" %}
+Consider [reusing the same vial assembly](../epace-with-min-evolver/reusing-vial-assembly-between-experiments.md) between experiments to have the OD calibration conditions line up perfectly with the experimental conditions.
+{% endhint %}
+
 ## Protocol
 
 1. Prepare _actively growing_ cells of the type you want to calibrate

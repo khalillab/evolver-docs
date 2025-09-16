@@ -175,6 +175,7 @@
   * [Starting an Experiment](extensions/min-evolver/starting-an-experiment.md)
   * [ePACE with min-eVOLVER](extensions/min-evolver/epace-with-min-evolver/README.md)
     * [Experiment Setup](extensions/min-evolver/epace-with-min-evolver/experiment-setup.md)
+    * [Reusing vial assembly between experiments](extensions/min-evolver/epace-with-min-evolver/reusing-vial-assembly-between-experiments.md)
     * [\[v1.1\] ePACE with min-eVOLVER](extensions/min-evolver/epace-with-min-evolver/v1.1-epace-with-min-evolver.md)
   * [Troubleshooting](extensions/min-evolver/troubleshooting.md)
 * [Interfacing with Other Systems](extensions/interfacing-with-other-systems.md)
