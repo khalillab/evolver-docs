@@ -39,8 +39,8 @@ Do you sterilize the septa before each needle insertion?
 {% endhint %}
 
 1. Hook up 20% bleach bottle to influx
-2. Dilute cultures with bleach - run all pumps for 80 seconds
-   1. `python3 send_command.py 5555 pump 80`
+2. Dilute cultures with bleach - run fast pumps for 80 seconds and slow pumps for 300 seconds
+   1. `python3 send_command.py 5555 pump 80,80,80,80,300,300`&#x20;
 3. Fill both reservoir and lagoon with bleach over efflux line
    1. Remove vials from Smart Sleeves to keep an eye on fluid levels
    2. `python3 send_command.py 5555 pump 0,0,20,15,0,0` &#x20;
@@ -54,17 +54,17 @@ Do you sterilize the septa before each needle insertion?
 
 1. Unhook tubing from bleach bottle
 2. Clear bleach from tubing and pump bleach to efflux line in vials
-   1. `python3 send_command.py 5555 pump 20,40,20,20,0,0`&#x20;
+   1. `python3 send_command.py 5555 pump 20,40,20,20,300,300`&#x20;
 3. Remove bleach from vials
    1. Insert a 4 inch needle and 50mL syringe through the sampling port
    2. Try and get almost all of the bleach
    3. Avoid scratching your vial with the needle as this can change the OD calibration
 4. Hook up sterile DI water bottle to influx
-5. Rinse residual bleach and fill vials with sterile DI water - run all pumps for 80 seconds
-   1. `python3 send_command.py 5555 pump 80`&#x20;
-6. Fill both reservoir and lagoon with sterile DI water over efflux line
-   1. Remove vials from Smart Sleeves to keep an eye on fluid levels
-   2. `python3 send_command.py 5555 pump 0,0,20,15,0,0` &#x20;
+5. Fill both reservoir and lagoon with sterile DI water over efflux line
+   1. `python3 send_command.py 5555 pump 0,0,70,60,0,0` &#x20;
+   2. Remove vials from Smart Sleeves to keep an eye on fluid levels
+6. Dilute residual bleach
+   1. `python3 send_command.py 5555 pump 80,80,80,80,300,300`
 7. Vials can now be safely stored for more than one day without bleach corrosion
 
 ### Prep Vials for Experiment
