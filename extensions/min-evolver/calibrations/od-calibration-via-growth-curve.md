@@ -19,7 +19,7 @@ Using this protocol, we can get significantly closer to actual experimental cond
 We also turn off stirring for OD to get more stable OD readings. This is especially important in ePACE where the lagoon is only 10mL and thus the liquid line is very close to the OD sensor level.
 
 {% hint style="info" %}
-Consider [reusing the same vial assembly](../epace-with-min-evolver/reusing-vial-assembly-between-experiments.md) between experiments to have the OD calibration conditions line up perfectly with the experimental conditions.
+Consider [reusing the same vial assembly](../starting-an-experiment/reusing-vial-assembly-between-experiments.md) between experiments to have the OD calibration conditions line up perfectly with the experimental conditions.
 {% endhint %}
 
 ## Protocol
@@ -28,8 +28,10 @@ Consider [reusing the same vial assembly](../epace-with-min-evolver/reusing-vial
    1. If cells are in stationary phase when you start this protocol, dilute at least 1:100 and grow for several hours before using for inoculation
    2. This way your cells will be as close as possible to experimental physiology during calibration
 2. Load up the stir off for OD read conf.yml file
-   1. Location in the folder for the min-eVOLVER's [server](https://github.com/FYNCH-BIO/evolver/blob/min/evolver/alternate_conf_files/stir_off_for_od_read/conf.yml): `/evolver/alternate_conf_files/stir_off_for_od_read/conf.yml`
-   2. If necessary, edit the `port` and `serial_port`variables to the correct port for this min-eVOLVER
+   1. If the server is running, stop it via `Ctrl+C`
+   2. Overwrite the conf.yml file in the folder `/evolver/evolver/` with the stir stop for OD conf.yml
+      1. Location here: `/evolver/evolver/alternate_conf_files/stir_off_for_od_read/conf.yml`
+   3. Edit the `port` and `serial_port` variables to the correct values for this min-eVOLVER
 3. Start the [server](../software-installation-and-startup.md#server-startup)
 4. Check that the min-eVOLVER is stirring and turning off during OD readings
 5. Set temperature to experimental temperature using [`send_command.py`](../send_command.py.md) and your [temperature calibration spreadsheet](./#temperature-calibration)
@@ -73,30 +75,30 @@ If using a 96-well plate reader, _always_ use 300uL of sample in the wells to be
 <figure><img src="../../../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption><p>Highlighted are the OD sensor values for the first and second vials respectively on a min-eVOLVER.</p></figcaption></figure>
 
 14. Inoculate with growing cells to a low OD - aim for OD < 0.05
-15. Pick a time interval for sampling based off of the growth rate of your cells
-    1. For example, every 20 minutes for ePACE cells
-16. As cells grow, in intervals:
+15. As cells grow, in 30 minute intervals:
     1. Record sets of 3 raw OD values from the min-eVOLVER server
-    2. Simultaneously sample the OD in vial using your external OD reader and record in the `External OD` column
-       1. Replace any volume you remove via sampling, either through pumping or manually pipetting back in. This is especially important for the 10mL lagoon used in ePACE.
-    3. Collect OD values over the entire range you wish your experiment to work in&#x20;
-17. Copy and paste the `Standard (OD600)` and `Median Values` for each vial into `od_data.xlsx`
+    2. Simultaneously, sample the OD in vial using your external OD reader and record in the `External OD` column
+       1. For plate readers, 300uL of sample should be used
+       2. Samples above OD600 about 0.6 should be diluted before reading
+       3. Alter dilution factor in the spreadsheet to account for any dilutions you did
+       4. Replace any volume you remove via sampling, either through pumping or manually pipetting back in. _This is especially important for the 10mL lagoon used in ePACE._
+    3. Collect OD values to at least OD600 of 1.0
+16. Copy and paste the `Standard (OD600)` and `Median Values` for each vial into `od_data.xlsx`
     1. Do not include empty cells or change the formatting of `od_data.xlsx`&#x20;
     2. If you only have one min-eVOLVER you are calibrating, clear the rest of the rows of data to avoid confusion.
-18. In a terminal in the `dpu` environment, install `pandas` using the command
+17. In a terminal in the `dpu` environment, install `pandas` using the command
     1. `pip install pandas`
-19. Run the following script for fitting a sigmoid function to the curve:
+18. Run the following script for fitting a sigmoid function to the curve:
     1. `python3 sigmoid_fit.py`
-20. Evaluate the resulting curve fit in the window that pops up
+19. Evaluate the resulting curve fit in the window that pops up
 
 <figure><img src="../../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption><p>Fitting curves to OD calibration data for two min-eVOLVERs. While there is some noise, standards generally follow the sigmoid function.</p></figcaption></figure>
 
-21. Copy and paste the values output from `sigmoid_fit.py` in `evolver-min/evolver/calibrations.json` for the correct vial and correct min-eVOLVER
+20. Copy and paste the values output from `sigmoid_fit.py` in `evolver-min/evolver/calibrations.json` for the correct vial and correct min-eVOLVER
 
 <figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
-22. Replace the values after "coefficients" (shown below)
+21. Replace the values after "coefficients" (shown below)
     1. To avoid confusion, replace everything until the `"raw"`&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
-

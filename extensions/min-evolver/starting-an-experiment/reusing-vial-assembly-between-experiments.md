@@ -74,4 +74,4 @@ Do you sterilize the septa before each needle insertion?
    1. Using a pipette, place a single drop of bleach on the septa through the sampling port and allow to sterilize during vial bleaching before experiment
    2. Avoid adding too much bleach as it will run down the sides of the vial and change the OD calibration
 3. Flush vial with sterile media using the Remove Bleach protocol
-4. Follow ePACE experiment setup [protocol](experiment-setup.md)
+4. Follow experiment setup

@@ -2,7 +2,7 @@
 
 ## Overview
 
-This page only details differences from the general min-eVOLVER experimental [protocol](../starting-an-experiment.md). You are also expected to have an understanding of PACE and how it is normally run before doing ePACE.
+This page only details differences from the general min-eVOLVER experimental [protocol](../starting-an-experiment/). You are also expected to have an understanding of PACE and how it is normally run before doing ePACE.
 
 {% hint style="info" %}
 * ePACE described initially in[ Huang, Heins et al. 2022 _Nature Biotech_](https://www.nature.com/articles/s41587-022-01410-2#Sec15)_._
