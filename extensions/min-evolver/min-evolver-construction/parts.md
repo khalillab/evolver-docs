@@ -45,7 +45,7 @@ If you are making a min-eVOLVER Control Board PCB from scratch you have two opti
 
 ## Pump PCB
 
-Should be ordered from [PCBWay](https://www.pcbway.com/) or another manufacturer. You can find the .zip of the gerber files [here](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/pump-PCB/gerbers/pump_board-gerbers.zip). Assembly is not needed.
+Should be ordered from [PCBWay](https://www.pcbway.com/) or another manufacturer. You can find the .zip of the gerber files [here](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/pump-PCB/gerbers/pump_board-gerbers.zip). You will be soldering all the parts yourself, so **do not** order assembly (no centroid or BOM should be uploaded, just the gerber files).
 
 ## min-eVOLVER Case
 
