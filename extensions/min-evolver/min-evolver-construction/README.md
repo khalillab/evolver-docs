@@ -9,8 +9,9 @@ min-eVOLVERs may not be purchased as a product at this time. Instead min-eVOLVER
 ## Requirements for Construction
 
 1. Soldering iron + solder  - pumps will need to be soldered in place
+   1. Check our [guide](../../../guides/soldering-basics.md) if you don't already have one
 2. Ability to through-hole solder
-   1. Can be self-taught quickly through YouTube videos
+   1. Learn in 15 minutes or less [here](../../../guides/soldering-basics.md)
 3. Screw drivers
    1. Phillips #1 (short handle)
    2. Flat head #1.5 or smaller

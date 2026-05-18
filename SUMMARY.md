@@ -52,6 +52,7 @@
 * [Building a Smart Sleeve](guides/building-a-smart-sleeve.md)
 * [Making media bottles and splitters](guides/making-media-bottles-and-splitters.md)
 * [Emergency Efflux](guides/emergency-efflux.md)
+* [Soldering Basics](guides/soldering-basics.md)
 * [View the Server Log and Restart Server](guides/view-the-server-log-and-restart-server.md)
 * [Updating the eVOLVER Server](guides/updating-the-evolver-server.md)
 * [Change Your conf.yml File](guides/change-your-conf.yml-file.md)

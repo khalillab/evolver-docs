@@ -29,6 +29,10 @@ It may be helpful to have the [parts](parts.md) page open as well, so you can id
 
 ## Construct Pump Board
 
+{% hint style="info" %}
+General soldering basics guide [here](../../../guides/soldering-basics.md).
+{% endhint %}
+
 Solder 2x8 ribbon cable connector into pump PCB, screw pumps into front of case, and solder pumps into pump PCB.
 
 Use the below video:
