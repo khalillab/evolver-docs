@@ -45,7 +45,7 @@ The two angled straws positioned closer to the cap are your media influx and via
 * Prepare 20 mL of media for the Chemostat/Turbidostat vials used in the experiment.
 * For extractor columns, use a media volume of 15 mL to prevent the liquid level from reaching the photodiodes/LEDs.
 * Use the pumps/slow pumps to fill lines with media
-* Fill non-extractor lines and vials with media first and using a secondary set of extractor vials with media in them already [run the slow pumps](broken-reference) second to prevent bubbles from forming in slow pump lines
+* Fill non-extractor lines and vials with media first and using a secondary set of extractor vials with media in them already [run the slow pumps](/broken/pages/3oXOwKOHlKLZM9TL0BLA) second to prevent bubbles from forming in slow pump lines
   * This is important because the initial blank should be based off of filled straws
 
 <figure><img src="../../../../.gitbook/assets/IMG_5816.jpg" alt="" width="563"><figcaption><p>Secondary Extractor Vial (Left) Experimental Extractor Vial (Middle) Non-Extractor Vial (Right)</p></figcaption></figure>
@@ -90,13 +90,13 @@ Make sure to observe the straws carefully to ensure they are filled with media. 
 
 **9. Start the Experiment**
 
-* Once all the checks and setups are completed, start the experiment with your [extractor script](broken-reference).
+* Once all the checks and setups are completed, start the experiment with your [extractor script](/broken/pages/alCtm7vQxKY4F0nVR1B9).
 * Regularly monitor the system to ensure it is functioning correctly throughout the experiment.
 
 
 
 {% hint style="info" %}
-The extractor will perform 2 blanks. One directly after starting the experiment and another 15 minutes into the experiment, the second blank can be changed in the [extractor script](broken-reference).
+The extractor will perform 2 blanks. One directly after starting the experiment and another 15 minutes into the experiment, the second blank can be changed in the [extractor script](/broken/pages/alCtm7vQxKY4F0nVR1B9).
 {% endhint %}
 
 \

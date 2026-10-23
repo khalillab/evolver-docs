@@ -28,11 +28,11 @@ Contamination of media bottle:
 
 If the non-extractor vial begins to overfill if it reaches the main media influx line the inoculated media can work its way back through the line towards your media bottle. Additionally the same can occur if you have your vial-to-vial line dispensing liquid from above your main media influx line which will again expose the main media line to inoculated media.
 
-Improper [sterilization](broken-reference) of the fluidic lines can also cause contamination
+Improper [sterilization](/broken/pages/dCJTGsip6huMhZFP5F6c) of the fluidic lines can also cause contamination
 
 **Incorrect Fluidics setup:**
 
-Incorrect set up of the fluidics can cause immediate problems during your experiment make sure to double check your [setup](broken-reference) before starting your experiment
+Incorrect set up of the fluidics can cause immediate problems during your experiment make sure to double check your [setup](/broken/pages/HAmbAkjroSTDzOQdvzXA) before starting your experiment
 
 **Droplets on side of vial:**
 

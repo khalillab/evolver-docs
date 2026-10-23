@@ -126,7 +126,7 @@ List of supplies needed (**Figure 1**):
    3. Using a screwdriver, firmly press the IR LED into the hole until it no longer moves
    4. Press the leads towards the 3D-printed part so that they are separate as shown in Figure 11.4.
 
-![Figure 11.2](<../.gitbook/assets/Fig 11.2.png>)
+<img src="../.gitbook/assets/Fig 11.2.png" alt="Figure 11.2" width="375">
 
 <div><figure><img src="../.gitbook/assets/Fig 11.3.png" alt="" width="375"><figcaption><p>Figure 11.3</p></figcaption></figure> <figure><img src="../.gitbook/assets/Fig 11.4.png" alt="" width="375"><figcaption><p>Figure 11.4</p></figcaption></figure></div>
 

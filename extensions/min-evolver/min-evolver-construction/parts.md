@@ -15,33 +15,56 @@ Below is a spreadsheet containing all parts required to make a min-eVOLVER.&#x20
 
 ## min-eVOLVER PCB
 
-If you are making a min-eVOLVER Control Board PCB from scratch you have two options (as of 11/20/2024):
+If you are making a min-eVOLVER Control Board PCB, you have two options (as of 11/20/2024):
 
-1. \[Recommended] Order an assembled PCB from [PCBWay](https://www.pcbway.com/) (guide below) or another manufacturer
+1. \[Recommended] Order **both** a PCB and PCB assembly from [PCBWay](https://www.pcbway.com/) (guide below) or another manufacturer
 2. Buy the parts needed from Digikey, order the [PCB](https://github.com/FYNCH-BIO/hardware/tree/master/min-eVOLVER/min-eV-PCB) from [PCBWay](https://www.pcbway.com/) or another manufacturer, and solder the board yourself
    1. _NOT recommended for anyone not already familiar with surface mount soldering._
    2. An interactive bill of materials (for part placement) can be found [here](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/bom/ibom.html). Download it and open it into your browser.
 
 ### Ordering an Assembled min-eVOLVER PCB from PCBway
 
+#### Download Design Files
+
+Download the following files from [this](https://github.com/FYNCH-BIO/hardware/tree/master/min-eVOLVER/min-eV-PCB/PCBway-order) folder:
+
+1. Gerber files: [min-eV-gerbers\_240731.zip](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/PCBway-order/min-eV-gerbers_240731.zip)
+2. Parts List (BOM): [BOM\_PCBWay.xlsx](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/PCBway-order/BOM_PCBWay.xlsx)
+3. Centroid File: [PCBWAY-min-eV-positions-centroid.csv](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/PCBway-order/PCBWAY-min-eV-positions-centroid.csv)
+
+#### PCB Order
+
 1. Make an account on [PCBWay](https://www.pcbway.com/).
-2. On the homepage, scroll down and click on PCB assembly
+2. Click "PCB Instant Quote" at the top of the page on the left
+3. Click "Quick Order"
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
 
-3. Choose the following:
-   1. Turnkey, Single pieces, Both sides, fill out the quantity you want, select No "Select PCBway's PCB Order #", uncheck PCB Specifications, and click the green 'Calculate' button.
+4. In "PCB Specification Section" click "+ Add Gerber File" and upload [min-eV-gerbers\_240731.zip](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/PCBway-order/min-eV-gerbers_240731.zip)
+   1. Exit out of the layer order form
+   2. Size should now show 109.2 x 64.5 mm
+5. Fill out Quantity field at the top
+   1. Minimum quantity is 5 (only for the PCB order - you can do minimum one assembled PCB)
+6. Keep other default settings
+7. Scroll down to make your assembly order
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+#### Assembly Order
 
-4. Download the following files from [this](https://github.com/FYNCH-BIO/hardware/tree/master/min-eVOLVER/min-eV-PCB/PCBway-order) folder, upload to PCBway, and click "Submit the File Now":
-   1. Gerber files: [min-eV-gerbers\_240731.zip](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/PCBway-order/min-eV-gerbers_240731.zip)
-   2. Parts List (BOM): [BOM\_PCBWay.xlsx](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/PCBway-order/BOM_PCBWay.xlsx)
-   3. Centroid File: [PCBWAY-min-eV-positions-centroid.csv](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/PCBway-order/PCBWAY-min-eV-positions-centroid.csv)
+1. Scroll down and check "Assembly Service"
+2. Choose the following options:
+   1. Turnkey, Single pieces, Both sides, fill out the quantity you want
+3. Click the green "Calculate" button
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (88).png" alt="" width="375"><figcaption></figcaption></figure>
 
-5. Wait for PCBway to review your order (1-2 business days) before paying
+4. Click "Save to Cart"
+5. In your cart, click "Add File" and add your files&#x20;
+   1. Parts List (BOM): [BOM\_PCBWay.xlsx](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/PCBway-order/BOM_PCBWay.xlsx)
+   2. Centroid File: [PCBWAY-min-eV-positions-centroid.csv](https://github.com/FYNCH-BIO/hardware/blob/master/min-eVOLVER/min-eV-PCB/PCBway-order/PCBWAY-min-eV-positions-centroid.csv)
+
+<figure><img src="../../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+
+6. Wait for PCBway to review your order (1-2 business days) before paying
 
 ## Pump PCB
 

@@ -66,7 +66,7 @@ To our best guess, the stainless steel bubbler frits need to be [passivated](htt
    1. Option 1: Soak in water overnight
    2. Option 2: Soak in LB-Miller media (or any rich salty media) or 5% citric acid for 1 hour. Lemon juice will do in a pinch.
 2. Create a test system for the bubblers
-   1. Option 1 \[Recommended]: Construct a [bubbler cleaning apparatus](broken-reference)
+   1. Option 1 \[Recommended]: Construct a [bubbler cleaning apparatus](/broken/pages/yQspJ6bA5jRegIYPiaLo)
    2. Option 2 \[Less Efficient]: Simple test system for the bubblers
       1. You can attach the normal 1/16" ID eVOLVER tubing to the end of the nylon, but this may take more time per bubbler as the silicone tubing is hard to put on the nylon tubes
       2. Especially if you have a lot of bubblers to test, you may want to use a [push to connect fitting ](https://www.mcmaster.com/5779K11/)for easy swapping of bubblers

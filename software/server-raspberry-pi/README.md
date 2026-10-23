@@ -2,7 +2,7 @@
 description: Description of how the Raspberry Pi eVOLVER server code functions.
 ---
 
-# Server Code Structure
+# Server (Raspberry Pi)
 
 This page aims to explain how the server on the Raspberry Pi functions. The repository can be found on [Github](https://github.com/FYNCH-BIO/dpu).
 
@@ -10,7 +10,7 @@ This page aims to explain how the server on the Raspberry Pi functions. The repo
 
 The server acts as the brain for the physical eVOLVER unit - it manages all of the SAMD21 Arduino microcontrollers and communications from the user via the DPU or GUI interface.
 
-In addition to managing communications between connected components and the user, it also stores and manages configuration and calibration data for a given eVOLVER. The RPi also can have other utilities run on it such as this [monitor script](https://github.com/FYNCH-BIO/evolver/blob/master/utils/server\_monitor.sh), which can detect if the server gets hung up and restart it.
+In addition to managing communications between connected components and the user, it also stores and manages configuration and calibration data for a given eVOLVER. The RPi also can have other utilities run on it such as this [monitor script](https://github.com/FYNCH-BIO/evolver/blob/master/utils/server_monitor.sh), which can detect if the server gets hung up and restart it.
 
 ## File Explanations
 
@@ -36,7 +36,7 @@ This file contains all calibrations for the eVOLVER. Calibrations have a general
 
 The file is a list of dictionaries. Each item has a name, measured data (the values collected from a platereader or thermometer for example), the calibration type, and a key-value pair for raw and fits. Raw and fits both contain lists of raw data collection and fits, respectively. Fits has an element called coefficients which contains the fit parameters for whatever function was used, as well as the params that it needs.
 
-The schema can be found on [Github](https://github.com/FYNCH-BIO/evolver/blob/master/cal\_schema.json). To read more about the file, read [here](broken-reference).
+The schema can be found on [Github](https://github.com/FYNCH-BIO/evolver/blob/master/cal_schema.json). To read more about the file, read [here](/broken/pages/a7LjEY7hIjWKldV2HiNg).
 
 {% hint style="info" %}
 Don't confuse this file with `calibration.json` - this is a legacy file that will be phased out soon.
